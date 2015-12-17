@@ -33,6 +33,9 @@
 		$('.page.'+page).removeClass('hide');
 		if(page == 'pass'){
 			pass();
+			setTimeout(function(){
+				go('list');
+			}, 2000)
 		}
 	};
 	var loadByHash = function(){
@@ -50,13 +53,16 @@
 
 	//过渡页
 	var pass = function(){
-		$('.pass').animate({'background-position-y':-10000}, 90000);
+		$('.pass').animate({'background-position-y':-1000}, 6000);
 		var scan = function(){
 			$('.scan').css('top', 0);
-			$('.scan').animate({top: '100%'}, 1500);
+			$('.scan').animate({top: '100%'}, 1000);
 		};
 		scan();
-		setInterval(scan, 1600);
+		var timer = setInterval(scan, 1100);
+		setTimeout(function(){
+			clearInterval(timer);
+		}, 10000);
 	};
 
 	//翻译数据源
