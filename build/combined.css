@@ -283,8 +283,7 @@ a {
             .list .content .items .item .info .left .icon1 {
               float: left;
               width: 40px;
-              height: 40px;
-              background: #CCC; }
+              height: 40px; }
             .list .content .items .item .info .left .sep1 {
               float: left;
               width: 40px;
@@ -309,8 +308,7 @@ a {
             .list .content .items .item .info .left .icon2 {
               float: left;
               width: 80px;
-              height: 80px;
-              background: #CCC; }
+              height: 80px; }
           .list .content .items .item .info .right {
             -webkit-box-flex: 1;
             -webkit-flex: 1 1 auto;
@@ -320,6 +318,8 @@ a {
             .list .content .items .item .info .right .name {
               font-size: 2rem;
               margin-bottom: 10px; }
+            .list .content .items .item .info .right .desc {
+              line-height: 1.5; }
     .list .content .border-bottom {
       border-bottom: 1px solid #EEE;
       position: absolute;

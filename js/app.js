@@ -103,12 +103,14 @@
 
 	//应用模版
 	
-	var buildItem = function(app, $el, withDownload){
+	var buildItem = function(theapp, findapp, $el){
 		var html = $el;
-		html.find('.name').html(app.title);
-		html.find('img').attr('src', app.icons.px78);
-		html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
-		html.find('.desc').html(app.tagline);
+		html.find('.orig').html(theapp.title);
+		html.find('.name').html(findapp.title);
+		html.find('.icon1').attr('src', theapp.icons.px78);
+		html.find('.icon2').attr('src', findapp.icons.px78);
+		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
+		html.find('.desc').html(findapp.tagline);
 		if(withDownload){
 			html.find('.action').removeClass('hide');
 			html.find('.action .button').click(function(ev){
@@ -159,15 +161,10 @@
 					var target = result.get('target');
 					getApp(packageName, function(theapp){
 						getApp(target, function(findapp){
-
-							var $frontItem = $(template);
-							var $backItem = $(template);
-							$front.append($frontItem);
-							$back.append($backItem);
-
-							buildItem(theapp, $frontItem, false);
-							buildItem(findapp, $backItem, true);
-							$('.list .header').find('.title span.cnt').text($('.list .content').eq(0).find('.item:not(.hide)').length);
+							var $el = $(template);
+							$('.list .items').append($el);
+							buildItem(theapp, findapp, $el);
+							$('.list .items').find('.title span.cnt').text($('.list .items').eq(0).find('.item:not(.hide)').length);
 						});
 					});
 				});
@@ -178,8 +175,6 @@
 
 	//初始化转换
 	function initlist(){
-		var $front = $('.list .content').eq(1);
-		var $back = $('.list .content').eq(0);
 
 		if (campaignTools.UA.inWdj) {
 			var installedApps = JSON.parse(window.campaignPlugin.getNonSystemApps());
@@ -197,14 +192,14 @@
 		}else{
 			$.get('hotapps.json', function(results){
 				var apps = results;
-				$('.list .header').find('.title').html('已为您翻译<span class="cnt">0</span>个热门应用：');
+				$('.list .items').find('.title').html('翻译了您手机里<span class="cnt">0</span>个国内应用');
 
-				//convert(apps, $front, $back);
+				convert(apps);
 				window.apps = results;
 			});
 		}
 	}
-	//initlist();
+	initlist();
 
 	//二维码生成
 	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
