@@ -78,45 +78,10 @@ a {
   left: 0;
   right: 0; }
 
-.header {
-  background: #24AA42;
-  -webkit-background-size: 100% auto;
-     -moz-background-size: 100% auto;
-       -o-background-size: 100% auto;
-          background-size: 100% auto;
-  width: 100%;
-  height: 76px;
-  padding: 6px 0;
-  position: fixed;
-  top: 0;
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-     -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-  color: #FFF;
-  text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 100; }
-
 .bottom {
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 42px;
   padding: 3px 0;
   width: 100%;
   background: #FFF;
@@ -255,3 +220,114 @@ a {
             background-size: 100% auto;
     position: absolute;
     top: 0; }
+
+.list {
+  background: #F1F5F8; }
+  .list .bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .list .bottom .text {
+      font-size: 1.3rem;
+      margin-right: 10px; }
+    .list .bottom .button {
+      font-size: 1.2rem;
+      line-height: 2.2rem;
+      padding: 0 20px; }
+  .list .content {
+    background: #FFF;
+    padding: 0 6px 42px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    min-height: 100%; }
+    .list .content .section {
+      margin: 6px 0 12px;
+      -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+         -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+              box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2); }
+    .list .content .top img {
+      width: 100%;
+      display: block; }
+    .list .content .items {
+      padding: 12px; }
+      .list .content .items .title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 10px; }
+      .list .content .items .item {
+        margin-top: 12px; }
+        .list .content .items .item .info {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 10px; }
+          .list .content .items .item .info .left {
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+               -moz-box-flex: 0;
+                -ms-flex: 0 0 auto;
+                    flex: 0 0 auto;
+            margin-right: 10px; }
+            .list .content .items .item .info .left .icon1 {
+              float: left;
+              width: 40px;
+              height: 40px;
+              background: #CCC; }
+            .list .content .items .item .info .left .sep1 {
+              float: left;
+              width: 40px;
+              height: 30px;
+              background: url("../images/arrow.png") no-repeat;
+              -webkit-background-size: contain;
+                 -moz-background-size: contain;
+                   -o-background-size: contain;
+                      background-size: contain;
+              margin: 10px 0 6px 6px; }
+            .list .content .items .item .info .left .sep2 {
+              clear: left;
+              float: left;
+              width: 40px;
+              height: 30px;
+              background: url("../images/arrow1.png") no-repeat;
+              -webkit-background-size: contain;
+                 -moz-background-size: contain;
+                   -o-background-size: contain;
+                      background-size: contain;
+              margin: 0 6px 0 6px; }
+            .list .content .items .item .info .left .icon2 {
+              float: left;
+              width: 80px;
+              height: 80px;
+              background: #CCC; }
+          .list .content .items .item .info .right {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 auto;
+               -moz-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                    flex: 1 1 auto; }
+            .list .content .items .item .info .right .name {
+              font-size: 2rem;
+              margin-bottom: 10px; }
+    .list .content .border-bottom {
+      border-bottom: 1px solid #EEE;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      -webkit-transform: scaleY(0.5);
+         -moz-transform: scaleY(0.5);
+          -ms-transform: scaleY(0.5);
+           -o-transform: scaleY(0.5);
+              transform: scaleY(0.5); }
