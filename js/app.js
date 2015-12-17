@@ -16,6 +16,33 @@
 		isx5 = true;
 	}
 
+	//跳转逻辑
+	//测试专用：刷新
+	$('.logo').click(function(){
+		window.location.reload();
+	});
+
+	//hash 处理
+	var go = function(page){
+		$('.page').addClass('hide');
+		$('.page.'+page).removeClass('hide');
+		if(page == 'pass'){
+			
+		}
+	};
+	var loadByHash = function(){
+		var hash = window.location.hash.replace('#','');
+		if(hash === '') hash = 'home';
+		go(hash);
+	};
+	window.onload = loadByHash;
+	window.onhashchange = loadByHash;
+
+	//首页跳转
+	$('.home .button').click(function(){
+		go('pass');
+	});
+
 	//翻译数据源
 	AV.initialize('VxUGnnLkan5rsrLKsBErzDrB', 'cVnPbqsLfeeMark0WVwkzf6G');
 	var Convert = AV.Object.extend('Convert');
@@ -36,27 +63,6 @@
 			}
 		});
 	};
-
-	//测试专用：刷新
-	$('.logo').click(function(){
-		window.location.reload();
-	});
-
-	//hash 处理
-	var hashChange = function(page){
-		$('.page').addClass('hide');
-		$('.page.'+page).removeClass('hide');
-		if(page == 'pass'){
-			
-		}
-	};
-	var loadByHash = function(){
-		var hash = window.location.hash.replace('#','');
-		if(hash === '') hash = 'home';
-		hashChange(hash);
-	};
-	window.onload = loadByHash;
-	window.onhashchange = loadByHash;
 
 	//获取单个应用信息
 	var getApp = function(packageName, cb, ecb){
@@ -176,7 +182,7 @@
 			});
 		}
 	}
-	initlist();
+	//initlist();
 
 	//二维码生成
 	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
