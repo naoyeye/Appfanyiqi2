@@ -16,6 +16,11 @@
 		isx5 = true;
 	}
 
+	//禁止窗口拉动
+	$('.home, .pass').bind('touchmove', function (ev) {
+		ev.preventDefault();
+	});
+
 	//跳转逻辑
 	//测试专用：刷新
 	$('.logo').click(function(){
@@ -27,7 +32,7 @@
 		$('.page').addClass('hide');
 		$('.page.'+page).removeClass('hide');
 		if(page == 'pass'){
-			
+			pass();
 		}
 	};
 	var loadByHash = function(){
@@ -42,6 +47,17 @@
 	$('.home .button').click(function(){
 		go('pass');
 	});
+
+	//过渡页
+	var pass = function(){
+		$('.pass').animate({'background-position-y':-10000}, 90000);
+		var scan = function(){
+			$('.scan').css('top', 0);
+			$('.scan').animate({top: '100%'}, 1500);
+		};
+		scan();
+		setInterval(scan, 1600);
+	};
 
 	//翻译数据源
 	AV.initialize('VxUGnnLkan5rsrLKsBErzDrB', 'cVnPbqsLfeeMark0WVwkzf6G');
