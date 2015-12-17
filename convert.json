@@ -1,0 +1,796 @@
+[{
+	"packageName": "com.tencent.mm",
+	"target": "com.whatsapp"
+},
+{
+	"packageName": "com.tencent.mobileqq",
+	"target": "com.facebook.orca"
+},
+{
+	"packageName": "com.UCMobile",
+	"target": "org.mozilla.firefox"
+},
+{
+	"packageName": "com.sohu.inputmethod.sogou",
+	"target": "com.touchtype.swiftkey"
+},
+{
+	"packageName": "com.qihoo360.mobilesafe",
+	"target": "com.avast.android.mobilesecurity"
+},
+{
+	"packageName": "com.sds.android.ttpod",
+	"target": "com.spotify.music"
+},
+{
+	"packageName": "com.taobao.taobao",
+	"target": "com.alibaba.aliexpresshd"
+},
+{
+	"packageName": "com.qzone",
+	"target": "com.facebook.moments"
+},
+{
+	"packageName": "com.moji.mjweather",
+	"target": "com.macropinch.swan"
+},
+{
+	"packageName": "com.sina.weibo",
+	"target": "com.twitter.android"
+},
+{
+	"packageName": "com.kugou.android",
+	"target": "com.amazon.mp3"
+},
+{
+	"packageName": "cn.opda.a.phonoalbumshoushou",
+	"target": "com.kms.free"
+},
+{
+	"packageName": "com.youku.phone",
+	"target": "com.google.android.youtube"
+},
+{
+	"packageName": "com.storm.smart",
+	"target": "com.mxtech.videoplayer.ad"
+},
+{
+	"packageName": "com.qiyi.video",
+	"target": "com.hulu.plus"
+},
+{
+	"packageName": "com.snda.wifilocating",
+	"target": "mobi.wifi.toolbox"
+},
+{
+	"packageName": "com.tencent.qqpimsecure",
+	"target": "com.avira.android"
+},
+{
+	"packageName": "com.eg.android.AlipayGphone",
+	"target": "com.paypal.android.p2pmobile"
+},
+{
+	"packageName": "com.mt.mtxx.mtxx",
+	"target": "com.pixlr.express"
+},
+{
+	"packageName": "com.baidu.BaiduMap",
+	"target": "com.google.android.apps.maps"
+},
+{
+	"packageName": "com.immomo.momo",
+	"target": "com.skout.android"
+},
+{
+	"packageName": "com.tencent.qqmusic",
+	"target": "com.google.android.music"
+},
+{
+	"packageName": "com.gau.go.launcherex",
+	"target": "com.hola.launcher"
+},
+{
+	"packageName": "com.tencent.mtt",
+	"target": "com.android.chrome"
+},
+{
+	"packageName": "com.wochacha",
+	"target": "me.scan.android.client"
+},
+{
+	"packageName": "com.chaozh.iReaderFree",
+	"target": "org.coolreader"
+},
+{
+	"packageName": "com.sankuai.meituan",
+	"target": "com.groupon"
+},
+{
+	"packageName": "com.autonavi.minimap",
+	"target": "com.waze"
+},
+{
+	"packageName": "vStudio.Android.Camera360",
+	"target": "com.google.android.GoogleCamera"
+},
+{
+	"packageName": "com.youdao.dict",
+	"target": "com.google.android.apps.translate"
+},
+{
+	"packageName": "com.pplive.androidphone",
+	"target": "com.vimeo.android.videoapp"
+},
+{
+	"packageName": "com.changba",
+	"target": "com.famousbluemedia.yokee"
+},
+{
+	"packageName": "com.tencent.qqlive",
+	"target": "com.google.android.videos"
+},
+{
+	"packageName": "com.dianping.v1",
+	"target": "com.yelp.android"
+},
+{
+	"packageName": "tv.pps.mobile",
+	"target": "co.vine.android"
+},
+{
+	"packageName": "com.estrongs.android.pop",
+	"target": "com.speedsoftware.rootexplorer"
+},
+{
+	"packageName": "cn.kuwo.player",
+	"target": "com.rdio.android.ui"
+},
+{
+	"packageName": "com.androidesk",
+	"target": "net.zedge.android"
+},
+{
+	"packageName": "cn.etouch.ecalendar",
+	"target": "com.google.android.calendar"
+},
+{
+	"packageName": "com.baidu.input",
+	"target": "com.nuance.swype.dtc"
+},
+{
+	"packageName": "com.ijinshan.kbatterydoctor",
+	"target": "com.avast.android.batterysaver"
+},
+{
+	"packageName": "com.jingdong.app.mall",
+	"target": "com.amazon.mShop.android.shopping"
+},
+{
+	"packageName": "com.renren.mobile.android",
+	"target": "com.facebook.katana"
+},
+{
+	"packageName": "com.devuni.flashlight",
+	"target": "com.surpax.ledflashlight.panel"
+},
+{
+	"packageName": "cn.com.fetion",
+	"target": "com.att.android.mobile.attmessages"
+},
+{
+	"packageName": "com.cleanmaster.mguard_cn",
+	"target": "com.cleanmaster.mguard"
+},
+{
+	"packageName": "com.sohu.sohuvideo",
+	"target": "com.dailymotion.dailymotion"
+},
+{
+	"packageName": "com.duowan.mobile",
+	"target": "com.hao123.global.hiclub"
+},
+{
+	"packageName": "dopool.player",
+	"target": "com.netflix.mediaclient"
+},
+{
+	"packageName": "com.iflytek.inputmethod",
+	"target": "com.qisiemoji.inputmethod"
+},
+{
+	"packageName": "com.lbe.security",
+	"target": "com.symantec.mobilesecurity"
+},
+{
+	"packageName": "com.tongcheng.android",
+	"target": "com.tripadvisor.tripadvisor"
+},
+{
+	"packageName": "com.lingdong.client.android",
+	"target": "la.droid.qr"
+},
+{
+	"packageName": "com.shuqi.controller",
+	"target": "wp.wattpad"
+},
+{
+	"packageName": "com.letv.android.client",
+	"target": "com.spb.tv.am"
+},
+{
+	"packageName": "com.clov4r.android.nil",
+	"target": "org.videolan.vlc.betav7neon"
+},
+{
+	"packageName": "com.autoconnectwifi.app",
+	"target": "com.yunshang.wifimap"
+},
+{
+	"packageName": "com.qq.reader",
+	"target": "com.google.android.apps.books"
+},
+{
+	"packageName": "com.baidu.searchbox",
+	"target": "com.google.android.googlequicksearchbox"
+},
+{
+	"packageName": "com.shoujiduoduo.ringtone",
+	"target": "net.zedge.android"
+},
+{
+	"packageName": "com.tencent.WBlog",
+	"target": "com.plurk.android"
+},
+{
+	"packageName": "com.alensw.PicFolder",
+	"target": "com.google.android.apps.photos"
+},
+{
+	"packageName": "com.duomi.android",
+	"target": "deezer.android.app"
+},
+{
+	"packageName": "com.Qunar",
+	"target": "com.booking"
+},
+{
+	"packageName": "com.sdu.didi.psnger",
+	"target": "com.ubercab"
+},
+{
+	"packageName": "com.tudou.android",
+	"target": "com.xfinity.playnow"
+},
+{
+	"packageName": "com.baidu.tieba",
+	"target": "com.andrewshu.android.reddit"
+},
+{
+	"packageName": "com.meitu.meiyancamera",
+	"target": "com.venticake.retrica"
+},
+{
+	"packageName": "bubei.tingshu",
+	"target": "com.audible.application"
+},
+{
+	"packageName": "ctrip.android.view",
+	"target": "com.hcom.android"
+},
+{
+	"packageName": "com.funcity.taxi.passenger",
+	"target": "br.com.easytaxi"
+},
+{
+	"packageName": "com.tencent.qqpim",
+	"target": "com.keramidas.TitaniumBackup"
+},
+{
+	"packageName": "cn.chinabus.main",
+	"target": "com.tranzmate"
+},
+{
+	"packageName": "com.blovestorm",
+	"target": "com.truecaller"
+},
+{
+	"packageName": "com.xinmei365.font",
+	"target": "com.monotype.android.font.free.fifty6"
+},
+{
+	"packageName": "com.hiapk.marketpho",
+	"target": "com.android.vending"
+},
+{
+	"packageName": "com.zdworks.android.zdclock",
+	"target": "com.monotype.android.font.free.fifty6"
+},
+{
+	"packageName": "com.netease.newsreader.activity",
+	"target": "com.yahoo.mobile.client.android.yahoo"
+},
+{
+	"packageName": "com.tencent.research.drop",
+	"target": "com.dailymotion.dailymotion"
+},
+{
+	"packageName": "smskb.com",
+	"target": "com.thetrainline"
+},
+{
+	"packageName": "com.mymoney",
+	"target": "com.monefy.app.lite"
+},
+{
+	"packageName": "com.achievo.vipshop",
+	"target": "com.asos.app"
+},
+{
+	"packageName": "com.yoloho.dayima",
+	"target": "com.popularapp.periodcalendar"
+},
+{
+	"packageName": "com.alibaba.mobileim",
+	"target": "com.badoo.mobile"
+},
+{
+	"packageName": "com.dianxinos.dxhome",
+	"target": "com.ogqcorp.bgh"
+},
+{
+	"packageName": "com.qihoo360.mobilesafe.opti",
+	"target": "com.wsandroid.suite"
+},
+{
+	"packageName": "com.moxiu.launcher",
+	"target": "com.buzzpia.aqua.launcher"
+},
+{
+	"packageName": "com.smile.gifmaker",
+	"target": "net.lovoo.android"
+},
+{
+	"packageName": "com.dianxinos.powermanager",
+	"target": "com.macropinch.pearl"
+},
+{
+	"packageName": "com.tencent.qqpinyin",
+	"target": "com.nuance.swype.trial"
+},
+{
+	"packageName": "com.antutu.ABenchMark",
+	"target": "com.cpuid.cpu_z"
+},
+{
+	"packageName": "com.qihoo360.mobilesafe.opti.powerctl",
+	"target": "com.drweb"
+},
+{
+	"packageName": "com.kingreader.framework",
+	"target": "org.geometerplus.zlibrary.ui.android"
+},
+{
+	"packageName": "sina.mobile.tianqitong",
+	"target": "com.wunderground.android.weather"
+},
+{
+	"packageName": "com.tuniu.app.ui",
+	"target": "com.expedia.bookings"
+},
+{
+	"packageName": "com.wuba",
+	"target": "craigs.pro.plus"
+},
+{
+	"packageName": "com.handsgo.jiakao.android",
+	"target": "com.kep.driving.us"
+},
+{
+	"packageName": "cld.navi.mainframe",
+	"target": "com.sygic.aura"
+},
+{
+	"packageName": "com.tmall.wireless",
+	"target": "com.amazon.mShop.android.shopping"
+},
+{
+	"packageName": "com.xunlei.downloadprovider",
+	"target": "com.utorrent.client"
+},
+{
+	"packageName": "com.yibasan.lizhifm",
+	"target": "com.clearchannel.iheartradio.controller"
+},
+{
+	"packageName": "com.ss.android.article.news",
+	"target": "flipboard.app"
+},
+{
+	"packageName": "com.jb.gosms",
+	"target": "org.telegram.messenger"
+},
+{
+	"packageName": "com.miui.mihome2",
+	"target": "com.apusapps.launcher"
+},
+{
+	"packageName": "com.snda.youni",
+	"target": "com.sgiggle.production"
+},
+{
+	"packageName": "com.ting.mp3.android",
+	"target": "com.apple.android.music"
+},
+{
+	"packageName": "cn.goapk.market",
+	"target": "com.android.vending"
+},
+{
+	"packageName": "com.sohu.newsclient",
+	"target": "com.zumobi.msnbc"
+},
+{
+	"packageName": "com.nd.android.pandareader",
+	"target": "com.mobisystems.ubreader_west"
+},
+{
+	"packageName": "com.dragon.android.pandaspace",
+	"target": "com.android.vending"
+},
+{
+	"packageName": "com.tigerknows",
+	"target": "com.mapfactor.navigator"
+},
+{
+	"packageName": "com.tencent.token",
+	"target": "com.eset.ems2.gp"
+},
+{
+	"packageName": "cn.wps.moffice_eng",
+	"target": "com.mobisystems.office"
+},
+{
+	"packageName": "com.qihoo.appstore",
+	"target": "com.android.vending"
+},
+{
+	"packageName": "qsbk.app",
+	"target": "com.ninegag.android.app"
+},
+{
+	"packageName": "com.youba.flashlight",
+	"target": "com.intellectualflame.ledflashlight.washer"
+},
+{
+	"packageName": "cn.jingling.motu.photowonder",
+	"target": "com.joeware.android.gpulumera"
+},
+{
+	"packageName": "com.chinamworld.main",
+	"target": "com.infonow.bofa"
+},
+{
+	"packageName": "com.xiaomi.channel",
+	"target": "com.kakao.talk"
+},
+{
+	"packageName": "com.tadu.android",
+	"target": "com.mobilesrepublic.appy"
+},
+{
+	"packageName": "com.haodou.recipe",
+	"target": "com.scripps.android.foodnetwork"
+},
+{
+	"packageName": "com.douguo.recipe",
+	"target": "com.yummly.android"
+},
+{
+	"packageName": "com.dewmobile.kuaiya",
+	"target": "cn.xender"
+},
+{
+	"packageName": "com.tencent.news",
+	"target": "bbc.mobile.news.ww"
+},
+{
+	"packageName": "com.qihoo360.launcher",
+	"target": "com.campmobile.launcher"
+},
+{
+	"packageName": "com.lovebizhi.wallpaper",
+	"target": "com.catple.wallpapers"
+},
+{
+	"packageName": "com.baidu.netdisk",
+	"target": "com.dropbox.android"
+},
+{
+	"packageName": "com.ganji.android",
+	"target": "com.ebay.kleinanzeigen"
+},
+{
+	"packageName": "com.mogujie",
+	"target": "de.zalando.mobile"
+},
+{
+	"packageName": "my.PCamera",
+	"target": "com.jellybus.Moldiv"
+},
+{
+	"packageName": "com.oupeng.mini.android",
+	"target": "com.opera.mini.native"
+},
+{
+	"packageName": "cn.ibuka.manga.ui",
+	"target": "com.naver.linewebtoon"
+},
+{
+	"packageName": "cn.com.tiros.android.navidog",
+	"target": "com.mapswithme.maps.pro"
+},
+{
+	"packageName": "com.tuan800.android",
+	"target": "com.livingsocial.www"
+},
+{
+	"packageName": "com.anzhuoshoudiantong",
+	"target": "goldenshorestechnologies.brightestflashlight.free"
+},
+{
+	"packageName": "com.nd.android.pandahome2",
+	"target": "com.ksmobile.launcher"
+},
+{
+	"packageName": "com.tujia.hotel",
+	"target": "com.airbnb.android"
+},
+{
+	"packageName": "fm.qingting.qtradio",
+	"target": "tunein.player"
+},
+{
+	"packageName": "com.xiaoenai.app",
+	"target": "kr.co.vcnc.android.couple"
+},
+{
+	"packageName": "com.kingsoft",
+	"target": "at.nk.tools.iTranslate"
+},
+{
+	"packageName": "com.sankuai.movie",
+	"target": "net.flixster.android"
+},
+{
+	"packageName": "com.hunantv.imgo.activity",
+	"target": "com.undertap.watchlivetv"
+},
+{
+	"packageName": "com.danesh.system.app.remover",
+	"target": "com.rootuninstaller.free"
+},
+{
+	"packageName": "com.tencent.androidqqmail",
+	"target": "com.google.android.gm"
+},
+{
+	"packageName": "com.zhimahu",
+	"target": "ch.smalltech.battery.free"
+},
+{
+	"packageName": "com.icbc",
+	"target": "com.usbank.mobilebanking"
+},
+{
+	"packageName": "com.hexin.plat.android",
+	"target": "com.fusionmedia.investing"
+},
+{
+	"packageName": "com.xiachufang",
+	"target": "com.ajnsnewmedia.kitchenstories"
+},
+{
+	"packageName": "com.baidu.easyroot",
+	"target": "eu.chainfire.supersu"
+},
+{
+	"packageName": "hugh.android.app.zidian",
+	"target": "com.merriamwebster"
+},
+{
+	"packageName": "com.meitu.meipaimv",
+	"target": "co.vine.android"
+},
+{
+	"packageName": "com.myzaker.ZAKER_Phone",
+	"target": "com.devhd.feedly"
+},
+{
+	"packageName": "bdmobile.android.app",
+	"target": "com.google.android.googlequicksearchbox"
+},
+{
+	"packageName": "com.autonavi.xmgd.navigator",
+	"target": "com.here.app.maps"
+},
+{
+	"packageName": "com.cubic.autohome",
+	"target": "com.cars.android"
+},
+{
+	"packageName": "com.jiasoft.swreader",
+	"target": "com.aldiko.android"
+},
+{
+	"packageName": "com.muzhiwan.market",
+	"target": "com.google.android.play.games"
+},
+{
+	"packageName": "com.yixia.videoeditor",
+	"target": "com.mobilemotion.dubsmash"
+},
+{
+	"packageName": "com.duowan.lolbox",
+	"target": "com.CreativeDK.LeagueofLegendsChampions"
+},
+{
+	"packageName": "com.mandi.lol",
+	"target": "gg.op.lol.android"
+},
+{
+	"packageName": "com.anyview",
+	"target": "com.ebooks.ebookreader"
+},
+{
+	"packageName": "com.ss.android.essay.joke",
+	"target": "mobi.ifunny"
+},
+{
+	"packageName": "com.cootek.smartdialer",
+	"target": "com.imo.android.imoim"
+},
+{
+	"packageName": "com.duokan.reader",
+	"target": "com.amazon.kindle"
+},
+{
+	"packageName": "com.lianlian",
+	"target": "org.kman.WifiManager"
+},
+{
+	"packageName": "com.knightli.jokebook",
+	"target": "com.sphinx.lolpics"
+},
+{
+	"packageName": "cn.buding.coupon",
+	"target": "com.coupons.ciapp"
+},
+{
+	"packageName": "com.mapbar.android.mapbarmap",
+	"target": "cz.aponia.bor3.offlinemaps"
+},
+{
+	"packageName": "com.tencent.qqlite",
+	"target": "com.facebook.lite"
+},
+{
+	"packageName": "com.chaozh.iReaderFree15",
+	"target": "com.kobobooks.android"
+},
+{
+	"packageName": "com.gamestar.pianoperfect",
+	"target": "com.rubycell.pianisthd"
+},
+{
+	"packageName": "com.wandoujia.roshan",
+	"target": "com.teslacoilsw.launcher"
+},
+{
+	"packageName": "com.jm.android.jumei",
+	"target": "com.rarewire.forever21"
+},
+{
+	"packageName": "com.manboker.headportrait",
+	"target": "com.niksoftware.snapseed"
+},
+{
+	"packageName": "com.greenpoint.android.mc10086.activity",
+	"target": "com.att.myWireless"
+},
+{
+	"packageName": "com.lanteanstudio.compass",
+	"target": "com.codesector.maverick.lite"
+},
+{
+	"packageName": "tv.danmaku.bili",
+	"target": "jp.nicovideo.android"
+},
+{
+	"packageName": "com.douban.radio",
+	"target": "com.ad60.songza"
+},
+{
+	"packageName": "com.sinovatech.unicom.ui",
+	"target": "nl.oberon.tmobile.my"
+},
+{
+	"packageName": "com.ximalaya.ting.android",
+	"target": "com.pandora.android"
+},
+{
+	"packageName": "com.byread.reader",
+	"target": "com.scribd.app.reader0"
+},
+{
+	"packageName": "com.codingcaveman.Solo",
+	"target": "com.ultimateguitar.tabs"
+},
+{
+	"packageName": "com.zhihu.android",
+	"target": "com.quora.android"
+},
+{
+	"packageName": "com.lectek.android.sfreader",
+	"target": "books.ebook.pdf.reader"
+},
+{
+	"packageName": "com.yx",
+	"target": "kik.android"
+},
+{
+	"packageName": "com.tuan800.tao800",
+	"target": "com.whaleshark.retailmenot"
+},
+{
+	"packageName": "com.jiongji.andriod.card",
+	"target": "com.chineseskill"
+},
+{
+	"packageName": "com.app.hero.ui",
+	"target": "com.smule.singandroid"
+},
+{
+	"packageName": "com.thestore.main",
+	"target": "com.walmart.android"
+},
+{
+	"packageName": "im.yixin",
+	"target": "com.verizon.messaging.vzmsgs"
+},
+{
+	"packageName": "com.zhiqupk.root",
+	"target": "com.noshufou.android.su"
+},
+{
+	"packageName": "wenhr.Mcdonalds",
+	"target": "com.mcdonalds.app"
+},
+{
+	"packageName": "com.yinyuetai.ui",
+	"target": "com.vevo"
+},
+{
+	"packageName": "com.suning.mobile.ebuy",
+	"target": "com.ebay.mobile"
+},
+{
+	"packageName": "com.xunlei.cloud",
+	"target": "com.kmplayer"
+},
+{
+	"packageName": "com.hy.minifetion",
+	"target": "com.att.android.tablet.attmessages"
+},
+{
+	"packageName": "com.kingroot.kinguser",
+	"target": "com.kingouser.com"
+},
+{
+	"packageName": "com.android.bankabc",
+	"target": "com.sbi.SBIFreedomPlus"
+},
+{
+	"packageName": "com.liulishuo.engzo",
+	"target": "com.chineseskill.lan_tool.sc"
+}]

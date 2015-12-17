@@ -1,0 +1,82 @@
+[
+	{
+		"packageName": "com.tencent.mm",
+		"target": "com.whatsapp",
+		"url": "https://itunes.apple.com/cn/app/whatsapp-messenger/id310633997?mt=8"
+	},
+	{
+		"packageName": "com.tencent.mobileqq",
+		"target": "com.facebook.orca",
+		"url": "https://itunes.apple.com/cn/app/messenger/id454638411?mt=8"
+	},
+	{
+		"packageName": "com.UCMobile",
+		"target": "org.mozilla.firefox",
+		"url": "https://itunes.apple.com/nz/app/firefox-web-browser/id989804926?mt=8"
+	},
+	{
+		"packageName": "com.sohu.inputmethod.sogou",
+		"target": "com.touchtype.swiftkey",
+		"url": "https://itunes.apple.com/cn/app/swiftkey-keyboard/id911813648?mt=8"
+	},
+	{
+		"packageName": "com.qihoo360.mobilesafe",
+		"target": "com.avast.android.mobilesecurity",
+		"url": "https://itunes.apple.com/us/app/avast-secureme/id991899278?mt=8"
+	},
+	{
+		"packageName": "com.sds.android.ttpod",
+		"target": "com.spotify.music",
+		"url": "https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8"
+	},
+	{
+		"packageName": "com.taobao.taobao",
+		"target": "com.alibaba.aliexpresshd",
+		"url": "https://itunes.apple.com/cn/app/aliexpress-shopping-app/id436672029?mt=8"
+	},
+	{
+		"packageName": "com.qzone",
+		"target": "com.facebook.moments",
+		"url": "https://itunes.apple.com/us/app/moments-get-photos-you-didnt/id991346515?mt=8"
+	},
+	{
+		"packageName": "com.sina.weibo",
+		"target": "com.twitter.android",
+		"url": "https://itunes.apple.com/us/app/twitter/id333903271?mt=8&utm_source=feedblitz&utm_medium=FeedBlitzEmail&utm_content=199752&utm_campaign=0"
+	},
+	{
+		"packageName": "com.kugou.android",
+		"target": "com.amazon.mp3",
+		"url": "https://itunes.apple.com/us/app/amazon-music-with-prime-music/id510855668?mt=8"
+	},
+	{
+		"packageName": "com.youku.phone",
+		"target": "com.google.android.youtube",
+		"url": "https://itunes.apple.com/cn/app/youtube/id544007664?mt=8"
+	},
+	{
+		"packageName": "com.qiyi.video",
+		"target": "com.hulu.plus",
+		"url": "https://itunes.apple.com/us/app/hulu/id376510438?mt=8"
+	},
+	{
+		"packageName": "com.tencent.qqpimsecure",
+		"target": "com.avira.android",
+		"url": "https://itunes.apple.com/us/app/avira-mobile-security/id692893556?mt=8"
+	},
+	{
+		"packageName": "com.eg.android.AlipayGphone",
+		"target": "com.paypal.android.p2pmobile",
+		"url": "https://itunes.apple.com/cn/app/paypal/id283646709?mt=8"
+	},
+	{
+		"packageName": "com.mt.mtxx.mtxx",
+		"target": "com.pixlr.express",
+		"url": "https://itunes.apple.com/cn/app/autodesk-pixlr/id880663569?mt=12"
+	},
+	{
+		"packageName": "com.baidu.BaiduMap",
+		"target": "com.google.android.apps.maps",
+		"url": "https://itunes.apple.com/cn/app/google-maps/id585027354?mt=8"
+	}
+]

@@ -1,0 +1,110 @@
+$gray: #7D7D7D;
+$green: #24AA42;
+$grayx5: #F1F5F8;
+
+*{
+	box-sizing: border-box;
+	user-select: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+input, textarea{
+	user-select: text;
+}
+
+html{
+	font-size: 62.5%;
+	line-height: 1.25;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+	text-rendering:optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+	background: #FFF;
+}
+
+body{
+	font-size: 1.2rem;
+	color: $gray;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.txtEllipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+}
+
+.flexbox{
+	display: flex;
+}
+
+.hide{
+	display: none;
+}
+
+.button{
+	color: #FFF;
+	background: $green;
+	font-size: 1.5rem;
+	line-height: 36px;
+	padding:0 20px;
+	text-align: center;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.logo{
+	background: url("../images/logo.png");
+	width: 65px;
+	height: 72px;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.page{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.header{
+	background: $green;
+	background-size: 100% auto;
+	width: 100%;
+	height: 76px;
+	padding: 6px 0;
+	position: fixed;
+	top: 0;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 100;
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	padding: 3px 0;
+	width: 100%;
+	background: #FFF;
+	box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 999999;
+}

@@ -1,0 +1,112 @@
+.guide{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background: url("../images/guide.png");
+		background-size: cover;
+		width: 103px;
+		height: 89px;
+		z-index: 999999;
+}
+
+
+.mask-layer{
+
+	background:#000;
+	opacity: 0.6;
+	width: 100%;
+	z-index: 999999;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+.layer-info .reminder-layer{
+
+	background: #fff;
+    width: 80%;
+    position: absolute;
+    padding:30px 0;
+    top: 20%;
+    z-index: 999;
+    left: 50%;
+    margin-left: -40%;
+    z-index: 9999999;
+
+    p{
+    	text-align:center;
+    	font-size: 1.5rem;
+    	margin-top: 0;
+    	padding: 0 15px;
+    }
+
+    .know{
+
+    	text-align: center;
+
+    	a{
+    		line-height: 36px;
+	    	height: 36px;
+	    	margin:0 auto;
+	    	background:$green;
+	    	border-radius:5px;
+	    	display: inline-block;
+	    	width:75px;
+	    	color: #fff;
+	    	margin-top: 5px;
+	    	font-size: 1.6rem;
+    	}
+    }
+
+    .share-button{
+
+    	text-align: center;
+    	display: inline-block;
+    	width: 100%;
+    	margin-top: 5px;
+
+		.share-ways{
+
+			margin: 0 auto;
+			display: inline-block;
+
+			a{
+
+				float: left;
+				width: 70px;
+				margin-right: 20px;
+				text-align: center;
+
+				span{
+					font-size: 1.4rem;
+					line-height: 2rem;
+					display: inline-block;
+				}
+				i{
+					display: inline-block;
+					width: 56px;
+					height: 56px;
+				}
+				.icon-weibo{
+
+					background:url(../images/icon-weibo.png) no-repeat;
+				}
+				.icon-wechat{
+
+					background:url(../images/icon-wechat.png) no-repeat;
+				}
+				.icon-friend{
+
+					background:url(../images/icon-friend.png) no-repeat;
+				}
+	    	}
+	    	.mr0{
+
+	    		margin-right: 0px;
+	    	}
+
+		}
+
+    }
+}

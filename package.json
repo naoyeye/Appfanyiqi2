@@ -1,0 +1,23 @@
+{
+  "name": "gulp-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "gulp,gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/gezher/gulp-scss"
+  },
+  "author": "Raiden",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/gezher/gulp-scss#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}
