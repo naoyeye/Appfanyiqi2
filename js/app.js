@@ -333,17 +333,41 @@
 	});
 
 	//计数
-	function check(packageNames){
+	function check(apps){
+		var packageNames = apps.map(function(app) {
+			return app.packageName;
+		});
 		var query = new AV.Query(Convert);
-		query.containedIn("packageName", packageNames);
+		query.containedIn("target", packageNames);
 		query.count({
 			success: function(count) {
-				alert(count)
+				show_image_for(count);
 			},
 			error: function(error) {
 				console.log("Error: " + error.code + " " + error.message);
 			}
 		});
+	}
+	function show_image_for(count){
+		var src = 'nodetect.jpg';
+		if(campaignTools.UA.inWdj){
+			if(count >= 30){
+				src = '30more.jpg';
+			}else if(count >= 20 ){
+				src = '20to30.jpg';
+			}else if(count >= 10){
+				src = '10to20.jpg';
+			}else if(count >= 5){
+				src = '5to10.jpg';
+			}else if(count > 0){
+				src = 'less5.jpg';
+			}else{
+				src = 'nodetect.jpg';
+			}
+		}else{
+			src = 'nodetect.jpg';
+		}
+		$('.list .top.section').find('img').attr('src', 'images/' + src);
 	}
 
 	//二维码生成
