@@ -55,32 +55,32 @@
 						margin-right: 10px;
 						.icon1{
 							float: left;
-							width: 40px;
-							height: 40px;
+							width: 30px;
+							height: 30px;
 						}
 						.sep1{
 							float: left;
-							width: 40px;
-							height: 30px;
+							width: 30px;
+							height: 20px;
 							background: url('../images/arrow.png') no-repeat;
 							background-size: auto 70%;
-							margin: 10px 0 6px 6px;
+							margin: 5px;
 							background-position: bottom left;
 						}
 						.sep2{
 							clear: left;
 							float: left;
-							width: 40px;
-							height: 30px;
+							width: 30px;
+							height: 20px;
 							background: url('../images/arrow1.png') no-repeat;
 							background-size: auto 70%;
-							margin: 0 6px 0 6px;
-							background-position: right 6px;
+							margin: 5px;
+							background-position: right 2px;
 						}
 						.icon2{
 							float: left;
-							width: 80px;
-							height: 80px;
+							width: 70px;
+							height: 70px;
 							position: relative;
 							top: 40px;
 							left: 150px;
@@ -97,7 +97,7 @@
 					.right{
 						flex: 1 1 auto;
 						.name{
-							font-size: 2rem;
+							font-size: 1.8rem;
 							margin-bottom: 10px;
 						}
 						.desc{
