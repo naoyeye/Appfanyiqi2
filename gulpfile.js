@@ -5,11 +5,7 @@ var uglify = require('gulp-uglify');
 var prefixer = require('gulp-autoprefixer');
 
 gulp.task('scss-watch', function() {
-	gulp.src('./scss/app.scss')
-		.pipe(sass().on('error', sass.logError))
-		.pipe(prefixer({browsers: ['> 0%']}))
-		.pipe(concat('combined.css'))
-		.pipe(gulp.dest('./build'));
+	gulp.watch('./scss/*.scss', ['scss-build']);
 });
 
 gulp.task('scss-build', function() {

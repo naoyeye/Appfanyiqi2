@@ -33,9 +33,10 @@
 		$('.page.'+page).removeClass('hide');
 		if(page == 'pass'){
 			pass();
-			setTimeout(function(){
-				go('list');
-			}, 2000)
+			setTimeout(go.bind(this, 'list'), 2000);
+		}
+		if(page == 'list'){
+			setTimeout(zoom, 100);
 		}
 	};
 	var loadByHash = function(){
@@ -63,6 +64,13 @@
 		setTimeout(function(){
 			clearInterval(timer);
 		}, 10000);
+	};
+
+	//列表动画
+	var zoom = function(){
+		$('.list .item').map(function(i, item){
+			return $(item).find('.icon2');
+		}).addClass('zoomed');
 	};
 
 	//翻译数据源
@@ -192,7 +200,7 @@
 			convert(apps, $front, $back);
 		}else{
 			$.get('hotapps.json', function(results){
-				var apps = results;
+				var apps = results.slice(0, 10);
 				$('.list .items').find('.title').html('翻译了您手机里<span class="cnt">0</span>个国内应用');
 
 				convert(apps);
