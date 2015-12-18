@@ -39,7 +39,8 @@
 			padding: 12px;
 			.title{
 				text-align: center;
-				font-size: 1.5rem;
+				font-size: 1.8rem;
+				font-weight: bold;
 				margin-bottom: 10px;
 			}
 			.item{
@@ -55,13 +56,13 @@
 						margin-right: 10px;
 						.icon1{
 							float: left;
-							width: 30px;
-							height: 30px;
+							width: 36px;
+							height: 36px;
 						}
 						.sep1{
 							float: left;
-							width: 30px;
-							height: 20px;
+							width: 36px;
+							height: 26px;
 							background: url('../images/arrow.png') no-repeat;
 							background-size: auto 70%;
 							margin: 5px;
@@ -70,8 +71,8 @@
 						.sep2{
 							clear: left;
 							float: left;
-							width: 30px;
-							height: 20px;
+							width: 36px;
+							height: 26px;
 							background: url('../images/arrow1.png') no-repeat;
 							background-size: auto 70%;
 							margin: 5px;
@@ -79,8 +80,8 @@
 						}
 						.icon2{
 							float: left;
-							width: 70px;
-							height: 70px;
+							width: 75px;
+							height: 75px;
 							position: relative;
 							top: 40px;
 							left: 150px;
@@ -97,8 +98,8 @@
 					.right{
 						flex: 1 1 auto;
 						.name{
-							font-size: 1.8rem;
-							margin-bottom: 10px;
+							font-size: 1.7rem;
+							margin-bottom: 16px;
 						}
 						.desc{
 							line-height: 1.5;
