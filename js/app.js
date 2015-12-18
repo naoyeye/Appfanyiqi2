@@ -105,6 +105,7 @@
 	
 	var buildItem = function(theapp, findapp, $el){
 		var html = $el;
+		html.find('.idx').html($el.index());
 		html.find('.orig').html(theapp.title);
 		html.find('.name').html(findapp.title);
 		html.find('.icon1').attr('src', theapp.icons.px78);
