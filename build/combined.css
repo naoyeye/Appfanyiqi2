@@ -289,22 +289,24 @@ a {
               width: 40px;
               height: 30px;
               background: url("../images/arrow.png") no-repeat;
-              -webkit-background-size: contain;
-                 -moz-background-size: contain;
-                   -o-background-size: contain;
-                      background-size: contain;
-              margin: 10px 0 6px 6px; }
+              -webkit-background-size: auto 70%;
+                 -moz-background-size: auto 70%;
+                   -o-background-size: auto 70%;
+                      background-size: auto 70%;
+              margin: 10px 0 6px 6px;
+              background-position: bottom left; }
             .list .content .items .item .info .left .sep2 {
               clear: left;
               float: left;
               width: 40px;
               height: 30px;
               background: url("../images/arrow1.png") no-repeat;
-              -webkit-background-size: contain;
-                 -moz-background-size: contain;
-                   -o-background-size: contain;
-                      background-size: contain;
-              margin: 0 6px 0 6px; }
+              -webkit-background-size: auto 70%;
+                 -moz-background-size: auto 70%;
+                   -o-background-size: auto 70%;
+                      background-size: auto 70%;
+              margin: 0 6px 0 6px;
+              background-position: right 6px; }
             .list .content .items .item .info .left .icon2 {
               float: left;
               width: 80px;
