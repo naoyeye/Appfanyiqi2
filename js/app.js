@@ -111,7 +111,7 @@
 		html.find('.icon2').attr('src', findapp.icons.px78);
 		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
 		html.find('.desc').html(findapp.tagline);
-		if(withDownload){
+		if(false){
 			html.find('.action').removeClass('hide');
 			html.find('.action .button').click(function(ev){
 				ev.preventDefault();
