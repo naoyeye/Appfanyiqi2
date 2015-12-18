@@ -17,9 +17,105 @@
 	}
 
 	//禁止窗口拉动
-	$('.home, .pass').bind('touchmove', function (ev) {
+	$('.home, .pass, .layer-info').bind('touchmove', function (ev) {
 		ev.preventDefault();
 	});
+
+	//分享
+	$('.list .bottom .button').click(function(){
+		if(campaignTools.UA.inWechat){
+			$('.inwx').removeClass('hide');
+		}else{
+			$('.inwdj').removeClass('hide');
+		}
+	});
+
+	//关闭浮层
+	$('.layer-info .mask-layer, .layer-info .know a').click(function(e){
+		e.preventDefault();
+		$('.layer-info').addClass('hide');
+		$('.inwx .reminder-layer').removeClass('hide');
+		$('.guide').addClass('hide');
+	});
+
+	//微信分享
+	$('.inwx .share-ways-wx, .inwx .share-ways-wxtimeline').click(function(e){
+		e.preventDefault();
+		$('.inwx .reminder-layer').addClass('hide');
+		$('.guide').removeClass('hide');
+	});
+	$('.inwx .share-ways-weibo').click(function(e){
+		e.preventDefault();
+		var weibo = {
+			title: shareData.title,
+			desc: shareData.desc,
+			link: shareData.url,
+			imgUrl: shareData.img,
+		};
+		var weiboURL = 'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&url=' + encodeURIComponent(weibo.shortLink || weibo.link) + '&title=' + encodeURIComponent(weibo.desc) + '&pic=' + weibo.imgUrl;
+		window.location = weiboURL;
+	});
+	if(campaignTools.UA.inWechat){
+		var wxTimelineShareObj = {
+			title: shareData.title,
+			link: shareData.url,
+			imgUrl: shareData.img,
+			successCallback: function () {
+				//window.location = '#share';
+			}
+		};
+		var wxShareObj = {
+			title: shareData.title,
+			desc: shareData.desc,
+			link: shareData.url,
+			imgUrl: shareData.img,
+			successCallback: function () {
+				//window.location = '#share';
+			}
+		};
+		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
+
+	}
+
+	//分享(除微信以外)：
+	var weiboShareObj = {
+		element: '.inwdj .share-ways-weibo',
+		title: shareData.title,
+		desc: shareData.desc,
+		link: shareData.url,
+		imgUrl: shareData.img,
+		successCallback: function () {
+			//window.location = '#share';
+		}
+	};
+	var wxAppShareObj = {
+		element: '.inwdj .share-ways-wx',
+		title: shareData.title,
+		desc: shareData.desc,
+		link: shareData.url,
+		imgUrl: shareData.img,
+		successCallback: function () {
+			//window.location = '#share';
+		},
+		qrcode: function(){
+			$('.layer-info').addClass('hide');
+			$('.qrcodepop').removeClass('hide');
+		}
+	};
+	var wxAppTimelineShareObj = {
+		element: '.inwdj .share-ways-wxtimeline',
+		title: shareData.title,
+		link: shareData.url,
+		imgUrl: shareData.img,
+		successCallback: function () {
+			//window.location = '#share';
+		},
+		qrcode: function(){
+			$('.layer-info').addClass('hide');
+			$('.qrcodepop').removeClass('hide');
+		}
+	};
+	campaignTools.shareButtonSetup(weiboShareObj, wxAppShareObj, wxAppTimelineShareObj);
 
 	//跳转逻辑
 	//测试专用：刷新
@@ -28,7 +124,9 @@
 	});
 
 	//hash 处理
+	var current_page = 'home';
 	var go = function(page){
+		current_page = page;
 		$('.page').addClass('hide');
 		$('.page.'+page).removeClass('hide');
 		if(page == 'pass'){
@@ -44,7 +142,7 @@
 		if(hash === '') hash = 'home';
 		go(hash);
 	};
-	window.onload = loadByHash;
+	$(document).ready(loadByHash);
 	window.onhashchange = loadByHash;
 
 	//首页跳转
@@ -117,9 +215,13 @@
 		html.find('.orig').html(theapp.title);
 		html.find('.name').html(findapp.title);
 		html.find('.icon1').attr('src', theapp.icons.px78);
-		html.find('.icon2').attr('src', findapp.icons.px256);
+		html.find('.icon2').attr('src', findapp.icons.px100);
 		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
 		html.find('.desc').html(findapp.tagline);
+
+		if(current_page == 'list'){
+			html.find('.icon2').addClass('zoomed');
+		}
 		if(false){
 			html.find('.action').removeClass('hide');
 			html.find('.action .button').click(function(ev){
