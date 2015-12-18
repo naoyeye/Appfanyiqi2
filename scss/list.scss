@@ -81,11 +81,16 @@
 							float: left;
 							width: 80px;
 							height: 80px;
-							transform: translateX(120px) translateY(40px) scale(0.1);
+							position: relative;
+							top: 40px;
+							left: 150px;
+							transform: scale(0.1);
 							transition: all 1s ease 0s;
 
 							&.zoomed{
-								transform: translateX(0) translateY(0) scale(1);
+								transform: scale(1);
+								top: 0;
+								left: 0;
 							}
 						}
 					}

@@ -158,7 +158,7 @@
 	};
 
 	//转换
-	var convert = function(apps, $front, $back){
+	var convert = function(apps, $items){
 		var packageNames = apps.map(function(app) {
 			return app.packageName;
 		});
@@ -171,13 +171,12 @@
 					getApp(packageName, function(theapp){
 						getApp(target, function(findapp){
 							var $el = $(template);
-							$('.list .items').append($el);
+							$items.append($el);
 							buildItem(theapp, findapp, $el);
-							$('.list .items').find('.title span.cnt').text($('.list .items').eq(0).find('.item:not(.hide)').length);
+							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 						});
 					});
 				});
-				
 			}
 		});
 	};
@@ -186,6 +185,8 @@
 	function initlist(){
 
 		if (campaignTools.UA.inWdj) {
+			var $my_items = $('.my.items');
+			$my_items.removeClass('hide');
 			var installedApps = JSON.parse(window.campaignPlugin.getNonSystemApps());
 			var apps = installedApps.map(function(app){
 				return {
@@ -193,20 +194,17 @@
 					packageName: app.packageName,
 				};
 			});
-			$('.list .content').empty();
-			$('.list .header').find('.sub-title').hide();
-			$('.list .header').find('.title').html('翻译结果：找到<span class="cnt">0</span>个海外应用');
-
-			convert(apps, $front, $back);
-		}else{
-			$.get('hotapps.json', function(results){
-				var apps = results.slice(0, 10);
-				$('.list .items').find('.title').html('翻译了您手机里<span class="cnt">0</span>个国内应用');
-
-				convert(apps);
-				window.apps = results;
-			});
+			
+			convert(apps, $my_items);
 		}
+		
+		var $all_items = $('.all.items');
+		$.get('hotapps.json', function(results){
+			var apps = results.slice(0, 10);
+			convert(apps, $all_items);
+			window.apps = results;
+		});
+		
 	}
 	initlist();
 
