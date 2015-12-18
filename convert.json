@@ -1,796 +1,419 @@
-[{
-	"packageName": "com.tencent.mm",
-	"target": "com.whatsapp"
-},
-{
-	"packageName": "com.tencent.mobileqq",
-	"target": "com.facebook.orca"
-},
-{
-	"packageName": "com.UCMobile",
-	"target": "org.mozilla.firefox"
-},
-{
-	"packageName": "com.sohu.inputmethod.sogou",
-	"target": "com.touchtype.swiftkey"
-},
-{
-	"packageName": "com.qihoo360.mobilesafe",
-	"target": "com.avast.android.mobilesecurity"
-},
-{
-	"packageName": "com.sds.android.ttpod",
-	"target": "com.spotify.music"
-},
-{
-	"packageName": "com.taobao.taobao",
-	"target": "com.alibaba.aliexpresshd"
-},
-{
-	"packageName": "com.qzone",
-	"target": "com.facebook.moments"
-},
-{
-	"packageName": "com.moji.mjweather",
-	"target": "com.macropinch.swan"
-},
-{
-	"packageName": "com.sina.weibo",
-	"target": "com.twitter.android"
-},
-{
-	"packageName": "com.kugou.android",
-	"target": "com.amazon.mp3"
-},
-{
-	"packageName": "cn.opda.a.phonoalbumshoushou",
-	"target": "com.kms.free"
-},
-{
-	"packageName": "com.youku.phone",
-	"target": "com.google.android.youtube"
-},
-{
-	"packageName": "com.storm.smart",
-	"target": "com.mxtech.videoplayer.ad"
-},
-{
-	"packageName": "com.qiyi.video",
-	"target": "com.hulu.plus"
-},
-{
-	"packageName": "com.snda.wifilocating",
-	"target": "mobi.wifi.toolbox"
-},
-{
-	"packageName": "com.tencent.qqpimsecure",
-	"target": "com.avira.android"
-},
-{
-	"packageName": "com.eg.android.AlipayGphone",
-	"target": "com.paypal.android.p2pmobile"
-},
-{
-	"packageName": "com.mt.mtxx.mtxx",
-	"target": "com.pixlr.express"
-},
-{
-	"packageName": "com.baidu.BaiduMap",
-	"target": "com.google.android.apps.maps"
-},
-{
-	"packageName": "com.immomo.momo",
-	"target": "com.skout.android"
-},
-{
-	"packageName": "com.tencent.qqmusic",
-	"target": "com.google.android.music"
-},
-{
-	"packageName": "com.gau.go.launcherex",
-	"target": "com.hola.launcher"
-},
-{
-	"packageName": "com.tencent.mtt",
-	"target": "com.android.chrome"
-},
-{
-	"packageName": "com.wochacha",
-	"target": "me.scan.android.client"
-},
-{
-	"packageName": "com.chaozh.iReaderFree",
-	"target": "org.coolreader"
-},
-{
-	"packageName": "com.sankuai.meituan",
-	"target": "com.groupon"
-},
-{
-	"packageName": "com.autonavi.minimap",
-	"target": "com.waze"
-},
-{
-	"packageName": "vStudio.Android.Camera360",
-	"target": "com.google.android.GoogleCamera"
-},
-{
-	"packageName": "com.youdao.dict",
-	"target": "com.google.android.apps.translate"
-},
-{
-	"packageName": "com.pplive.androidphone",
-	"target": "com.vimeo.android.videoapp"
-},
-{
-	"packageName": "com.changba",
-	"target": "com.famousbluemedia.yokee"
-},
-{
-	"packageName": "com.tencent.qqlive",
-	"target": "com.google.android.videos"
-},
-{
-	"packageName": "com.dianping.v1",
-	"target": "com.yelp.android"
-},
-{
-	"packageName": "tv.pps.mobile",
-	"target": "co.vine.android"
-},
-{
-	"packageName": "com.estrongs.android.pop",
-	"target": "com.speedsoftware.rootexplorer"
-},
-{
-	"packageName": "cn.kuwo.player",
-	"target": "com.rdio.android.ui"
-},
-{
-	"packageName": "com.androidesk",
-	"target": "net.zedge.android"
-},
-{
-	"packageName": "cn.etouch.ecalendar",
-	"target": "com.google.android.calendar"
-},
-{
-	"packageName": "com.baidu.input",
-	"target": "com.nuance.swype.dtc"
-},
-{
-	"packageName": "com.ijinshan.kbatterydoctor",
-	"target": "com.avast.android.batterysaver"
-},
-{
-	"packageName": "com.jingdong.app.mall",
-	"target": "com.amazon.mShop.android.shopping"
-},
-{
-	"packageName": "com.renren.mobile.android",
-	"target": "com.facebook.katana"
-},
-{
-	"packageName": "com.devuni.flashlight",
-	"target": "com.surpax.ledflashlight.panel"
-},
-{
-	"packageName": "cn.com.fetion",
-	"target": "com.att.android.mobile.attmessages"
-},
-{
-	"packageName": "com.cleanmaster.mguard_cn",
-	"target": "com.cleanmaster.mguard"
-},
-{
-	"packageName": "com.sohu.sohuvideo",
-	"target": "com.dailymotion.dailymotion"
-},
-{
-	"packageName": "com.duowan.mobile",
-	"target": "com.hao123.global.hiclub"
-},
-{
-	"packageName": "dopool.player",
-	"target": "com.netflix.mediaclient"
-},
-{
-	"packageName": "com.iflytek.inputmethod",
-	"target": "com.qisiemoji.inputmethod"
-},
-{
-	"packageName": "com.lbe.security",
-	"target": "com.symantec.mobilesecurity"
-},
-{
-	"packageName": "com.tongcheng.android",
-	"target": "com.tripadvisor.tripadvisor"
-},
-{
-	"packageName": "com.lingdong.client.android",
-	"target": "la.droid.qr"
-},
-{
-	"packageName": "com.shuqi.controller",
-	"target": "wp.wattpad"
-},
-{
-	"packageName": "com.letv.android.client",
-	"target": "com.spb.tv.am"
-},
-{
-	"packageName": "com.clov4r.android.nil",
-	"target": "org.videolan.vlc.betav7neon"
-},
-{
-	"packageName": "com.autoconnectwifi.app",
-	"target": "com.yunshang.wifimap"
-},
-{
-	"packageName": "com.qq.reader",
-	"target": "com.google.android.apps.books"
-},
-{
-	"packageName": "com.baidu.searchbox",
-	"target": "com.google.android.googlequicksearchbox"
-},
-{
-	"packageName": "com.shoujiduoduo.ringtone",
-	"target": "net.zedge.android"
-},
-{
-	"packageName": "com.tencent.WBlog",
-	"target": "com.plurk.android"
-},
-{
-	"packageName": "com.alensw.PicFolder",
-	"target": "com.google.android.apps.photos"
-},
-{
-	"packageName": "com.duomi.android",
-	"target": "deezer.android.app"
-},
-{
-	"packageName": "com.Qunar",
-	"target": "com.booking"
-},
-{
-	"packageName": "com.sdu.didi.psnger",
-	"target": "com.ubercab"
-},
-{
-	"packageName": "com.tudou.android",
-	"target": "com.xfinity.playnow"
-},
-{
-	"packageName": "com.baidu.tieba",
-	"target": "com.andrewshu.android.reddit"
-},
-{
-	"packageName": "com.meitu.meiyancamera",
-	"target": "com.venticake.retrica"
-},
-{
-	"packageName": "bubei.tingshu",
-	"target": "com.audible.application"
-},
-{
-	"packageName": "ctrip.android.view",
-	"target": "com.hcom.android"
-},
-{
-	"packageName": "com.funcity.taxi.passenger",
-	"target": "br.com.easytaxi"
-},
-{
-	"packageName": "com.tencent.qqpim",
-	"target": "com.keramidas.TitaniumBackup"
-},
-{
-	"packageName": "cn.chinabus.main",
-	"target": "com.tranzmate"
-},
-{
-	"packageName": "com.blovestorm",
-	"target": "com.truecaller"
-},
-{
-	"packageName": "com.xinmei365.font",
-	"target": "com.monotype.android.font.free.fifty6"
-},
-{
-	"packageName": "com.hiapk.marketpho",
-	"target": "com.android.vending"
-},
-{
-	"packageName": "com.zdworks.android.zdclock",
-	"target": "com.monotype.android.font.free.fifty6"
-},
-{
-	"packageName": "com.netease.newsreader.activity",
-	"target": "com.yahoo.mobile.client.android.yahoo"
-},
-{
-	"packageName": "com.tencent.research.drop",
-	"target": "com.dailymotion.dailymotion"
-},
-{
-	"packageName": "smskb.com",
-	"target": "com.thetrainline"
-},
-{
-	"packageName": "com.mymoney",
-	"target": "com.monefy.app.lite"
-},
-{
-	"packageName": "com.achievo.vipshop",
-	"target": "com.asos.app"
-},
-{
-	"packageName": "com.yoloho.dayima",
-	"target": "com.popularapp.periodcalendar"
-},
-{
-	"packageName": "com.alibaba.mobileim",
-	"target": "com.badoo.mobile"
-},
-{
-	"packageName": "com.dianxinos.dxhome",
-	"target": "com.ogqcorp.bgh"
-},
-{
-	"packageName": "com.qihoo360.mobilesafe.opti",
-	"target": "com.wsandroid.suite"
-},
-{
-	"packageName": "com.moxiu.launcher",
-	"target": "com.buzzpia.aqua.launcher"
-},
-{
-	"packageName": "com.smile.gifmaker",
-	"target": "net.lovoo.android"
-},
-{
-	"packageName": "com.dianxinos.powermanager",
-	"target": "com.macropinch.pearl"
-},
-{
-	"packageName": "com.tencent.qqpinyin",
-	"target": "com.nuance.swype.trial"
-},
-{
-	"packageName": "com.antutu.ABenchMark",
-	"target": "com.cpuid.cpu_z"
-},
-{
-	"packageName": "com.qihoo360.mobilesafe.opti.powerctl",
-	"target": "com.drweb"
-},
-{
-	"packageName": "com.kingreader.framework",
-	"target": "org.geometerplus.zlibrary.ui.android"
-},
-{
-	"packageName": "sina.mobile.tianqitong",
-	"target": "com.wunderground.android.weather"
-},
-{
-	"packageName": "com.tuniu.app.ui",
-	"target": "com.expedia.bookings"
-},
-{
-	"packageName": "com.wuba",
-	"target": "craigs.pro.plus"
-},
-{
-	"packageName": "com.handsgo.jiakao.android",
-	"target": "com.kep.driving.us"
-},
-{
-	"packageName": "cld.navi.mainframe",
-	"target": "com.sygic.aura"
-},
-{
-	"packageName": "com.tmall.wireless",
-	"target": "com.amazon.mShop.android.shopping"
-},
-{
-	"packageName": "com.xunlei.downloadprovider",
-	"target": "com.utorrent.client"
-},
-{
-	"packageName": "com.yibasan.lizhifm",
-	"target": "com.clearchannel.iheartradio.controller"
-},
-{
-	"packageName": "com.ss.android.article.news",
-	"target": "flipboard.app"
-},
-{
-	"packageName": "com.jb.gosms",
-	"target": "org.telegram.messenger"
-},
-{
-	"packageName": "com.miui.mihome2",
-	"target": "com.apusapps.launcher"
-},
-{
-	"packageName": "com.snda.youni",
-	"target": "com.sgiggle.production"
-},
-{
-	"packageName": "com.ting.mp3.android",
-	"target": "com.apple.android.music"
-},
-{
-	"packageName": "cn.goapk.market",
-	"target": "com.android.vending"
-},
-{
-	"packageName": "com.sohu.newsclient",
-	"target": "com.zumobi.msnbc"
-},
-{
-	"packageName": "com.nd.android.pandareader",
-	"target": "com.mobisystems.ubreader_west"
-},
-{
-	"packageName": "com.dragon.android.pandaspace",
-	"target": "com.android.vending"
-},
-{
-	"packageName": "com.tigerknows",
-	"target": "com.mapfactor.navigator"
-},
-{
-	"packageName": "com.tencent.token",
-	"target": "com.eset.ems2.gp"
-},
-{
-	"packageName": "cn.wps.moffice_eng",
-	"target": "com.mobisystems.office"
-},
-{
-	"packageName": "com.qihoo.appstore",
-	"target": "com.android.vending"
-},
-{
-	"packageName": "qsbk.app",
-	"target": "com.ninegag.android.app"
-},
-{
-	"packageName": "com.youba.flashlight",
-	"target": "com.intellectualflame.ledflashlight.washer"
-},
-{
-	"packageName": "cn.jingling.motu.photowonder",
-	"target": "com.joeware.android.gpulumera"
-},
-{
-	"packageName": "com.chinamworld.main",
-	"target": "com.infonow.bofa"
-},
-{
-	"packageName": "com.xiaomi.channel",
-	"target": "com.kakao.talk"
-},
-{
-	"packageName": "com.tadu.android",
-	"target": "com.mobilesrepublic.appy"
-},
-{
-	"packageName": "com.haodou.recipe",
-	"target": "com.scripps.android.foodnetwork"
-},
-{
-	"packageName": "com.douguo.recipe",
-	"target": "com.yummly.android"
-},
-{
-	"packageName": "com.dewmobile.kuaiya",
-	"target": "cn.xender"
-},
-{
-	"packageName": "com.tencent.news",
-	"target": "bbc.mobile.news.ww"
-},
-{
-	"packageName": "com.qihoo360.launcher",
-	"target": "com.campmobile.launcher"
-},
-{
-	"packageName": "com.lovebizhi.wallpaper",
-	"target": "com.catple.wallpapers"
-},
-{
-	"packageName": "com.baidu.netdisk",
-	"target": "com.dropbox.android"
-},
-{
-	"packageName": "com.ganji.android",
-	"target": "com.ebay.kleinanzeigen"
-},
-{
-	"packageName": "com.mogujie",
-	"target": "de.zalando.mobile"
-},
-{
-	"packageName": "my.PCamera",
-	"target": "com.jellybus.Moldiv"
-},
-{
-	"packageName": "com.oupeng.mini.android",
-	"target": "com.opera.mini.native"
-},
-{
-	"packageName": "cn.ibuka.manga.ui",
-	"target": "com.naver.linewebtoon"
-},
-{
-	"packageName": "cn.com.tiros.android.navidog",
-	"target": "com.mapswithme.maps.pro"
-},
-{
-	"packageName": "com.tuan800.android",
-	"target": "com.livingsocial.www"
-},
-{
-	"packageName": "com.anzhuoshoudiantong",
-	"target": "goldenshorestechnologies.brightestflashlight.free"
-},
-{
-	"packageName": "com.nd.android.pandahome2",
-	"target": "com.ksmobile.launcher"
-},
-{
-	"packageName": "com.tujia.hotel",
-	"target": "com.airbnb.android"
-},
-{
-	"packageName": "fm.qingting.qtradio",
-	"target": "tunein.player"
-},
-{
-	"packageName": "com.xiaoenai.app",
-	"target": "kr.co.vcnc.android.couple"
-},
-{
-	"packageName": "com.kingsoft",
-	"target": "at.nk.tools.iTranslate"
-},
-{
-	"packageName": "com.sankuai.movie",
-	"target": "net.flixster.android"
-},
-{
-	"packageName": "com.hunantv.imgo.activity",
-	"target": "com.undertap.watchlivetv"
-},
-{
-	"packageName": "com.danesh.system.app.remover",
-	"target": "com.rootuninstaller.free"
-},
-{
-	"packageName": "com.tencent.androidqqmail",
-	"target": "com.google.android.gm"
-},
-{
-	"packageName": "com.zhimahu",
-	"target": "ch.smalltech.battery.free"
-},
-{
-	"packageName": "com.icbc",
-	"target": "com.usbank.mobilebanking"
-},
-{
-	"packageName": "com.hexin.plat.android",
-	"target": "com.fusionmedia.investing"
-},
-{
-	"packageName": "com.xiachufang",
-	"target": "com.ajnsnewmedia.kitchenstories"
-},
-{
-	"packageName": "com.baidu.easyroot",
-	"target": "eu.chainfire.supersu"
-},
-{
-	"packageName": "hugh.android.app.zidian",
-	"target": "com.merriamwebster"
-},
-{
-	"packageName": "com.meitu.meipaimv",
-	"target": "co.vine.android"
-},
-{
-	"packageName": "com.myzaker.ZAKER_Phone",
-	"target": "com.devhd.feedly"
-},
-{
-	"packageName": "bdmobile.android.app",
-	"target": "com.google.android.googlequicksearchbox"
-},
-{
-	"packageName": "com.autonavi.xmgd.navigator",
-	"target": "com.here.app.maps"
-},
-{
-	"packageName": "com.cubic.autohome",
-	"target": "com.cars.android"
-},
-{
-	"packageName": "com.jiasoft.swreader",
-	"target": "com.aldiko.android"
-},
-{
-	"packageName": "com.muzhiwan.market",
-	"target": "com.google.android.play.games"
-},
-{
-	"packageName": "com.yixia.videoeditor",
-	"target": "com.mobilemotion.dubsmash"
-},
-{
-	"packageName": "com.duowan.lolbox",
-	"target": "com.CreativeDK.LeagueofLegendsChampions"
-},
-{
-	"packageName": "com.mandi.lol",
-	"target": "gg.op.lol.android"
-},
-{
-	"packageName": "com.anyview",
-	"target": "com.ebooks.ebookreader"
-},
-{
-	"packageName": "com.ss.android.essay.joke",
-	"target": "mobi.ifunny"
-},
-{
-	"packageName": "com.cootek.smartdialer",
-	"target": "com.imo.android.imoim"
-},
-{
-	"packageName": "com.duokan.reader",
-	"target": "com.amazon.kindle"
-},
-{
-	"packageName": "com.lianlian",
-	"target": "org.kman.WifiManager"
-},
-{
-	"packageName": "com.knightli.jokebook",
-	"target": "com.sphinx.lolpics"
-},
-{
-	"packageName": "cn.buding.coupon",
-	"target": "com.coupons.ciapp"
-},
-{
-	"packageName": "com.mapbar.android.mapbarmap",
-	"target": "cz.aponia.bor3.offlinemaps"
-},
-{
-	"packageName": "com.tencent.qqlite",
-	"target": "com.facebook.lite"
-},
-{
-	"packageName": "com.chaozh.iReaderFree15",
-	"target": "com.kobobooks.android"
-},
-{
-	"packageName": "com.gamestar.pianoperfect",
-	"target": "com.rubycell.pianisthd"
-},
-{
-	"packageName": "com.wandoujia.roshan",
-	"target": "com.teslacoilsw.launcher"
-},
-{
-	"packageName": "com.jm.android.jumei",
-	"target": "com.rarewire.forever21"
-},
-{
-	"packageName": "com.manboker.headportrait",
-	"target": "com.niksoftware.snapseed"
-},
-{
-	"packageName": "com.greenpoint.android.mc10086.activity",
-	"target": "com.att.myWireless"
-},
-{
-	"packageName": "com.lanteanstudio.compass",
-	"target": "com.codesector.maverick.lite"
-},
-{
-	"packageName": "tv.danmaku.bili",
-	"target": "jp.nicovideo.android"
-},
-{
-	"packageName": "com.douban.radio",
-	"target": "com.ad60.songza"
-},
-{
-	"packageName": "com.sinovatech.unicom.ui",
-	"target": "nl.oberon.tmobile.my"
-},
-{
-	"packageName": "com.ximalaya.ting.android",
-	"target": "com.pandora.android"
-},
-{
-	"packageName": "com.byread.reader",
-	"target": "com.scribd.app.reader0"
-},
-{
-	"packageName": "com.codingcaveman.Solo",
-	"target": "com.ultimateguitar.tabs"
-},
-{
-	"packageName": "com.zhihu.android",
-	"target": "com.quora.android"
-},
-{
-	"packageName": "com.lectek.android.sfreader",
-	"target": "books.ebook.pdf.reader"
-},
-{
-	"packageName": "com.yx",
-	"target": "kik.android"
-},
-{
-	"packageName": "com.tuan800.tao800",
-	"target": "com.whaleshark.retailmenot"
-},
-{
-	"packageName": "com.jiongji.andriod.card",
-	"target": "com.chineseskill"
-},
-{
-	"packageName": "com.app.hero.ui",
-	"target": "com.smule.singandroid"
-},
-{
-	"packageName": "com.thestore.main",
-	"target": "com.walmart.android"
-},
-{
-	"packageName": "im.yixin",
-	"target": "com.verizon.messaging.vzmsgs"
-},
-{
-	"packageName": "com.zhiqupk.root",
-	"target": "com.noshufou.android.su"
-},
-{
-	"packageName": "wenhr.Mcdonalds",
-	"target": "com.mcdonalds.app"
-},
-{
-	"packageName": "com.yinyuetai.ui",
-	"target": "com.vevo"
-},
-{
-	"packageName": "com.suning.mobile.ebuy",
-	"target": "com.ebay.mobile"
-},
-{
-	"packageName": "com.xunlei.cloud",
-	"target": "com.kmplayer"
-},
-{
-	"packageName": "com.hy.minifetion",
-	"target": "com.att.android.tablet.attmessages"
-},
-{
-	"packageName": "com.kingroot.kinguser",
-	"target": "com.kingouser.com"
-},
-{
-	"packageName": "com.android.bankabc",
-	"target": "com.sbi.SBIFreedomPlus"
-},
-{
-	"packageName": "com.liulishuo.engzo",
-	"target": "com.chineseskill.lan_tool.sc"
-}]
+[
+{"packageName": "com.tencent.mm", "target": "com.whatsapp", "note": "尽管没有朋友圈和各种各样的功能，但就地位而言，Whatsapp 就是海外的微信。"},
+{"packageName": "com.tencent.mobileqq", "target": "com.facebook.orca", "note": "两大巨头的即时通讯应用，十多亿人都在用"},
+{"packageName": "com.UCMobile", "target": "org.mozilla.firefox", "note": "经历过 Web、Symbian、Android 等历史的变革，UC 和 Firefox 一样仍然是浏览器的主要选择"},
+{"packageName": "com.sohu.inputmethod.sogou", "target": "com.touchtype.swiftkey", "note": "Google Play 输入法排行榜第一名"},
+{"packageName": "com.qihoo360.mobilesafe", "target": "com.avast.android.mobilesecurity", "note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中 360 我们翻译为 Avast，他们同为市场的领先者"},
+{"packageName": "com.sds.android.ttpod", "target": "com.maxmpz.audioplayer&hl=zh_CN", "note": "Poweramp 和天天动听一样，都曾经是手机上最好的音乐播放器。不同的是，Poweramp 现在依然还是一款很棒的音乐播放器"},
+{"packageName": "com.taobao.taobao", "target": "com.ebay.mobile", "note": "正是 Ebay 在中国的失败成就了中国的淘宝"},
+{"packageName": "com.qzone", "target": "com.facebook.katana", "note": "两大巨头的社交平台，十多亿人都在用"},
+{"packageName": "com.moji.mjweather", "target": "com.accuweather.android", "note": "国外用的最多的天气 App，少了实景照片，却多了许多的专业。"},
+{"packageName": "com.sina.weibo", "target": "com.twitter.android", "note": "应该是最没有异议的一组翻译了，新浪微博是中国的 Twitter"},
+{"packageName": "com.kugou.android", "target": "com.spotify.music", "note": "非要给 Spotify 找一个中国对应的应用，我选择搜狗音乐。一是因为他还没有被巨头收购，二是因为记忆深处的「Hello，Kugou」"},
+{"packageName": "cn.opda.a.phonoalbumshoushou", "target": "com.antivirus", "note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中百度我们翻译为 AVG"},
+{"packageName": "com.youku.phone", "target": "com.google.android.youtube", "note": "优酷=中国的 Youtube，这个必须知道"},
+{"packageName": "com.storm.smart", "target": "", "note": ""},
+{"packageName": "com.qiyi.video", "target": "com.netflix.mediaclient", "note": "从早期的光碟租赁起家，Netflix 已经成为美国最大的在线视频网站之一"},
+{"packageName": "com.snda.wifilocating", "target": "mobi.wifi.toolbox", "note": ""},
+{"packageName": "com.tencent.qqpimsecure", "target": "com.avira.android", "note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中腾讯我们翻译为 Avira"},
+{"packageName": "com.eg.android.AlipayGphone", "target": "com.paypal.android.p2pmobile", "note": ""},
+{"packageName": "com.mt.mtxx.mtxx", "target": "com.picsart.studio", "note": ""},
+{"packageName": "com.baidu.BaiduMap", "target": "com.google.android.apps.maps", "note": ""},
+{"packageName": "com.immomo.momo", "target": "com.badoo.mobile", "note": ""},
+{"packageName": "com.tencent.qqmusic", "target": "com.google.android.music", "note": "「腾讯的音乐 APP」译为 Apple Music"},
+{"packageName": "com.gau.go.launcherex", "target": "home.solo.launcher.free", "note": ""},
+{"packageName": "com.tencent.mtt", "target": "com.android.chrome", "note": ""},
+{"packageName": "com.wochacha", "target": "me.scan.android.client", "note": ""},
+{"packageName": "com.chaozh.iReaderFree", "target": "com.scribd.app.reader0", "note": ""},
+{"packageName": "com.sankuai.meituan", "target": "com.groupon", "note": ""},
+{"packageName": "com.autonavi.minimap", "target": "com.waze", "note": ""},
+{"packageName": "vStudio.Android.Camera360", "target": "com.cyworld.camera", "note": ""},
+{"packageName": "com.youdao.dict", "target": "com.csst.ecdict", "note": ""},
+{"packageName": "com.pplive.androidphone", "target": "", "note": ""},
+{"packageName": "com.changba", "target": "com.famousbluemedia.yokee", "note": ""},
+{"packageName": "com.tencent.qqlive", "target": "com.yahoo.mobile.client.android.screen", "note": "Yahoo 的在线视频网站，拥有 NFL 的独家版权，正如腾讯视频对 NBA 的独家版权一样"},
+{"packageName": "com.dianping.v1", "target": "com.yelp.android", "note": ""},
+{"packageName": "tv.pps.mobile", "target": "com.viewster.androidapp", "note": ""},
+{"packageName": "com.estrongs.android.pop", "target": "com.speedsoftware.rootexplorer", "note": ""},
+{"packageName": "cn.kuwo.player", "target": "com.rdio.android.ui", "note": ""},
+{"packageName": "com.androidesk", "target": "net.zedge.android", "note": ""},
+{"packageName": "cn.etouch.ecalendar", "target": "com.google.android.calendar", "note": ""},
+{"packageName": "com.baidu.input", "target": "com.qisiemoji.inputmethod", "note": "一款出海成功的中国制造产品，是 Google Play 排行第二的输入法"},
+{"packageName": "com.baidu.video", "target": "com.viki.android", "note": ""},
+{"packageName": "com.ijinshan.kbatterydoctor", "target": "com.ijinshan.kbatterydoctor_en", "note": "特别的把金山电池医生翻译成其国际版，不得不佩服其的海外推广能力，其在 Google Play 的下载量堪比 Facebook。"},
+{"packageName": "com.jingdong.app.mall", "target": "com.contextlogic.wish", "note": ""},
+{"packageName": "com.renren.mobile.android", "target": "com.myspace.spacerock", "note": "人人网，曾经被誉为中国的 Facebook，如今更像是中国的 Myspace。Myspace 正在崛起，人人呢？"},
+{"packageName": "com.devuni.flashlight", "target": "com.surpax.ledflashlight.panel", "note": ""},
+{"packageName": "cn.com.fetion", "target": "com.google.android.talk", "note": ""},
+{"packageName": "com.cleanmaster.mguard_cn", "target": "com.cleanmaster.mguard", "note": "特别的把猎豹清理大师简单的翻译成其国际版，不得不佩服其的海外推广能力，其在 Google Play 的下载量甚至超过了 Facebook。"},
+{"packageName": "com.sohu.sohuvideo", "target": "com.hulu.plus", "note": "Hulu 是美国最受欢迎的视频网站，拥有 NBC、FOX 等多家版权资源"},
+{"packageName": "com.duowan.mobile", "target": "tv.periscope.android", "note": ""},
+{"packageName": "dopool.player", "target": "com.spb.tv.am", "note": ""},
+{"packageName": "com.iflytek.inputmethod", "target": "com.aitype.android", "note": "Google Play 输入法排行榜第三名"},
+{"packageName": "com.lbe.security", "target": "com.eset.ems2.gp", "note": "LBE 的海外同类选择了来自斯洛伐克 ESET，同样的专注于安全，名字的来历也同样有趣"},
+{"packageName": "com.tongcheng.android", "target": "com.hotwire.hotels", "note": ""},
+{"packageName": "com.lingdong.client.android", "target": "la.droid.qr", "note": ""},
+{"packageName": "com.shuqi.controller", "target": "org.coolreader", "note": ""},
+{"packageName": "com.letv.android.client", "target": "", "note": ""},
+{"packageName": "com.clov4r.android.nil", "target": "com.mxtech.videoplayer.ad", "note": ""},
+{"packageName": "com.autoconnectwifi.app", "target": "com.yunshang.wifimap", "note": ""},
+{"packageName": "com.qq.reader", "target": "com.google.android.apps.books", "note": ""},
+{"packageName": "com.baidu.searchbox", "target": "com.google.android.googlequicksearchbox", "note": ""},
+{"packageName": "com.shoujiduoduo.ringtone", "target": "net.zedge.android", "note": ""},
+{"packageName": "com.tencent.WBlog", "target": "com.plurk.android", "note": ""},
+{"packageName": "com.alensw.PicFolder", "target": "com.google.android.apps.photos", "note": ""},
+{"packageName": "com.duomi.android", "target": "com.pandora.android", "note": ""},
+{"packageName": "com.Qunar", "target": "com.kayak.android", "note": ""},
+{"packageName": "com.sdu.didi.psnger", "target": "com.ubercab", "note": ""},
+{"packageName": "com.tudou.android", "target": "com.dailymotion.dailymotion", "note": "Dailymotion 是海外仅次于 Youtube 的视频分享网站"},
+{"packageName": "com.baidu.tieba", "target": "com.andrewshu.android.reddit", "note": ""},
+{"packageName": "com.meitu.meiyancamera", "target": "com.joeware.android.gpulumera", "note": ""},
+{"packageName": "bubei.tingshu", "target": "com.audible.application", "note": ""},
+{"packageName": "ctrip.android.view", "target": "com.expedia.bookings", "note": ""},
+{"packageName": "com.funcity.taxi.passenger", "target": "br.com.easytaxi", "note": ""},
+{"packageName": "com.tencent.qqpim", "target": "com.keramidas.TitaniumBackup", "note": ""},
+{"packageName": "cn.chinabus.main", "target": "com.tranzmate", "note": ""},
+{"packageName": "com.blovestorm", "target": "com.truecaller", "note": ""},
+{"packageName": "com.xinmei365.font", "target": "com.monotype.android.font.free.fifty6", "note": ""},
+{"packageName": "com.hiapk.marketpho", "target": "com.android.vending", "note": ""},
+{"packageName": "com.zdworks.android.zdclock", "target": "com.monotype.android.font.free.fifty6", "note": ""},
+{"packageName": "com.netease.newsreader.activity", "target": "com.google.android.apps.genie.geniewidget", "note": ""},
+{"packageName": "com.tencent.research.drop", "target": "com.google.android.apps.chromecast.app", "note": ""},
+{"packageName": "smskb.com", "target": "uk.co.nationalrail.google", "note": ""},
+{"packageName": "com.mymoney", "target": "com.monefy.app.lite", "note": ""},
+{"packageName": "com.achievo.vipshop", "target": "com.asos.app", "note": ""},
+{"packageName": "com.yoloho.dayima", "target": "com.popularapp.periodcalendar", "note": ""},
+{"packageName": "com.dataviz.docstogo", "target": "com.microsoft.office.officehub", "note": ""},
+{"packageName": "com.dianxinos.dxhome", "target": "com.ksmobile.launcher", "note": ""},
+{"packageName": "com.qihoo360.mobilesafe.opti", "target": "com.avast.android.cleaner", "note": "Avast 对应的优化应用"},
+{"packageName": "com.moxiu.launcher", "target": "com.campmobile.launcher", "note": ""},
+{"packageName": "com.smile.gifmaker", "target": "net.zentertain.funvideo", "note": ""},
+{"packageName": "com.dianxinos.powermanager", "target": "com.avg.cleaner", "note": "AVG 对应的优化应用"},
+{"packageName": "com.tencent.qqpinyin", "target": "com.syntellia.fleksy.keyboard", "note": "Google Play 输入法排行榜第四名"},
+{"packageName": "com.antutu.ABenchMark", "target": "com.cpuid.cpu_z", "note": ""},
+{"packageName": "com.qihoo360.mobilesafe.opti.powerctl", "target": "com.avast.android.batterysaver", "note": "Avast 对应的电池管理应用"},
+{"packageName": "com.kingreader.framework", "target": "com.kobobooks.android", "note": ""},
+{"packageName": "com.jiubang.goscreenlock", "target": "com.ztapps.lockermaster", "note": ""},
+{"packageName": "sina.mobile.tianqitong", "target": "com.devexpert.weather", "note": "一款国外用的很多的天气 App，桌面插件是其特色"},
+{"packageName": "com.tuniu.app.ui", "target": "com.momondo.flightsearch", "note": ""},
+{"packageName": "com.wuba", "target": "craigs.pro.plus", "note": ""},
+{"packageName": "com.handsgo.jiakao.android", "target": "com.kep.driving.us", "note": ""},
+{"packageName": "cld.navi.mainframe", "target": "com.mapfactor.navigator", "note": ""},
+{"packageName": "com.tmall.wireless", "target": "com.amazon.mShop.android.shopping", "note": ""},
+{"packageName": "com.xunlei.downloadprovider", "target": "com.utorrent.client", "note": ""},
+{"packageName": "com.yibasan.lizhifm", "target": "com.clearchannel.iheartradio.controller", "note": ""},
+{"packageName": "com.ss.android.article.news", "target": "flipboard.app", "note": ""},
+{"packageName": "com.jb.gosms", "target": "com.textra", "note": ""},
+{"packageName": "com.miui.mihome2", "target": "com.hola.launcher", "note": ""},
+{"packageName": "com.snda.youni", "target": "jp.naver.line.android", "note": ""},
+{"packageName": "com.ting.mp3.android", "target": "com.apple.android.music", "note": "「百度的音乐 App」译为 Apple Music"},
+{"packageName": "cn.goapk.market", "target": "com.android.vending", "note": ""},
+{"packageName": "com.sohu.newsclient", "target": "com.yahoo.mobile.client.android.yahoo", "note": ""},
+{"packageName": "com.nd.android.pandareader", "target": "com.aldiko.android", "note": ""},
+{"packageName": "com.dragon.android.pandaspace", "target": "com.android.vending", "note": ""},
+{"packageName": "com.tigerknows", "target": "com.mapswithme.maps.pro", "note": ""},
+{"packageName": "com.tencent.token", "target": "com.mcafee.mmi", "note": ""},
+{"packageName": "cn.wps.moffice_eng", "target": "com.mobisystems.office", "note": ""},
+{"packageName": "com.qihoo.appstore", "target": "com.android.vending", "note": ""},
+{"packageName": "com.funshion.video.mobile", "target": "com.bianor.amspremium", "note": ""},
+{"packageName": "qsbk.app", "target": "com.ninegag.android.app", "note": ""},
+{"packageName": "com.youba.flashlight", "target": "com.intellectualflame.ledflashlight.washer", "note": ""},
+{"packageName": "cn.jingling.motu.photowonder", "target": "com.everimaging.photoeffectstudio", "note": ""},
+{"packageName": "com.chinamworld.main", "target": "com.infonow.bofa", "note": ""},
+{"packageName": "com.xiaomi.channel", "target": "org.telegram.messenger", "note": ""},
+{"packageName": "com.tadu.android", "target": "com.mobisystems.ubreader_west", "note": ""},
+{"packageName": "com.haodou.recipe", "target": "com.scripps.android.foodnetwork", "note": ""},
+{"packageName": "com.douguo.recipe", "target": "com.yummly.android", "note": ""},
+{"packageName": "com.dewmobile.kuaiya", "target": "cn.xender", "note": ""},
+{"packageName": "com.tencent.news", "target": "com.foxnews.android", "note": ""},
+{"packageName": "com.qihoo360.launcher", "target": "com.apusapps.launcher", "note": "这是款中国开发者的应用，但却是国外最流行的桌面应用"},
+{"packageName": "com.lovebizhi.wallpaper", "target": "com.ogqcorp.bgh", "note": ""},
+{"packageName": "com.baidu.netdisk", "target": "com.dropbox.android", "note": ""},
+{"packageName": "com.ganji.android", "target": "com.ebay.kleinanzeigen", "note": ""},
+{"packageName": "com.mogujie", "target": "de.zalando.mobile", "note": ""},
+{"packageName": "my.PCamera", "target": "com.vsco.cam", "note": ""},
+{"packageName": "com.xunlei.kankan", "target": "com.gotv.crackle.handset", "note": ""},
+{"packageName": "com.oupeng.mini.android", "target": "com.opera.mini.native", "note": "欧朋极速版，Opera Mini 浏览器的中国版本"},
+{"packageName": "cn.ibuka.manga.ui", "target": "com.naver.linewebtoon", "note": ""},
+{"packageName": "cn.com.tiros.android.navidog", "target": "cz.aponia.bor3.offlinemaps", "note": ""},
+{"packageName": "com.tuan800.android", "target": "com.livingsocial.www", "note": ""},
+{"packageName": "com.nuomi", "target": "thecouponsapp.coupon", "note": ""},
+{"packageName": "com.anzhuoshoudiantong", "target": "goldenshorestechnologies.brightestflashlight.free", "note": ""},
+{"packageName": "com.nd.android.pandahome2", "target": "com.teslacoilsw.launcher", "note": ""},
+{"packageName": "com.tujia.hotel", "target": "com.airbnb.android", "note": ""},
+{"packageName": "fm.qingting.qtradio", "target": "tunein.player", "note": ""},
+{"packageName": "com.xiaoenai.app", "target": "kr.co.vcnc.android.couple", "note": ""},
+{"packageName": "com.kingsoft", "target": "com.bravolol.bravolang.englishchinesecdictionary", "note": ""},
+{"packageName": "com.sankuai.movie", "target": "com.bt.bms", "note": ""},
+{"packageName": "com.hunantv.imgo.activity", "target": "com.cw.fullepisodes.android", "note": ""},
+{"packageName": "com.danesh.system.app.remover", "target": "com.rootuninstaller.free", "note": ""},
+{"packageName": "com.tencent.androidqqmail", "target": "com.google.android.gm", "note": ""},
+{"packageName": "com.icbc", "target": "com.usbank.mobilebanking", "note": ""},
+{"packageName": "com.hexin.plat.android", "target": "com.fusionmedia.investing", "note": ""},
+{"packageName": "com.xiachufang", "target": "com.bigoven.android", "note": ""},
+{"packageName": "com.baidu.easyroot", "target": "eu.chainfire.supersu", "note": ""},
+{"packageName": "hugh.android.app.zidian", "target": "com.merriamwebster", "note": ""},
+{"packageName": "viva.reader", "target": "jp.gocro.smartnews.android", "note": ""},
+{"packageName": "com.meitu.meipaimv", "target": "co.vine.android", "note": ""},
+{"packageName": "com.myzaker.ZAKER_Phone", "target": "com.mobilesrepublic.appy", "note": ""},
+{"packageName": "com.kandian.vodapp", "target": "air.com.vudu.air.DownloaderTablet", "note": ""},
+{"packageName": "bdmobile.android.app", "target": "com.google.android.googlequicksearchbox", "note": ""},
+{"packageName": "com.autonavi.xmgd.navigator", "target": "com.waze", "note": ""},
+{"packageName": "com.cubic.autohome", "target": "com.cars.android", "note": ""},
+{"packageName": "com.jiasoft.swreader", "target": "org.geometerplus.zlibrary.ui.android", "note": ""},
+{"packageName": "com.muzhiwan.market", "target": "com.google.android.play.games", "note": ""},
+{"packageName": "com.yixia.videoeditor", "target": "com.avodev.bestvines", "note": ""},
+{"packageName": "com.duowan.lolbox", "target": "com.CreativeDK.LeagueofLegendsChampions", "note": ""},
+{"packageName": "com.mandi.lol", "target": "gg.op.lol.android", "note": ""},
+{"packageName": "com.anyview", "target": "bn.ereader", "note": ""},
+{"packageName": "com.ss.android.essay.joke", "target": "mobi.ifunny", "note": ""},
+{"packageName": "com.cootek.smartdialer", "target": "com.skype.raider", "note": ""},
+{"packageName": "com.duokan.reader", "target": "com.amazon.kindle", "note": ""},
+{"packageName": "com.lianlian", "target": "org.kman.WifiManager", "note": ""},
+{"packageName": "com.kaixin001.activity", "target": "com.vkontakte.android", "note": ""},
+{"packageName": "com.knightli.jokebook", "target": "com.sphinx.lolpics", "note": ""},
+{"packageName": "com.tencent.android.qqdownloader", "target": "com.android.vending", "note": ""},
+{"packageName": "cn.buding.coupon", "target": "com.coupons.ciapp", "note": ""},
+{"packageName": "com.baidu.browser.apps", "target": "com.yandex.browser", "note": ""},
+{"packageName": "com.mapbar.android.mapbarmap", "target": "com.sygic.aura", "note": ""},
+{"packageName": "com.tencent.qqlite", "target": "com.facebook.lite", "note": ""},
+{"packageName": "com.chaozh.iReaderFree15", "target": "com.ebooks.ebookreader", "note": ""},
+{"packageName": "com.gamestar.pianoperfect", "target": "com.rubycell.pianisthd", "note": ""},
+{"packageName": "com.wandoujia.roshan", "target": "com.google.android.launcher", "note": ""},
+{"packageName": "com.jm.android.jumei", "target": "com.rarewire.forever21", "note": ""},
+{"packageName": "obg1.PhotafPro", "target": "com.vtcreator.android360", "note": ""},
+{"packageName": "com.manboker.headportrait", "target": "com.fingersoft.cartooncamera", "note": ""},
+{"packageName": "com.greenpoint.android.mc10086.activity", "target": "com.att.myWireless", "note": ""},
+{"packageName": "com.lanteanstudio.compass", "target": "com.codesector.maverick.lite", "note": ""},
+{"packageName": "tv.danmaku.bili", "target": "jp.nicovideo.android", "note": ""},
+{"packageName": "com.douban.radio", "target": "com.ad60.songza", "note": "有的时候只想听某一类型的音乐，在国内选择豆瓣 FM，在国外试试 Songza。"},
+{"packageName": "com.sinovatech.unicom.ui", "target": "nl.oberon.tmobile.my", "note": ""},
+{"packageName": "com.ximalaya.ting.android", "target": "com.bambuna.podcastaddict", "note": ""},
+{"packageName": "com.codingcaveman.Solo", "target": "com.ultimateguitar.tabs", "note": ""},
+{"packageName": "com.zhihu.android", "target": "com.quora.android", "note": ""},
+{"packageName": "com.yx", "target": "com.viber.voip", "note": ""},
+{"packageName": "com.tuan800.tao800", "target": "com.whaleshark.retailmenot", "note": ""},
+{"packageName": "com.jiongji.andriod.card", "target": "com.funeasylearn.english", "note": ""},
+{"packageName": "my.beautyCamera", "target": "jp.naver.linecamera.android", "note": ""},
+{"packageName": "com.app.hero.ui", "target": "com.smule.singandroid", "note": ""},
+{"packageName": "com.alex.lookwifipassword", "target": "com.osmino.wifil", "note": ""},
+{"packageName": "com.thestore.main", "target": "com.walmart.android", "note": ""},
+{"packageName": "com.ifeng.news2", "target": "com.cnn.mobile.android.phone", "note": ""},
+{"packageName": "im.yixin", "target": "com.kakao.talk", "note": ""},
+{"packageName": "com.ophone.reader.ui", "target": "com.neverland.alreader", "note": ""},
+{"packageName": "com.lltskb.lltskb", "target": "com.tomtom.gplay.navapp", "note": ""},
+{"packageName": "com.meilishuo", "target": "com.urbanoutfitters.android", "note": ""},
+{"packageName": "com.zhiqupk.root", "target": "com.noshufou.android.su", "note": ""},
+{"packageName": "com.gau.go.launcherex.gowidget.weatherwidget", "target": "com.yahoo.mobile.client.android.weather", "note": "Yahoo Weather 和 GO 天气真的长的一模一样"},
+{"packageName": "wenhr.Mcdonalds", "target": "com.mcdonalds.app", "note": ""},
+{"packageName": "com.yinyuetai.ui", "target": "com.vevo", "note": ""},
+{"packageName": "com.suning.mobile.ebuy", "target": "com.bestbuy.android", "note": ""},
+{"packageName": "com.wlanplus.chang", "target": "de.android.telnet", "note": ""},
+{"packageName": "uk.co.nickfines.RealCalc", "target": "us.mathlab.android", "note": ""},
+{"packageName": "com.herman.ringtone", "target": "com.ringdroid", "note": ""},
+{"packageName": "com.redirectin.rockplayer.android.unified", "target": "com.mxtech.videoplayer.ad", "note": ""},
+{"packageName": "one.hh.oneclient", "target": "com.issuu.android.app", "note": ""},
+{"packageName": "com.cootek.smartinputv5", "target": "com.gingersoftware.android.keyboard", "note": "Google Play 输入法排行榜第五名"},
+{"packageName": "com.zzenglish.client", "target": "com.duolingo", "note": ""},
+{"packageName": "com.wacai365", "target": "com.thirdframestudios.android.expensoor", "note": ""},
+{"packageName": "com.dp.android.elong", "target": "com.makemytrip", "note": ""},
+{"packageName": "com.mybook66", "target": "com.goodreads", "note": ""},
+{"packageName": "com.lashou.groupurchasing", "target": "com.aircrunch.shopalerts", "note": ""},
+{"packageName": "com.anjuke.android.app", "target": "com.zillow.android.zillowmap", "note": ""},
+{"packageName": "com.autonavi.cmccmap", "target": "com.magnetic.openmaps", "note": ""},
+{"packageName": "com.hy.minifetion", "target": "com.google.android.talk", "note": ""},
+{"packageName": "com.tencent.ttpic", "target": "com.roidapp.photogrid", "note": ""},
+{"packageName": "com.uu.uunavi", "target": "com.mapquest.android.ace", "note": ""},
+{"packageName": "com.kingroot.kinguser", "target": "com.kingouser.com", "note": ""},
+{"packageName": "com.android.bankabc", "target": "com.sbi.SBIFreedomPlus", "note": ""},
+{"packageName": "com.liulishuo.engzo", "target": "vn.scdgroup.bbclearningenglish", "note": ""},
+{"packageName": "com.iooly.android.lockscreen", "target": "com.celltick.lockscreen", "note": ""},
+{"packageName": "com.android.dazhihui", "target": "com.yahoo.mobile.client.android.finance", "note": ""},
+{"packageName": "cmb.pb", "target": "com.snapwork.hdfc", "note": ""},
+{"packageName": "com.mtime", "target": "com.imdb.mobile", "note": ""},
+{"packageName": "com.ijinshan.duba", "target": "com.kms.free", "note": "卡巴斯基&金山毒霸，联系在一起就是上一个时代"},
+{"packageName": "com.miui.home", "target": "com.henry.app.optimizer.os8.lockscreen", "note": ""},
+{"packageName": "com.alibaba.android.babylon", "target": "com.snapchat.android", "note": ""},
+{"packageName": "com.Moco", "target": "com.soreal.truthordare", "note": ""},
+{"packageName": "cn.com.opda.android.clearmaster", "target": "com.liquidum.thecleaner", "note": "只专注于清理"},
+{"packageName": "com.qidian.QDReader", "target": "com.obreey.reader", "note": ""},
+{"packageName": "com.qihoo.browser", "target": "nu.tommie.inbrowser", "note": ""},
+{"packageName": "com.tiqiaa.icontrol", "target": "com.freeiruniversalremote", "note": ""},
+{"packageName": "cn.cntv", "target": "com.cbs.app", "note": ""},
+{"packageName": "com.qigame.lock", "target": "com.microsoft.next", "note": ""},
+{"packageName": "com.youba.barcode", "target": "com.google.zxing.client.android", "note": ""},
+{"packageName": "com.xinmei365.wallpaper", "target": "com.campmobile.android.linedeco", "note": ""},
+{"packageName": "com.gift.android", "target": "com.yatra.base", "note": ""},
+{"packageName": "org.fungo.fungolive", "target": "com.undertap.watchlivetv", "note": ""},
+{"packageName": "com.diguayouxi", "target": "com.mobile.ign", "note": ""},
+{"packageName": "com.douban.movie", "target": "net.flixster.android", "note": ""},
+{"packageName": "com.calendar.UI", "target": "com.droid27.transparentclockweather", "note": "呃，这个真的翻译不出来了，国外不过黄历，不过可以试试月相"},
+{"packageName": "com.sg.sledog", "target": "com.tranzmate", "note": ""},
+{"packageName": "com.qihoo.video", "target": "com.xfinity.playnow", "note": ""},
+{"packageName": "com.mymoney.sms", "target": "com.creditkarma.mobile", "note": ""},
+{"packageName": "com.netease.cloudmusic", "target": "com.soundcloud.android", "note": ""},
+{"packageName": "net.iaround", "target": "com.skout.android", "note": ""},
+{"packageName": "com.xiudang.jiukuaiyou.ui", "target": "com.ebay.redlaser", "note": ""},
+{"packageName": "com.tencent.map", "target": "com.google.android.street", "note": ""},
+{"packageName": "com.flightmanager.view", "target": "com.flightradar24pro", "note": ""},
+{"packageName": "com.tencent.qt.qtl", "target": "com.lolsummoners", "note": ""},
+{"packageName": "org.dayup.gnotes", "target": "com.google.android.keep", "note": ""},
+{"packageName": "fm.xiami.main", "target": "com.shazam.android", "note": ""},
+{"packageName": "com.manle.phone.android.yaodian", "target": "com.goodrx", "note": ""},
+{"packageName": "com.ifeng.newvideo", "target": "com.cnn.mobile.android.phone", "note": ""},
+{"packageName": "com.sogou.map.android.maps", "target": "com.here.app.maps", "note": ""},
+{"packageName": "me.ele", "target": "com.grubhub.android", "note": ""},
+{"packageName": "com.mt.mttt", "target": "com.niksoftware.snapseed", "note": ""},
+{"packageName": "com.mt.mtgif", "target": "com.riffsy.FBMGIFApp", "note": ""},
+{"packageName": "com.budejie.www", "target": "com.rantaz.sgfunnyquotes", "note": ""},
+{"packageName": "com.sankuai.meituan.takeoutnew", "target": "com.seamlessweb.android.view", "note": ""},
+{"packageName": "com.jiuyan.infashion", "target": "com.tumblr", "note": ""},
+{"packageName": "cn.chono.yopper", "target": "com.myyearbook.m", "note": ""},
+{"packageName": "com.mx.browser", "target": "com.explore.web.browser", "note": ""},
+{"packageName": "cn.lieche.main", "target": "com.thetrainline", "note": ""},
+{"packageName": "com.bankcomm", "target": "com.chase.sig.android", "note": ""},
+{"packageName": "com.soft.blued", "target": "com.grindrapp.android", "note": ""},
+{"packageName": "com.aspire.g3wlan.client", "target": "com.att.android.ufi", "note": ""},
+{"packageName": "com.when.coco", "target": "jp.co.johospace.jorte", "note": ""},
+{"packageName": "com.baozoumanhua.android", "target": "com.imgur.mobile", "note": ""},
+{"packageName": "com.ludashi.benchmark", "target": "com.finalwire.aida64", "note": ""},
+{"packageName": "com.kapp.ifont", "target": "com.monotype.android.font.simprosys.stylishfonts", "note": ""},
+{"packageName": "com.jxedt", "target": "com.yjklkj.dl.ca", "note": ""},
+{"packageName": "air.fyzb3", "target": "air.WatchESPN", "note": ""},
+{"packageName": "com.estrongs.android.taskmanager", "target": "com.lookout.zapper", "note": ""},
+{"packageName": "me.chunyu.ChunyuDoctor", "target": "com.healthtap.userhtexpress", "note": ""},
+{"packageName": "com.ucamera.ucam", "target": "com.venticake.retrica", "note": ""},
+{"packageName": "com.zhihu.daily.android", "target": "", "note": ""},
+{"packageName": "me.abitno.vplayer.t", "target": "org.videolan.vlc.betav7neon", "note": ""},
+{"packageName": "fm.jihua.kecheng", "target": "com.virblue.mystudylife", "note": ""},
+{"packageName": "go.launcher.theme.KissMe", "target": "ginlemon.flowerfree", "note": ""},
+{"packageName": "com.tencent.karaoke", "target": "com.softbolt.redkaraoke", "note": ""},
+{"packageName": "com.bilin.huijiao.activity", "target": "com.ftw_and_co.happn", "note": ""},
+{"packageName": "com.lingan.seeyou", "target": "com.period.tracker.lite", "note": ""},
+{"packageName": "com.douban.book.reader", "target": "wp.wattpad", "note": ""},
+{"packageName": "com.youdao.note", "target": "com.evernote", "note": ""},
+{"packageName": "com.mfw.roadbook", "target": "com.tripadvisor.tripadvisor", "note": ""},
+{"packageName": "com.tenpay.android", "target": "com.google.android.apps.gmoney", "note": ""},
+{"packageName": "com.antutu.tester", "target": "com.cpuid.hwmonitorpro", "note": ""},
+{"packageName": "com.lgl.calendar", "target": "org.withouthat.acalendar", "note": ""},
+{"packageName": "com.snda.tt", "target": "com.imo.android.imoim", "note": ""},
+{"packageName": "me.papa", "target": "com.torchbrowser.music", "note": ""},
+{"packageName": "com.sina.news", "target": "com.microsoft.amp.apps.bingnews", "note": ""},
+{"packageName": "com.chinamworld.bocmbci", "target": "com.citi.citimobile", "note": ""},
+{"packageName": "com.lenovo.anyshare", "target": "com.sand.airdroid", "note": ""},
+{"packageName": "com.maxmpz.audioplayer", "target": "", "note": ""},
+{"packageName": "cmccwm.mobilemusic", "target": "com.amazon.mp3", "note": ""},
+{"packageName": "com.welove520.welove", "target": "com.tenthbit.juliet", "note": ""},
+{"packageName": "cn.emoney.level2", "target": "org.yccheok.jstock.gui", "note": ""},
+{"packageName": "com.oupeng.browser", "target": "com.opera.browser", "note": "欧朋，Opera 浏览器的中国版本"},
+{"packageName": "protect.eye", "target": "jp.ne.hardyinfinity.bluelightfilter.free", "note": ""},
+{"packageName": "yong.universalplayer", "target": "com.kmplayer", "note": ""},
+{"packageName": "predictor.ui", "target": "fr.telemaque.horoscope", "note": ""},
+{"packageName": "com.jiayuan", "target": "com.pof.android", "note": ""},
+{"packageName": "com.kugou.playerHD", "target": "deezer.android.app", "note": ""},
+{"packageName": "cn.dxy.medicinehelper", "target": "com.atomic.apps.medical.drug.dictionary", "note": ""},
+{"packageName": "com.androidesk.livewallpaper", "target": "com.catple.wallpapers", "note": ""},
+{"packageName": "com.netease.vopen", "target": "com.ted.android", "note": ""},
+{"packageName": "com.kandian.hdtogoapp", "target": "com.megadevs.hubi", "note": ""},
+{"packageName": "com.macropinch.hydra.android", "target": "com.healthagen.iTriage", "note": ""},
+{"packageName": "com.breadtrip", "target": "com.cleartrip.android", "note": ""},
+{"packageName": "com.baidu.iknow", "target": "com.askfm", "note": ""},
+{"packageName": "com.wantu.activity", "target": "com.pixlr.express", "note": ""},
+{"packageName": "com.iflytek.ringdiyclient", "target": "net.audiko2", "note": ""},
+{"packageName": "com.soufun.app", "target": "com.move.realtor", "note": ""},
+{"packageName": "com.tds.ArtSignature", "target": "jp.naver.linebrush.android", "note": ""},
+{"packageName": "com.sogou.activity.src", "target": "com.yahoo.mobile.client.android.search", "note": ""},
+{"packageName": "com.aibang.abbus.bus", "target": "com.thetransitapp.droid", "note": ""},
+{"packageName": "tiger.unfamous", "target": "biz.bookdesign.librivox", "note": ""},
+{"packageName": "cn.relian99", "target": "net.lovoo.android", "note": ""},
+{"packageName": "vz.com", "target": "com.flightaware.android.liveFlightTracker", "note": ""},
+{"packageName": "com.youloft.calendar", "target": "am.sunrise.android.calendar", "note": ""},
+{"packageName": "com.openet.hotel.view", "target": "com.priceline.android.negotiator", "note": ""},
+{"packageName": "com.ct.client", "target": "com.verizon.oxygen", "note": ""},
+{"packageName": "com.baidu.appsearch", "target": "com.android.vending", "note": ""},
+{"packageName": "InternetRadio.all", "target": "com.itunestoppodcastplayer.app", "note": ""},
+{"packageName": "com.funcity.taxi.driver", "target": "br.com.easytaxista", "note": ""},
+{"packageName": "com.huizheng.lasq", "target": "com.okcupid.okcupid", "note": ""},
+{"packageName": "com.duotin.fm", "target": "fm.player", "note": ""},
+{"packageName": "com.ijinshan.browser_fast", "target": "com.apusapps.browser", "note": ""},
+{"packageName": "cn.banshenggua.aichang", "target": "com.starmakerinteractive.thevoice", "note": ""},
+{"packageName": "com.qo.android.moto", "target": "com.infraware.office.link", "note": ""},
+{"packageName": "com.metek.zqWeather", "target": "com.tanmay.simpleweather", "note": "无论是从 Icon 还是页面感觉，都是天气类应用里最有爱的那一类"},
+{"packageName": "com.androidwasabi.livewallpaper.dandelion", "target": "com.maxelus.shadowgalaxylivewallpaper", "note": ""},
+{"packageName": "com.hjwordgames", "target": "talkenglish.com.standard", "note": ""},
+{"packageName": "com.qq.ac.android", "target": "tw.comico", "note": ""},
+{"packageName": "cn.tianya.android", "target": "com.medium.reader", "note": ""},
+{"packageName": "com.tsf.shell", "target": "com.buzzpia.aqua.launcher", "note": ""},
+{"packageName": "com.ailiaoicall", "target": "kik.android", "note": ""},
+{"packageName": "com.tencent.powermanager", "target": "com.avira.optimizer", "note": "Avira 对应的电池管理应用"},
+{"packageName": "com.kugou.android.ringtone", "target": "net.audiko2", "note": ""},
+{"packageName": "com.to8to.housekeeper", "target": "droids1.prasad.des.bedroom", "note": ""},
+{"packageName": "kr.aboy.tools", "target": "jp.naver.linetools", "note": ""},
+{"packageName": "org.adwfreak.launcher", "target": "com.anddoes.launcher", "note": ""},
+{"packageName": "com.xtuone.android.syllabus", "target": "com.myhomeowork", "note": ""},
+{"packageName": "com.yiche.price", "target": "com.girnarsoft.cardekho", "note": ""},
+{"packageName": "com.lx.launcher", "target": "com.cm.launcher", "note": ""},
+{"packageName": "com.suryani.jiagallery", "target": "com.planner5d.planner5d", "note": ""},
+{"packageName": "com.ltz.dict.charactersdict", "target": "com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish", "note": ""},
+{"packageName": "com.taobao.qianniu", "target": "com.amazon.sellermobile.android", "note": ""},
+{"packageName": "com.gtp.nextlauncher", "target": "com.cyou.cma.clauncher", "note": ""},
+{"packageName": "cn.coupon.kfc", "target": "de.burgerking.kingfinder", "note": ""},
+{"packageName": "com.nice.main", "target": "com.yahoo.mobile.client.android.flickr", "note": ""},
+{"packageName": "air.tv.douyu.android", "target": "tv.twitch.android.app", "note": ""},
+{"packageName": "com.instamag.activity", "target": "com.instagram.layout", "note": ""},
+{"packageName": "com.hupu.games", "target": "com.espn.score_center", "note": ""},
+{"packageName": "com.dft.hb.app", "target": "com.sgiggle.production", "note": ""},
+{"packageName": "com.MusclesExercises.kevin", "target": "com.caynax.a6w", "note": ""},
+{"packageName": "com.ylmf.androidclient", "target": "com.genie9.gcloudbackup", "note": ""},
+{"packageName": "com.ts.zys", "target": "com.hcmagic.askadoctor", "note": ""},
+{"packageName": "com.edog", "target": "com.sygic.speedcamapp", "note": ""},
+{"packageName": "com.baidu.homework", "target": "com.eight25media.tutorsynchomework", "note": ""},
+{"packageName": "com.jb.gokeyboard", "target": "com.nuance.swype.dtc", "note": "Google Play 输入法排行榜第六名"},
+{"packageName": "com.oasisfeng.greenify", "target": "net.dinglisch.android.taskerm", "note": "如果你认可绿色守护要要要领先于其他省电类 App，Tasker 应该也是如此"},
+{"packageName": "com.Android56", "target": "com.plexapp.android", "note": ""},
+{"packageName": "com.qq.qcloud", "target": "com.microsoft.skydrive", "note": ""},
+{"packageName": "com.miui.camera", "target": "com.google.android.GoogleCamera", "note": ""},
+{"packageName": "com.tencent.zebra", "target": "com.rcplatform.fontphoto", "note": ""},
+{"packageName": "cn.mama.activity", "target": "com.wte.view", "note": ""},
+{"packageName": "com.netease.mail", "target": "com.yahoo.mobile.client.android.mail", "note": ""},
+{"packageName": "com.ywqc.show", "target": "com.linecorp.lineselfie.android", "note": ""},
+{"packageName": "com.husor.mizhe", "target": "com.inditex.zara", "note": ""},
+{"packageName": "com.douban.group", "target": "com.meetup", "note": ""},
+{"packageName": "com.qijia.o2o", "target": "com.houzz.app", "note": ""},
+{"packageName": "com.wenba.bangbang", "target": "com.HwkHlp.HwkHlp", "note": ""},
+{"packageName": "longbin.helloworld", "target": "com.digitalchemy.calculator.freedecimal", "note": ""},
+{"packageName": "com.brixd.wallpager", "target": "com.sharpregion.tapet", "note": ""},
+{"packageName": "com.google.android.music", "target": "", "note": ""},
+{"packageName": "com.zdworks.android.zdcalendar", "target": "com.digibites.calendar", "note": ""},
+{"packageName": "me.topit.TopAndroid2", "target": "com.apperto.piclabapp", "note": ""},
+{"packageName": "com.vlife", "target": "com.hanna.beautiful", "note": ""},
+{"packageName": "com.gome.eshopnew", "target": "com.target.ui", "note": ""},
+{"packageName": "com.gwsoft.imusic.controller", "target": "deezer.android.app", "note": ""},
+{"packageName": "com.taobao.fleamarket", "target": "com.wallapop", "note": ""},
+{"packageName": "cn.mama.pregnant", "target": "com.babycenter.pregnancytracker", "note": ""},
+{"packageName": "ru.zdevs.zarchiver", "target": "", "note": ""},
+{"packageName": "com.codoon.gps", "target": "com.nike.plusgps", "note": ""},
+{"packageName": "com.haobao.wardrobe", "target": "com.myntra.android", "note": ""},
+{"packageName": "com.sogou.wallpaper", "target": "com.roommate.app.activity", "note": ""},
+{"packageName": "com.omesoft.firstaid", "target": "com.cube.arc.fa", "note": ""},
+{"packageName": "com.iflytek.cmcc", "target": "com.speaktoit.assistant", "note": ""},
+{"packageName": "com.jiepang.android", "target": "com.joelapenna.foursquared", "note": ""},
+{"packageName": "com.sonyericsson.trackid", "target": "", "note": ""},
+{"packageName": "com.duowan.kiwi", "target": "tv.twitch.android.app", "note": ""},
+{"packageName": "com.yourdream.app.android", "target": "com.hm", "note": ""},
+{"packageName": "com.dadmin.flashlight", "target": "ch.smalltech.ledflashlight.free", "note": ""},
+{"packageName": "com.netease.mobimail", "target": "com.yahoo.mobile.client.android.mail", "note": ""},
+{"packageName": "com.listencp.client", "target": "ak.alizandro.smartaudiobookplayer", "note": ""},
+{"packageName": "com.kunpeng.babyting", "target": "org.msq.babysongs", "note": ""},
+{"packageName": "com.babytree.apps.pregnancy", "target": "com.alt12.babybump", "note": ""},
+{"packageName": "com.frego.flashlight", "target": "com.ihandysoft.ledflashlight.mini", "note": ""},
+{"packageName": "cn.eclicks.drivingtest", "target": "com.northpole.world.drivingtest.california.free", "note": ""},
+{"packageName": "com.hsj.ccae37", "target": "com.kbb.mobile", "note": ""},
+{"packageName": "cc.fotoplace.app", "target": "com.linecorp.b612.android", "note": ""},
+{"packageName": "com.qianniuxing.stock", "target": "com.investorvista.stockspyod", "note": ""},
+{"packageName": "com.baidu.baiducamera", "target": "com.rcplatform.selfiecamera", "note": ""},
+{"packageName": "com.jesson.meishi", "target": "com.mufumbo.android.recipe.search", "note": ""},
+{"packageName": "air.mobi.xy3d.comics", "target": "hu.tonuzaba.android", "note": ""},
+{"packageName": "com.icoolme.android.weather", "target": "com.macropinch.swan", "note": "海外天气 APP 中界面设计的最美的那一个"},
+{"packageName": "com.akazam.android.wlandialer", "target": "com.verizon.wi_fi", "note": ""}
+]

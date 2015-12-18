@@ -209,7 +209,7 @@
 
 	//应用模版
 	
-	var buildItem = function(theapp, findapp, $el){
+	var buildItem = function(theapp, findapp, $el, note){
 		var html = $el;
 		html.find('.idx').html($el.index());
 		html.find('.orig').html(theapp.title);
@@ -217,7 +217,7 @@
 		html.find('.icon1').attr('src', theapp.icons.px78);
 		html.find('.icon2').attr('src', findapp.icons.px100);
 		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
-		html.find('.desc').html(findapp.tagline);
+		html.find('.desc').html(note);
 
 		if(current_page == 'list'){
 			html.find('.icon2').addClass('zoomed');
@@ -274,7 +274,7 @@
 						getApp(target, function(findapp){
 							var $el = $(template);
 							$items.append($el);
-							buildItem(theapp, findapp, $el);
+							buildItem(theapp, findapp, $el, result.get('note'));
 							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 						});
 					});
@@ -298,6 +298,7 @@
 			});
 			
 			convert(apps, $my_items);
+			check(apps);
 		}
 	}
 	var page_idx = 1;
@@ -330,6 +331,20 @@
 			}
 		}
 	});
+
+	//计数
+	function check(packageNames){
+		var query = new AV.Query(Convert);
+		query.containedIn("packageName", packageNames);
+		query.count({
+			success: function(count) {
+				alert(count)
+			},
+			error: function(error) {
+				console.log("Error: " + error.code + " " + error.message);
+			}
+		});
+	}
 
 	//二维码生成
 	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
