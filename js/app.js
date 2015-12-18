@@ -108,7 +108,7 @@
 		html.find('.orig').html(theapp.title);
 		html.find('.name').html(findapp.title);
 		html.find('.icon1').attr('src', theapp.icons.px78);
-		html.find('.icon2').attr('src', findapp.icons.px78);
+		html.find('.icon2').attr('src', findapp.icons.px256);
 		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
 		html.find('.desc').html(findapp.tagline);
 		if(false){
