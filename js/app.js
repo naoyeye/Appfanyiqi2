@@ -284,8 +284,8 @@
 	};
 
 	//初始化转换
-	function initlist(){
 
+	function load_my(){
 		if (campaignTools.UA.inWdj) {
 			var $my_items = $('.my.items');
 			$my_items.removeClass('hide');
@@ -299,16 +299,37 @@
 			
 			convert(apps, $my_items);
 		}
-		
+	}
+	var page_idx = 1;
+	var loading_all = false;
+	function initlist(){
+		load_my();
+		load_all(page_idx);
+	}
+	function load_all(page){
+		if(loading_all) return;
+		loading_all = true;
 		var $all_items = $('.all.items');
 		$.get('hotapps.json', function(results){
 			var apps = results.slice(0, 10);
 			convert(apps, $all_items);
 			window.apps = results;
+			loading_all = false;
 		});
-		
 	}
 	initlist();
+
+	//滚动加载更多
+	$(window).scroll(function() {
+		if(current_page == 'list'){
+			var st = $(window).scrollTop();
+			var gap = $('.list .content').height() - $(window).height();
+			if(gap - st < 30){
+				page_idx = page_idx + 1;
+				load_all(page_idx);
+			}
+		}
+	});
 
 	//二维码生成
 	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
