@@ -284,7 +284,6 @@
 	};
 
 	//初始化转换
-
 	function load_my(){
 		if (campaignTools.UA.inWdj) {
 			var $my_items = $('.my.items');
@@ -301,6 +300,28 @@
 			check(apps);
 		}
 	}
+
+	//加载数据
+	function get_apps(page, cb){
+		var query = new AV.Query(Convert);
+		query.skip(10 * (page - 1)).limit(10);
+		query.find({
+			success: function(results) {
+				var apps = results.map(function(result){
+					return result.toJSON();
+				});
+				if(apps.length){
+					cb(apps);
+				}else{
+					cb(null);
+				}
+			},
+			error: function(error) {
+				console.log("Error: " + error.code + " " + error.message);
+			}
+		});
+	}
+
 	var page_idx = 1;
 	var loading_all = false;
 	function initlist(){
@@ -311,7 +332,7 @@
 		if(loading_all) return;
 		loading_all = true;
 		var $all_items = $('.all.items');
-		$.get('hotapps.json', function(results){
+		get_apps(page, function(results){
 			var apps = results.slice(0, 10);
 			convert(apps, $all_items);
 			window.apps = results;
