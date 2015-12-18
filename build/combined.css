@@ -209,7 +209,10 @@ a {
        -o-background-size: 100% auto;
           background-size: 100% auto;
   text-align: center;
-  background-position-y: 0; }
+  background-position-y: 0;
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+          transform: translateZ(0); }
   .pass .scan {
     background: url("../images/scan.png") top center no-repeat;
     width: 100%;
@@ -219,7 +222,10 @@ a {
          -o-background-size: 100% auto;
             background-size: 100% auto;
     position: absolute;
-    top: 0; }
+    top: 0;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+            transform: translateZ(0); }
 
 .list {
   background: #F1F5F8; }

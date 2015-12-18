@@ -3,6 +3,7 @@
 	background-size: 100% auto;
 	text-align: center;
 	background-position-y: 0;
+	transform: translateZ(0);
 
 	.scan{
 		background: url('../images/scan.png') top center no-repeat;
@@ -11,6 +12,7 @@
 		background-size: 100% auto;
 		position: absolute;
 		top: 0;
+		transform: translateZ(0);
 	}
 }
 
