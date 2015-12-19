@@ -125,18 +125,18 @@
 
 	//hash 处理
 	var current_page = 'home';
-	var go = function(page){
+	var go = function(page, fade){
+		if(fade){
+			$('.page.'+current_page).fadeOut();
+			$('.page.'+page).fadeIn();
+		}else{
+			$('.page.'+current_page).hide();
+			$('.page.'+page).show();
+		}
 		current_page = page;
-		$('.page').hide();
-		$('.page.'+page).show();
+
 		if(page == 'pass'){
-			pass();
-			/*setTimeout(function(){
-				$('.pass.page').fadeOut('slow', function(){
-					go('list');
-					$('.list.page').fadeIn('fast');
-				});
-			}, 2000);*/
+			setTimeout(go.bind(this, 'list', true), 3000);
 		}
 		if(page == 'list'){
 			setTimeout(zoom, 100);
@@ -154,11 +154,6 @@
 	$('.home .button').click(function(){
 		go('pass');
 	});
-
-	//过渡页
-	var pass = function(){
-		
-	};
 
 	//列表动画
 	var zoom = function(){
