@@ -63,13 +63,15 @@
 				margin-bottom: 10px;
 			}
 			.item{
-				margin-top: 12px;
+				margin: 12px 0 6px;
+				position: relative;
+
 				.sub-title{
 
 				}
 				.info{
 					display: flex;
-					margin-top: 10px;
+					padding: 10px 0;
 					.left{
 						flex: 0 0 auto;
 						margin-right: 10px;
