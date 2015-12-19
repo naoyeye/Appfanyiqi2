@@ -381,7 +381,7 @@
 			}else{
 				src = 'nodetect.jpg';
 			}
-			$('.list .top.section .title').text('豌豆荚发现你安装了'+ count +'个海外应用');
+			$('.list .top.section .title').text('豌豆荚发现你安装了 '+ count +' 个海外应用');
 			$('.list .top.section').find('.button').hide();
 		}else{
 			src = 'nodetect.jpg';
