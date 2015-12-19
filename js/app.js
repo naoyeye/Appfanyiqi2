@@ -127,11 +127,16 @@
 	var current_page = 'home';
 	var go = function(page){
 		current_page = page;
-		$('.page').addClass('hide');
-		$('.page.'+page).removeClass('hide');
+		$('.page').hide();
+		$('.page.'+page).show();
 		if(page == 'pass'){
 			pass();
-			setTimeout(go.bind(this, 'list'), 2000);
+			/*setTimeout(function(){
+				$('.pass.page').fadeOut('slow', function(){
+					go('list');
+					$('.list.page').fadeIn('fast');
+				});
+			}, 2000);*/
 		}
 		if(page == 'list'){
 			setTimeout(zoom, 100);
@@ -152,16 +157,7 @@
 
 	//过渡页
 	var pass = function(){
-		$('.pass').animate({'background-position-y':-1000}, 6000);
-		var scan = function(){
-			$('.scan').css('top', 0);
-			$('.scan').animate({top: '100%'}, 1000);
-		};
-		scan();
-		var timer = setInterval(scan, 1100);
-		setTimeout(function(){
-			clearInterval(timer);
-		}, 10000);
+		
 	};
 
 	//列表动画

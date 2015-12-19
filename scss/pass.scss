@@ -1,9 +1,16 @@
 .pass{
-	background: url('../images/icons.jpg') top center repeat-y;
-	background-size: 100% auto;
-	text-align: center;
-	background-position-y: 0;
-	transform: translateZ(0);
+	
+	.icons{
+		background: url('../images/icons.jpg') top center repeat-y;
+		background-size: 100% auto;
+		text-align: center;
+		transform: translateZ(0);
+		height: 300%;
+		animation-name: run;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
 
 	.scan{
 		background: url('../images/scan.png') top center no-repeat;
@@ -13,7 +20,27 @@
 		position: absolute;
 		top: 0;
 		transform: translateZ(0);
+		animation-name: scan;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
 	}
 }
 
+@keyframes run {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(-1000px);
+	}
+}
 
+@keyframes scan {
+	from {
+		top: 0;
+	}
+	to {
+		top: 100%;
+	}
+}
