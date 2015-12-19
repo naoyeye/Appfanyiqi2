@@ -164,6 +164,11 @@
 		go('pass');
 	});
 
+	//card跳转
+	$('.list .card .button').click(function(){
+		window.location = 'http://www.wandoujia.com/';
+	});
+
 	//列表动画
 	var zoom = function(){
 		$('.list .item').map(function(i, item){
@@ -276,6 +281,7 @@
 							$items.append($el);
 							buildItem(theapp, findapp, $el, result.get('note'));
 							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
+
 						});
 					});
 				});
@@ -324,19 +330,34 @@
 
 	var page_idx = 1;
 	var loading_all = false;
+	var stop_load_all = false;
 	function initlist(){
 		load_my();
 		load_all(page_idx);
 	}
 	function load_all(page){
-		if(loading_all) return;
+		if(stop_load_all) {
+			$('.detect').hide();
+			return;
+		}
+		if(loading_all) {
+			return;
+		}
 		loading_all = true;
 		var $all_items = $('.all.items');
 		get_apps(page, function(results){
+			if(results.length < 10){
+				stop_load_all = true;
+				$('.detect').hide();
+				$('.card.section').show();
+				return;
+			}
 			var apps = results.slice(0, 10);
 			convert(apps, $all_items);
-			window.apps = results;
-			loading_all = false;
+			setTimeout(function(){
+				loading_all = false;
+			}, 1000);
+			page_idx = page_idx + 1;
 			$('.detect').hide();
 		});
 	}
@@ -347,8 +368,7 @@
 		if(current_page == 'list'){
 			var st = $(window).scrollTop();
 			var gap = $('.list .content').height() - $(window).height();
-			if(gap - st < 50){
-				page_idx = page_idx + 1;
+			if(gap - st < 30 && !stop_load_all){
 				$('.detect').show();
 				load_all(page_idx);
 			}
