@@ -164,6 +164,11 @@
 		go('pass');
 	});
 
+	//top跳转
+	$('.list .top .button').click(function(){
+		window.location = 'http://www.wandoujia.com/';
+	});
+
 	//card跳转
 	$('.list .card .button').click(function(){
 		window.location = 'http://www.wandoujia.com/';
@@ -221,21 +226,22 @@
 		html.find('.name').html(findapp.title);
 		html.find('.icon1').attr('src', theapp.icons.px78);
 		html.find('.icon2').attr('src', findapp.icons.px100);
-		//html.find('.download').html(app.installedCountStr + '人安装 ' + app.apks[0].size);
-		html.find('.desc').html(note);
+		html.find('.installs').html(findapp.installedCountStr + '人安装 ');
+		html.find('.size').html(findapp.apks[0].size);
+		//html.find('.desc').html(note);
 
 		if(current_page == 'list'){
 			html.find('.icon2').addClass('zoomed');
 		}
-		if(false){
+		if(true){
 			html.find('.action').removeClass('hide');
 			html.find('.action .button').click(function(ev){
 				ev.preventDefault();
 				var install = {
-					'packageName': app.packageName,
-					'downloadUrl': app.apks[0].downloadUrl.url,
-					'appName':app.title,
-					'iconUrl': app.icons.px100,
+					'packageName': findapp.packageName,
+					'downloadUrl': findapp.apks[0].downloadUrl.url,
+					'appName':findapp.title,
+					'iconUrl': findapp.icons.px100,
 					'size': ''
 				};
 				if (campaignTools.UA.inWdj) {
@@ -248,7 +254,7 @@
 				}
 				if(campaignTools.UA.inIos) {
 					var find = window.apps.filter(function(one){
-						return (one.target == app.packageName);
+						return (one.target == findapp.packageName);
 					});
 					if(find){
 						if(campaignTools.UA.inWechat){
@@ -259,7 +265,7 @@
 					}
 					return;
 				}
-				window.location = 'http://www.wandoujia.com/apps/' + app.packageName;
+				window.location = 'http://www.wandoujia.com/apps/' + findapp.packageName;
 			});
 		}
 	};
