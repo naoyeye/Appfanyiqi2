@@ -70,7 +70,7 @@
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				go('share')
+				window.location = '#share';
 			}
 		};
 		var wxShareObj = {
@@ -79,7 +79,7 @@
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				go('share')
+				window.location = '#share';
 			}
 		};
 		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
@@ -94,7 +94,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			go('share')
+			window.location = '#share';
 		}
 	};
 	var wxAppShareObj = {
@@ -104,7 +104,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			go('share')
+			window.location = '#share';
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
@@ -117,7 +117,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			go('share')
+			window.location = '#share';
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
