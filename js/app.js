@@ -228,7 +228,7 @@
 		html.find('.icon2').attr('src', findapp.icons.px100);
 		html.find('.installs').html(findapp.installedCountStr + '人安装 ');
 		html.find('.size').html(findapp.apks[0].size);
-		//html.find('.desc').html(note);
+		if(note) html.find('.desc').html(note);
 
 		if(current_page == 'list'){
 			html.find('.icon2').addClass('zoomed');
