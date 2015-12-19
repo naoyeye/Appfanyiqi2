@@ -17,8 +17,9 @@
 
 		z-index: 999999;
 		.text{
-			font-size: 1.3rem;
-			margin-right: 10px;
+			font-size: 1.2rem;
+			line-height: 2.2rem;
+			margin-right: 5px;
 		}
 		.button{
 			font-size: 1.2rem;
@@ -137,9 +138,34 @@
 			left: 0;
 			transform: scaleY(0.5);
 		}
+
+		.item:last-child .border-bottom{
+			display: none;
+		}
+
+		.card{
+			text-align: center;
+			padding: 10px;
+			.title{
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+			.text{
+				margin: 15px 0;
+				line-height: 1.4;
+			}
+			.button{
+				font-size: 1.2rem;
+				line-height: 32px;
+			}
+		}
 	}
 }
 
 .detect{
-	height: 2px;
+	text-align: center;
+	margin: 6px 0 12px;
+	img{
+		width: 40px;
+	}
 }

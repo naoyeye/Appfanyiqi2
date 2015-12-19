@@ -337,6 +337,7 @@
 			convert(apps, $all_items);
 			window.apps = results;
 			loading_all = false;
+			$('.detect').hide();
 		});
 	}
 	initlist();
@@ -346,8 +347,9 @@
 		if(current_page == 'list'){
 			var st = $(window).scrollTop();
 			var gap = $('.list .content').height() - $(window).height();
-			if(gap - st < 60){
+			if(gap - st < 50){
 				page_idx = page_idx + 1;
+				$('.detect').show();
 				load_all(page_idx);
 			}
 		}
