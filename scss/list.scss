@@ -81,10 +81,11 @@
 
 				}
 				.info{
-					display: flex;
+					overflow: hidden;
 					padding: 10px 0;
 					.left{
-						flex: 0 0 auto;
+						width: 122px;
+						float: left;
 						margin-right: 10px;
 						.icon1{
 							float: left;
@@ -117,9 +118,10 @@
 						}
 					}
 					.right{
-						flex: 1 1 auto;
+						padding-left: 132px;
 						.name{
-							font-size: 1.7rem;
+							font-size: 1.6rem;
+							font-weight: bold;
 							margin: 6px 0 12px;
 						}
 						.desc{
