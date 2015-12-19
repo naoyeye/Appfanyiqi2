@@ -233,6 +233,21 @@
 		if(current_page == 'list'){
 			html.find('.icon2').addClass('zoomed');
 		}
+
+		//切换
+		var desc = html.find('.desc');
+		var action = html.find('.action');
+		var status = false;
+		html.find('.icon2').click(function(){
+			if(!status){
+				desc.css('left', '-110%');
+				action.css('left', 0);
+			}else{
+				desc.css('left', 0);
+				action.css('left', '110%');
+			}
+			status = !status;
+		});
 		if(true){
 			html.find('.action').removeClass('hide');
 			html.find('.action .button').click(function(ev){

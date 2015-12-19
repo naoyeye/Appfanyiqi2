@@ -127,7 +127,7 @@
 						.detail{
 							position: relative;
 							height: 75px;
-							.desc, .action{
+							.window, .desc, .action{
 								position: absolute;
 								left: 0;
 								top: 0;
@@ -135,10 +135,16 @@
 								height: 100%;
 								padding-top: 3px;
 							}
+							.window{
+								overflow: hidden;
+							}
 							.desc{
 								line-height: 1.5;
+								transition: all 0.5s ease;
 							}
 							.action{
+								left: 100%;
+								transition: all 0.5s ease;
 								.installs, .size{
 									line-height: 1.6;
 								}
