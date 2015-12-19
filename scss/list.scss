@@ -82,17 +82,6 @@
 							float: left;
 							width: 75px;
 							height: 75px;
-							position: relative;
-							top: 40px;
-							left: 150px;
-							transform: scale(0.1);
-							transition: all 1s ease 0s;
-
-							&.zoomed{
-								transform: scale(1);
-								top: 0;
-								left: 0;
-							}
 						}
 					}
 					.right{
