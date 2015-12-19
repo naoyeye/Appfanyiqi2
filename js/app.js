@@ -311,11 +311,14 @@
 	};
 
 	//初始化转换
+	var installedApps = [];
+	if (campaignTools.UA.inWdj) {
+		installedApps = JSON.parse(window.campaignPlugin.getNonSystemApps());
+	}
 	function load_my(){
 		if (campaignTools.UA.inWdj) {
 			var $my_items = $('.my.items');
 			$my_items.removeClass('hide');
-			var installedApps = JSON.parse(window.campaignPlugin.getNonSystemApps());
 			var apps = installedApps.map(function(app){
 				return {
 					title: app.title,
@@ -330,7 +333,11 @@
 
 	//加载数据
 	function get_apps(page, cb){
+		var packageNames = installedApps.map(function(app) {
+			return app.packageName;
+		});
 		var query = new AV.Query(Convert);
+		query.notContainedIn('packageName', packageNames);
 		query.skip(10 * (page - 1)).limit(10);
 		query.find({
 			success: function(results) {
