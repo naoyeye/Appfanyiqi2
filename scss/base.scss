@@ -75,19 +75,3 @@ a{
 	left: 0;
 	right: 0;
 }
-
-.bottom{
-	position: fixed;
-	bottom: 0;
-	height: 42px;
-	padding: 3px 0;
-	width: 100%;
-	background: #FFF;
-	box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2);
-	text-align: center;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	z-index: 999999;
-}
