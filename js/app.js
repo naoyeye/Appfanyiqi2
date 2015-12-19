@@ -16,6 +16,15 @@
 		isx5 = true;
 	}
 
+	//内部用户，外部用户
+	if(campaignTools.UA.inWdj){
+		$('.inside').show();
+		$('.outside').hide();
+	}else{
+		$('.inside').hide();
+		$('.outside').show();
+	}
+
 	//禁止窗口拉动
 	$('.home, .pass, .layer-info').bind('touchmove', function (ev) {
 		ev.preventDefault();
@@ -61,7 +70,7 @@
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				window.location = '#share';
+				go('share')
 			}
 		};
 		var wxShareObj = {
@@ -70,7 +79,7 @@
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				window.location = '#share';
+				go('share')
 			}
 		};
 		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
@@ -85,7 +94,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			window.location = '#share';
+			go('share')
 		}
 	};
 	var wxAppShareObj = {
@@ -95,7 +104,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			window.location = '#share';
+			go('share')
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
@@ -108,7 +117,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
-			window.location = '#share';
+			go('share')
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
@@ -337,7 +346,7 @@
 		if(current_page == 'list'){
 			var st = $(window).scrollTop();
 			var gap = $('.list .content').height() - $(window).height();
-			if(gap - st < 30){
+			if(gap - st < 60){
 				page_idx = page_idx + 1;
 				load_all(page_idx);
 			}
@@ -365,17 +374,15 @@
 		if(campaignTools.UA.inWdj){
 			if(count >= 30){
 				src = '30more.jpg';
-			}else if(count >= 20 ){
-				src = '20to30.jpg';
-			}else if(count >= 10){
-				src = '10to20.jpg';
-			}else if(count >= 5){
-				src = '5to10.jpg';
-			}else if(count > 0){
-				src = 'less5.jpg';
+			}else if(count >= 21 ){
+				src = '21to30.jpg';
+			}else if(count >= 6){
+				src = '6to20.jpg';
 			}else{
 				src = 'nodetect.jpg';
 			}
+			$('.list .top.section .title').text('豌豆荚发现你安装了'+ count +'个海外应用');
+			$('.list .top.section').find('.button').hide();
 		}else{
 			src = 'nodetect.jpg';
 		}
