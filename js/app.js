@@ -474,7 +474,7 @@
 			}else if(count >= 6){
 				src = '6to20.jpg';
 			}else{
-				src = 'nodetect.jpg';
+				src = 'less5.jpg';
 			}
 			$('.list .top.section .title').text('豌豆荚发现你安装了 '+ count +' 个海外应用');
 			$('.list .top.section').find('.button').hide();
