@@ -1,6 +1,7 @@
 ;(function(){
 
 	//alert(navigator.userAgent)
+	var first_load_app = false;
 
 	var shareData = {
 		title: "豌豆荚应用翻译器",
@@ -154,7 +155,15 @@
 		current_page = page;
 
 		if(page == 'pass'){
-			setTimeout(go.bind(this, 'list', true), 2300);
+			setTimeout(function(){
+				var pass_timer = setInterval(function(){
+					console.log('first load app', first_load_app);
+					if(first_load_app){
+						go('list', true);
+						clearInterval(pass_timer);
+					}
+				}, 1000);
+			}, 1200);
 		}
 		if(page == 'list'){
 			
@@ -319,10 +328,15 @@
 							buildItem(theapp, findapp, $el, result.get('note'));
 							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 
-							if($items.hasClass('my')){
-								$items.removeClass('hide');
+							if(campaignTools.UA.inWdj){
+								if($items.hasClass('my')){
+									$items.removeClass('hide');
+									first_load_app = true;
+								}
+							}else{
+								first_load_app = true;
 							}
-
+							
 						});
 					});
 				});
