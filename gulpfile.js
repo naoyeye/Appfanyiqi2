@@ -19,7 +19,12 @@ gulp.task('scss-build', function() {
 });
 
 gulp.task('scripts', function() {
-	gulp.src('js/**/*.js')
+	gulp.src([
+			'js/zepto.min.js',
+			'js/fastclick.min.js',
+			'js/campaignSDK.js',
+			'js/app.js',
+		])
 		.pipe(concat('combined.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('build'));
