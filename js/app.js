@@ -344,6 +344,10 @@
 							}else{
 								first_load_app = true;
 							}
+
+							if($items.hasClass('all')){
+								$('.detect').hide();
+							}
 							
 						});
 					});
@@ -428,7 +432,7 @@
 				loading_all = false;
 			}, 1000);
 			page_idx = page_idx + 1;
-			$('.detect').hide();
+			//$('.detect').hide();
 		});
 	}
 	initlist();
@@ -440,6 +444,7 @@
 			var gap = $('.list .content').height() - $(window).height();
 			if(gap - st < 30 && !stop_load_all){
 				$('.detect').show();
+				$(window).scrollTop($(window).scrollTop() + 40);
 				load_all(page_idx);
 			}
 		}
