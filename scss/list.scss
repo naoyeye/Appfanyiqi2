@@ -46,9 +46,10 @@
 			.title{
 				background: #FFF;
 				text-align: center;
-				font-size: 1.5rem;
+				font-size: 1.7rem;
 				line-height: 2.4;
 				font-weight: bold;
+				color: #000;
 			}
 			img{
 				width: 100%;
@@ -69,16 +70,21 @@
 			padding: 12px;
 			.title{
 				text-align: center;
-				font-size: 1.5rem;
+				font-size: 1.7rem;
 				font-weight: bold;
-				margin-bottom: 10px;
+				padding-bottom: 12px;
+				position: relative;
+				color: #000;
 			}
 			.item{
-				margin: 15px 0 10px;
+				margin: 15px 0 12px;
 				position: relative;
 
 				.sub-title{
-
+					margin-bottom: 4px;
+					.idx{
+						font-weight: bold;
+					}
 				}
 				.info{
 					overflow: hidden;
@@ -86,7 +92,7 @@
 					.left{
 						width: 122px;
 						float: left;
-						margin-right: 10px;
+						margin-right: 12px;
 						.icon1{
 							float: left;
 							width: 36px;
@@ -118,11 +124,12 @@
 						}
 					}
 					.right{
-						padding-left: 132px;
+						padding-left: 134px;
 						.name{
 							font-size: 1.6rem;
 							font-weight: bold;
 							margin: 6px 0 10px;
+							color: #000;
 						}
 						.detail{
 							position: relative;
@@ -181,7 +188,7 @@
 			}
 			.text{
 				margin: 15px 0;
-				line-height: 1.4;
+				line-height: 1.8;
 			}
 			.button{
 				font-size: 1.2rem;
