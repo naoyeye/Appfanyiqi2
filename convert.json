@@ -1,3051 +1,4271 @@
 [{
 	"packageName": "com.tencent.mm",
+	"name": "微信",
 	"target": "com.whatsapp",
+	"targetName": "whatsapp",
 	"note": "就地位而言，Whatsapp 就是海外的微信，一个没有朋友圈、没有代购、没有理财、没有打车功能的海外微信。",
 	"rank": 1
 }, {
 	"packageName": "com.tencent.mobileqq",
+	"name": "QQ",
 	"target": "com.facebook.orca",
+	"targetName": "Facebook Messenger",
 	"note": "两大巨头的即时通讯应用。区别是一个从聊天起家做社交，一个从社交起家做聊天。",
 	"rank": 2
 }, {
 	"packageName": "com.UCMobile",
+	"name": "UC浏览器",
 	"target": "org.mozilla.firefox",
+	"targetName": "Firefox",
 	"note": "经历过 Web、Symbian、Android 等历史的变革，UC 和 Firefox 一样仍然是浏览器的主要选择",
 	"rank": 3
 }, {
 	"packageName": "com.sohu.inputmethod.sogou",
+	"name": "搜狗输入法",
 	"target": "com.touchtype.swiftkey",
+	"targetName": "SwiftKey Keyboard",
 	"note": "Google Play 输入法排行榜第一名，你值得拥有。",
 	"rank": 4
 }, {
 	"packageName": "com.qihoo360.mobilesafe",
+	"name": "360手机卫士",
 	"target": "com.avast.android.mobilesecurity",
+	"targetName": "avast",
 	"note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中 360 我们翻译为 Avast，他们同为市场的领先者",
 	"rank": 5
 }, {
 	"packageName": "com.sds.android.ttpod",
+	"name": "天天动听",
 	"target": "com.maxmpz.audioplayer&hl=zh_CN",
+	"targetName": "Poweramp",
 	"note": "Poweramp 和天天动听一样，都曾经是手机上最好的音乐播放器。不同的是，Poweramp 现在依然还是一款很棒的音乐播放器",
 	"rank": 6
 }, {
 	"packageName": "com.taobao.taobao",
+	"name": "淘宝",
 	"target": "com.ebay.mobile",
+	"targetName": "ebay",
 	"note": "正是 Ebay 在中国的失败成就了中国的淘宝",
 	"rank": 7
 }, {
 	"packageName": "com.qzone",
+	"name": "QQ空间",
 	"target": "com.facebook.katana",
+	"targetName": "Facebook",
 	"note": "可能是唯一一个中国用户极少，但总用户量超过中国人口的社交平台。",
 	"rank": 8
 }, {
 	"packageName": "com.moji.mjweather",
+	"name": "墨迹天气",
 	"target": "com.accuweather.android",
+	"targetName": "AccuWeather 天气",
 	"note": "国外用的最多的天气 App，少了实景照片，却多了许多的专业。",
 	"rank": 9
 }, {
 	"packageName": "com.sina.weibo",
+	"name": "微博",
 	"target": "com.twitter.android",
+	"targetName": "Twitter",
 	"note": "知道新浪微博为什么只能发 140 字中文嘛？因为 Twitter 设计师说：只让用户发 140 字英文。",
 	"rank": 10
 }, {
 	"packageName": "com.kugou.android",
+	"name": "酷狗音乐",
 	"target": "com.apple.android.music",
+	"targetName": "Apple Music",
 	"note": "还记得经典的「Hello Kugou」嘛，我们翻译酷狗为 Apple Music，因为其本身就是品牌。",
 	"rank": 11
 }, {
 	"packageName": "cn.opda.a.phonoalbumshoushou",
+	"name": "百度手机卫士",
 	"target": "com.antivirus",
+	"targetName": "AntiVirus FREE",
 	"note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中百度我们翻译为 AVG",
 	"rank": 12
 }, {
 	"packageName": "com.youku.phone",
+	"name": "优酷视频",
 	"target": "com.google.android.youtube",
+	"targetName": "Youtube",
 	"note": "优酷=中国的 Youtube，这个必须知道。一个广告可以跳过，一个付费可以跳过。",
 	"rank": 13
 }, {
 	"packageName": "com.storm.smart",
+	"name": "暴风影音",
 	"target": "org.videolan.vlc.betav7neon",
+	"targetName": "VLC for Android beta",
 	"note": "好吧，虽然暴风影音已经成为一个在线视频网站了，但我还是任性的把他翻译为播放器",
 	"rank": 14
 }, {
 	"packageName": "com.qiyi.video",
+	"name": "爱奇艺视频",
 	"target": "com.netflix.mediaclient",
+	"targetName": "Netflix",
 	"note": "Hulu 是美国最受欢迎的视频网站，拥有 NBC、FOX 等多家版权资源，遗憾的是并不支持中国大陆",
 	"rank": 15
 }, {
 	"packageName": "com.snda.wifilocating",
+	"name": "WiFi万能钥匙",
 	"target": "mobi.wifi.toolbox",
+	"targetName": "Swift WiFi",
 	"note": "别以为国外就没有蹭网需求，海外蹭网神器一",
 	"rank": 16
 }, {
 	"packageName": "com.tencent.qqpimsecure",
+	"name": "腾讯手机管家",
 	"target": "com.avira.android",
+	"targetName": "Avira Antivirus Security",
 	"note": "国内三家手机卫士类应用正如全球安全领域的 3A，其中腾讯我们翻译为 Avira",
 	"rank": 17
 }, {
 	"packageName": "com.eg.android.AlipayGphone",
+	"name": "支付宝",
 	"target": "com.paypal.android.p2pmobile",
+	"targetName": "Paypal",
 	"note": "什么，Paypal 还需要手续费？",
 	"rank": 18
 }, {
 	"packageName": "com.mt.mtxx.mtxx",
+	"name": "美图秀秀",
 	"target": "com.picsart.studio",
+	"targetName": "PicsArt",
 	"note": "",
 	"rank": 19
 }, {
 	"packageName": "com.baidu.BaiduMap",
+	"name": "百度地图",
 	"target": "com.google.android.apps.maps",
+	"targetName": "Google Maps",
 	"note": "出了国你就知道我为什么这么翻译了。",
 	"rank": 20
 }, {
 	"packageName": "com.immomo.momo",
+	"name": "陌陌",
 	"target": "com.badoo.mobile",
+	"targetName": "Badoo",
 	"note": "呃，和陌陌不一样的是，据说在中国使用 Badoo 的用户女生比例明显要高",
 	"rank": 21
 }, {
 	"packageName": "com.tencent.qqmusic",
+	"name": "QQ音乐",
 	"target": "com.spotify.music",
+	"targetName": "Spotify",
 	"note": "尽管后有追兵无数，但 QQ 音乐和 Spotify 仍然分别是中外使用最多的在线音乐应用",
 	"rank": 22
 }, {
 	"packageName": "com.gau.go.launcherex",
+	"name": "GO桌面",
 	"target": "com.apusapps.launcher",
+	"targetName": "APUS Launcher",
 	"note": "桌面启动类应用以中国出口为主。Google Play 第一名 APUS - Made in China",
 	"rank": 23
 }, {
 	"packageName": "com.tencent.mtt",
+	"name": "QQ浏览器",
 	"target": "com.android.chrome",
+	"targetName": "Chrome",
 	"note": "UC 翻译成 Firefox 了，那么 Chrome 就只能翻译成 QQ 浏览器了",
 	"rank": 24
 }, {
 	"packageName": "com.wochacha",
+	"name": "我查查",
 	"target": "me.scan.android.client",
+	"targetName": "QR Code Reader",
 	"note": "Google Play 下载量最多的二维码扫描器",
 	"rank": 25
 }, {
 	"packageName": "com.chaozh.iReaderFree",
+	"name": "掌阅iReader",
 	"target": "com.amazon.kindle",
+	"targetName": "Amazon Kindle",
 	"note": "掌阅 iReader 也开始卖起了电纸书，越来越像 Kindler 了",
 	"rank": 26
 }, {
 	"packageName": "com.sankuai.meituan",
+	"name": "美团",
 	"target": "com.groupon",
+	"targetName": "Groupon",
 	"note": "",
 	"rank": 27
 }, {
 	"packageName": "com.autonavi.minimap",
+	"name": "高德地图",
 	"target": "com.waze",
+	"targetName": "Waze",
 	"note": "",
 	"rank": 28
 }, {
 	"packageName": "vStudio.Android.Camera360",
+	"name": "Camera360",
 	"target": "com.cyworld.camera",
+	"targetName": "Cymera特效相机",
 	"note": "",
 	"rank": 29
 }, {
 	"packageName": "com.youdao.dict",
+	"name": "有道词典",
 	"target": "com.csst.ecdict",
+	"targetName": "英汉字典 EC Dictionary",
 	"note": "",
 	"rank": 30
 }, {
 	"packageName": "com.pplive.androidphone",
+	"name": "PPTV聚力",
 	"target": "air.com.vudu.air.DownloaderTablet",
+	"targetName": "VUDU Movies & TV",
 	"note": "VUDU 是沃尔玛旗下的在线视频应用，咦，好巧的，PPTV 好像最近也被苏宁收购了",
 	"rank": 31
 }, {
 	"packageName": "com.changba",
+	"name": "唱吧",
 	"target": "com.famousbluemedia.yokee",
+	"targetName": "Yokee",
 	"note": "",
 	"rank": 32
 }, {
 	"packageName": "com.tencent.qqlive",
+	"name": "腾讯视频",
 	"target": "com.yahoo.mobile.client.android.screen",
+	"targetName": "Yahoo Screen",
 	"note": "Yahoo 的在线视频网站，拥有 NFL 的独家版权，正如腾讯视频对 NBA 的独家版权一样",
 	"rank": 33
 }, {
 	"packageName": "com.dianping.v1",
+	"name": "大众点评",
 	"target": "com.yelp.android",
+	"targetName": "Yelp",
 	"note": "据说用 Yelp 的正确姿势是：美国人标注好吃的不要抱太大希望，但标不好吃的一定是全球统一标准。",
 	"rank": 34
 }, {
 	"packageName": "tv.pps.mobile",
+	"name": "爱奇艺PPS影音",
 	"target": "com.viewster.androidapp",
+	"targetName": "Viewster – Movies, TV & Anime",
 	"note": "Viewster 是全球最大的在线视频网站之一，尤其是拥有独家的日本动漫版权",
 	"rank": 35
 }, {
 	"packageName": "com.estrongs.android.pop",
+	"name": "ES文件浏览器",
 	"target": "com.speedsoftware.rootexplorer",
+	"targetName": "Root Explorer",
 	"note": "",
 	"rank": 36
 }, {
 	"packageName": "cn.kuwo.player",
+	"name": "酷我音乐",
 	"target": "com.beatsmusic.android.client",
+	"targetName": "Beats Music",
 	"note": "和酷狗合并的酷我音乐就像被 Apple 收购的 Beats 一样，等待新的崛起",
 	"rank": 37
 }, {
 	"packageName": "com.androidesk",
+	"name": "安卓壁纸",
 	"target": "net.zedge.android",
+	"targetName": "ZEDGE™",
 	"note": "",
 	"rank": 38
 }, {
 	"packageName": "cn.etouch.ecalendar",
+	"name": "中华万年历日历",
 	"target": "com.google.android.calendar",
+	"targetName": "Google Calendar",
 	"note": "",
 	"rank": 39
 }, {
 	"packageName": "com.baidu.input",
+	"name": "百度手机输入法",
 	"target": "com.qisiemoji.inputmethod",
+	"targetName": "Kika Keyboard",
 	"note": "一款出海成功的中国制造产品，是 Google Play 排行第二的输入法",
 	"rank": 40
 }, {
 	"packageName": "com.ijinshan.kbatterydoctor",
+	"name": "金山电池医生",
 	"target": "com.ijinshan.kbatterydoctor_en",
+	"targetName": "金山电池医生国际版",
 	"note": "特别的把金山电池医生翻译成其国际版，不得不佩服其的海外推广能力，其在 Google Play 的下载量堪比 Facebook。",
 	"rank": 41
 }, {
 	"packageName": "com.jingdong.app.mall",
+	"name": "京东",
 	"target": "com.contextlogic.wish",
+	"targetName": "Wish - Shopping Made Fun",
 	"note": "",
 	"rank": 42
 }, {
 	"packageName": "com.renren.mobile.android",
+	"name": "人人",
 	"target": "com.myspace.spacerock",
+	"targetName": "Myspace",
 	"note": "人人网，曾经被誉为中国的 Facebook，如今更像是中国的 Myspace。Myspace 在转型音乐社交领域后正在崛起，人人会吗？",
 	"rank": 43
 }, {
 	"packageName": "com.devuni.flashlight",
+	"name": "手电筒",
 	"target": "com.surpax.ledflashlight.panel",
+	"targetName": "超亮手電筒",
 	"note": "",
 	"rank": 44
 }, {
 	"packageName": "cn.com.fetion",
+	"name": "飞信",
 	"target": "com.google.android.talk",
+	"targetName": "Hangout",
 	"note": "",
 	"rank": 45
 }, {
 	"packageName": "com.cleanmaster.mguard_cn",
+	"name": "猎豹清理大师",
 	"target": "com.cleanmaster.mguard",
+	"targetName": "猎豹清理大师国际版",
 	"note": "在输出价值观之前，我们率先输出的可谓目前为止最成功的国内 App",
 	"rank": 46
 }, {
 	"packageName": "com.sohu.sohuvideo",
+	"name": "搜狐视频",
 	"target": "com.hulu.plus",
+	"targetName": "Hulu",
 	"note": "从早期的光碟租赁起家，Netflix 已经成为美国最大的在线视频网站之一，「纸牌屋」首播平台",
 	"rank": 47
 }, {
 	"packageName": "com.duowan.mobile",
+	"name": "YY",
 	"target": "tv.periscope.android",
+	"targetName": "Periscope",
 	"note": "Twitter 旗下的 Periscope 是海外最热门的直播网站",
 	"rank": 48
 }, {
 	"packageName": "dopool.player",
+	"name": "手机电视",
 	"target": "com.roku.remote",
+	"targetName": "Roku",
 	"note": "在国外，买一个 Roku 就可以看到各大电台的免费电视了，最重要的是还有中文频道！",
 	"rank": 49
 }, {
 	"packageName": "com.iflytek.inputmethod",
+	"name": "讯飞输入法手机版",
 	"target": "com.aitype.android",
+	"targetName": "ai.type 键盘+Emoji",
 	"note": "Google Play 输入法排行榜第三名",
 	"rank": 50
 }, {
 	"packageName": "com.lbe.security",
+	"name": "LBE安全大师",
 	"target": "com.eset.ems2.gp",
+	"targetName": "Mobile Security & Antivirus",
 	"note": "LBE 的海外同类选择了来自斯洛伐克 ESET，同样的专注于安全，名字的来历也同样有趣",
 	"rank": 51
 }, {
 	"packageName": "com.tongcheng.android",
+	"name": "同程旅游",
 	"target": "com.hotwire.hotels",
+	"targetName": "Hotwire Hotel & Car Rental App",
 	"note": "",
 	"rank": 52
 }, {
 	"packageName": "com.lingdong.client.android",
+	"name": "诚品快拍",
 	"target": "com.biggu.shopsavvy",
+	"targetName": "ShopSavvy Barcode & QR Scanner",
 	"note": "专门为了购物而生的二维码扫描器，买买买必备",
 	"rank": 53
 }, {
 	"packageName": "com.shuqi.controller",
+	"name": "书旗小说",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 54
 }, {
 	"packageName": "com.letv.android.client",
+	"name": "乐视视频",
 	"target": "com.gotv.crackle.handset",
+	"targetName": "Crackle",
 	"note": "索尼影视娱乐旗下的在线视频网站 Crackle，和乐视一样有很多独家的版权，遗憾的是并不支持中国大陆",
 	"rank": 55
 }, {
 	"packageName": "com.clov4r.android.nil",
+	"name": "MoboPlayer",
 	"target": "com.mxtech.videoplayer.ad",
+	"targetName": "MX Player",
 	"note": "MXPlayer 是海外用户最多的播放器",
 	"rank": 56
 }, {
 	"packageName": "com.autoconnectwifi.app",
+	"name": "WiFi 连网神器",
 	"target": "com.yunshang.wifimap",
+	"targetName": "免费WiFi",
 	"note": "别以为国外就没有蹭网需求，海外蹭网神器二",
 	"rank": 57
 }, {
 	"packageName": "com.qq.reader",
+	"name": "QQ阅读",
 	"target": "com.google.android.apps.books",
+	"targetName": "Google Play 图书",
 	"note": "无所不在的 Google，无处不在的 QQ",
 	"rank": 58
 }, {
 	"packageName": "com.baidu.searchbox",
+	"name": "手机百度",
 	"target": "com.google.android.googlequicksearchbox",
+	"targetName": "Google",
 	"note": "",
 	"rank": 59
 }, {
 	"packageName": "com.shoujiduoduo.ringtone",
+	"name": "铃声多多",
 	"target": "net.zedge.android",
+	"targetName": "ZEDGE™图标 铃声和壁纸",
 	"note": "",
 	"rank": 60
 }, {
 	"packageName": "com.tencent.WBlog",
+	"name": "腾讯微博",
 	"target": "com.plurk.android",
+	"targetName": "噗浪(Plurk)",
 	"note": "",
 	"rank": 61
 }, {
 	"packageName": "com.alensw.PicFolder",
+	"name": "快图浏览 QuickPic",
 	"target": "com.google.android.apps.photos",
+	"targetName": "Google 相册",
 	"note": "",
 	"rank": 62
 }, {
 	"packageName": "com.duomi.android",
+	"name": "多米音乐",
 	"target": "com.amazon.mp3",
+	"targetName": "Amazon Music with Prime Music",
 	"note": "把多米音乐翻译为 Amazon 是因为其仍然不声不响的保持在音乐市场的第一阶梯，但总看着要掉队",
 	"rank": 63
 }, {
 	"packageName": "com.Qunar",
+	"name": "去哪儿旅行",
 	"target": "com.kayak.android",
+	"targetName": "卡雅机票、酒店和租车",
 	"note": "",
 	"rank": 64
 }, {
 	"packageName": "com.sdu.didi.psnger",
+	"name": "滴滴出行",
 	"target": "com.ubercab",
+	"targetName": "Uber",
 	"note": "",
 	"rank": 65
 }, {
 	"packageName": "com.tudou.android",
+	"name": "土豆视频",
 	"target": "com.dailymotion.dailymotion",
+	"targetName": "Dailymotion",
 	"note": "Dailymotion 是海外仅次于 Youtube 的视频分享网站",
 	"rank": 66
 }, {
 	"packageName": "com.baidu.tieba",
+	"name": "百度贴吧",
 	"target": "com.andrewshu.android.reddit",
+	"targetName": "reddit",
 	"note": "",
 	"rank": 67
 }, {
 	"packageName": "com.meitu.meiyancamera",
+	"name": "美颜相机",
 	"target": "com.joeware.android.gpulumera",
+	"targetName": "CandyCamera",
 	"note": "",
 	"rank": 68
 }, {
 	"packageName": "bubei.tingshu",
+	"name": "懒人听书",
 	"target": "com.audible.application",
+	"targetName": "Audiobooks from Audible",
 	"note": "",
 	"rank": 69
 }, {
 	"packageName": "ctrip.android.view",
+	"name": "携程旅行",
 	"target": "com.expedia.bookings",
+	"targetName": "Expedia",
 	"note": "",
 	"rank": 70
 }, {
 	"packageName": "com.funcity.taxi.passenger",
+	"name": "快的打车",
 	"target": "br.com.easytaxi",
+	"targetName": "Easy Taxi Book Taxi",
 	"note": "",
 	"rank": 71
 }, {
 	"packageName": "com.tencent.qqpim",
+	"name": "QQ同步助手",
 	"target": "com.keramidas.TitaniumBackup",
+	"targetName": "Titanium Backup ★ root",
 	"note": "",
 	"rank": 72
 }, {
 	"packageName": "cn.chinabus.main",
+	"name": "8684公交",
 	"target": "com.tranzmate",
+	"targetName": "Moovit",
 	"note": "",
 	"rank": 73
 }, {
 	"packageName": "com.blovestorm",
+	"name": "来电通",
 	"target": "com.truecaller",
+	"targetName": "Truecaller",
 	"note": "",
 	"rank": 74
 }, {
 	"packageName": "com.xinmei365.font",
+	"name": "字体管家",
 	"target": "com.monotype.android.font.free.fifty6",
+	"targetName": "Fonts for FlipFont 50",
 	"note": "",
 	"rank": 75
 }, {
 	"packageName": "com.hiapk.marketpho",
+	"name": "安卓市场",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 76
 }, {
 	"packageName": "com.zdworks.android.zdclock",
+	"name": "正点闹钟",
 	"target": "com.monotype.android.font.free.fifty6",
+	"targetName": "免费终极闹钟‘",
 	"note": "",
 	"rank": 77
 }, {
 	"packageName": "com.netease.newsreader.activity",
+	"name": "网易新闻",
 	"target": "com.yahoo.mobile.client.android.yahoo",
+	"targetName": "Yahoo - US News",
 	"note": "中美三大门户网站的新闻客户端之 Yahoo 对应网易",
 	"rank": 78
 }, {
 	"packageName": "com.tencent.research.drop",
+	"name": "手机QQ影音",
 	"target": "com.google.android.apps.chromecast.app",
+	"targetName": "Chromecast",
 	"note": "智能电视的时代，一键投影你的视频",
 	"rank": 79
 }, {
 	"packageName": "smskb.com",
+	"name": "盛名列车时刻表",
 	"target": "uk.co.nationalrail.google",
+	"targetName": "National Rail Enquiries",
 	"note": "",
 	"rank": 80
 }, {
 	"packageName": "com.mymoney",
+	"name": "随手记",
 	"target": "com.monefy.app.lite",
+	"targetName": "Monefy",
 	"note": "",
 	"rank": 81
 }, {
 	"packageName": "com.achievo.vipshop",
+	"name": "唯品会",
 	"target": "com.asos.app",
+	"targetName": "Asos",
 	"note": "",
 	"rank": 82
 }, {
 	"packageName": "com.yoloho.dayima",
+	"name": "大姨吗",
 	"target": "com.popularapp.periodcalendar",
+	"targetName": "小月历",
 	"note": "",
 	"rank": 83
 }, {
 	"packageName": "com.dataviz.docstogo",
+	"name": "办公利器 Documents To Go",
 	"target": "com.microsoft.office.officehub",
+	"targetName": "Microsoft Office Mobile",
 	"note": "",
 	"rank": 84
 }, {
 	"packageName": "com.dianxinos.dxhome",
+	"name": "点心桌面",
 	"target": "home.solo.launcher.free",
+	"targetName": "Solo Launcher",
 	"note": "桌面启动类应用以中国出口为主。Google Play 第二名 Solo - Made in China",
 	"rank": 85
 }, {
 	"packageName": "com.qihoo360.mobilesafe.opti",
+	"name": "360优化大师",
 	"target": "com.avast.android.cleaner",
+	"targetName": "Avast Cleanup",
 	"note": "Avast 对应的优化应用",
 	"rank": 86
 }, {
 	"packageName": "com.moxiu.launcher",
+	"name": "魔秀桌面",
 	"target": "com.ksmobile.launcher",
+	"targetName": "CM Launcher",
 	"note": "桌面启动类应用以中国出口为主。Google Play 第三名 CM - Made in China",
 	"rank": 87
 }, {
 	"packageName": "com.smile.gifmaker",
+	"name": "快手",
 	"target": "net.zentertain.funvideo",
+	"targetName": "Fideo",
 	"note": "如果你用过快手，不妨试试 Fideo，除了肤色不一样，剩下都好接近。",
 	"rank": 88
 }, {
 	"packageName": "com.dianxinos.powermanager",
+	"name": "点心省电",
 	"target": "com.avg.cleaner",
+	"targetName": "AVG Cleaner",
 	"note": "AVG 对应的优化应用",
 	"rank": 89
 }, {
 	"packageName": "com.tencent.qqpinyin",
+	"name": "QQ输入法",
 	"target": "com.syntellia.fleksy.keyboard",
+	"targetName": "Fleksy + GIF Keyboard",
 	"note": "Google Play 输入法排行榜第四名",
 	"rank": 90
 }, {
 	"packageName": "com.antutu.ABenchMark",
+	"name": "安兔兔评测",
 	"target": "com.cpuid.cpu_z",
+	"targetName": "CPU-Z",
 	"note": "",
 	"rank": 91
 }, {
 	"packageName": "com.qihoo360.mobilesafe.opti.powerctl",
+	"name": "360省电王",
 	"target": "com.avast.android.batterysaver",
+	"targetName": "Avast Battery Saver",
 	"note": "Avast 对应的电池管理应用",
 	"rank": 92
 }, {
 	"packageName": "com.kingreader.framework",
+	"name": "开卷小说",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 93
 }, {
 	"packageName": "com.jiubang.goscreenlock",
+	"name": "GO锁屏",
 	"target": "com.ztapps.lockermaster",
+	"targetName": "Solo锁屏大师",
 	"note": "",
 	"rank": 94
 }, {
 	"packageName": "sina.mobile.tianqitong",
+	"name": "天气通",
 	"target": "com.devexpert.weather",
+	"targetName": "Weather & Clock Widget",
 	"note": "一款国外用的很多的天气 App，桌面插件是其特色",
 	"rank": 95
 }, {
 	"packageName": "com.tuniu.app.ui",
+	"name": "途牛旅游",
 	"target": "com.momondo.flightsearch",
+	"targetName": "momondo",
 	"note": "",
 	"rank": 96
 }, {
 	"packageName": "com.wuba",
+	"name": "58同城",
 	"target": "craigs.pro.plus",
+	"targetName": "cPro Craigslist Mobile Client",
 	"note": "",
 	"rank": 97
 }, {
 	"packageName": "com.handsgo.jiakao.android",
+	"name": "驾考宝典",
 	"target": "com.kep.driving.us",
+	"targetName": "US DMV Driving Tests",
 	"note": "",
 	"rank": 98
 }, {
 	"packageName": "cld.navi.mainframe",
+	"name": "凯立德导航",
 	"target": "com.mapfactor.navigator",
+	"targetName": "MapFactor GPS Navigation Maps",
 	"note": "",
 	"rank": 99
 }, {
 	"packageName": "com.tmall.wireless",
+	"name": "天猫",
 	"target": "com.amazon.mShop.android.shopping",
+	"targetName": "Amazon Shopping",
 	"note": "",
 	"rank": 100
 }, {
 	"packageName": "com.xunlei.downloadprovider",
+	"name": "迅雷",
 	"target": "com.utorrent.client",
+	"targetName": "µTorrent",
 	"note": "",
 	"rank": 101
 }, {
 	"packageName": "com.yibasan.lizhifm",
+	"name": "荔枝FM",
 	"target": "com.clearchannel.iheartradio.controller",
+	"targetName": "iHeartRadio",
 	"note": "",
 	"rank": 102
 }, {
 	"packageName": "com.ss.android.article.news",
+	"name": "今日头条",
 	"target": "jp.gocro.smartnews.android",
+	"targetName": "SmartNews",
 	"note": "Smartnews 在海外还是后起之秀，但很有可能就是下一个今日头条，更可况他们还长的那么像，不信下载试试",
 	"rank": 103
 }, {
 	"packageName": "com.jb.gosms",
+	"name": "GO短信加强版",
 	"target": "com.textra",
+	"targetName": "Textra SMS",
 	"note": "",
 	"rank": 104
 }, {
 	"packageName": "com.miui.mihome2",
+	"name": "小米桌面",
 	"target": "com.hola.launcher",
+	"targetName": "Hola Launcher",
 	"note": "桌面启动类应用以中国出口为主。Google Play 第四名 Hola - Made in China",
 	"rank": 105
 }, {
 	"packageName": "com.snda.youni",
+	"name": "Youni有你",
 	"target": "jp.naver.line.android",
+	"targetName": "Line",
 	"note": "",
 	"rank": 106
 }, {
 	"packageName": "com.ting.mp3.android",
+	"name": "百度音乐",
 	"target": "com.google.android.music",
+	"targetName": "Google Music",
 	"note": "好吧，这么翻译只是觉得应该把百度翻译为 Google ",
 	"rank": 107
 }, {
 	"packageName": "cn.goapk.market",
+	"name": "安智市场",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 108
 }, {
 	"packageName": "com.sohu.newsclient",
+	"name": "搜狐新闻",
 	"target": "com.microsoft.amp.apps.bingnews",
+	"targetName": "MSN 新聞 - 最新頭條",
 	"note": "中美三大门户网站的新闻客户端之 MSN 对应搜狐",
 	"rank": 109
 }, {
 	"packageName": "com.nd.android.pandareader",
+	"name": "熊猫看书",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 110
 }, {
 	"packageName": "com.dragon.android.pandaspace",
+	"name": "91助手",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 111
 }, {
 	"packageName": "com.tigerknows",
+	"name": "老虎地图",
 	"target": "com.mapswithme.maps.pro",
+	"targetName": "MAPS.ME",
 	"note": "",
 	"rank": 112
 }, {
 	"packageName": "com.tencent.token",
+	"name": "QQ安全中心",
 	"target": "com.mcafee.mmi",
+	"targetName": "McAfee Security Innovations",
 	"note": "",
 	"rank": 113
 }, {
 	"packageName": "cn.wps.moffice_eng",
+	"name": "WPS Office",
 	"target": "com.mobisystems.office",
+	"targetName": "OfficeSuite + PDF Editor",
 	"note": "",
 	"rank": 114
 }, {
 	"packageName": "com.qihoo.appstore",
+	"name": "360手机助手",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 115
 }, {
 	"packageName": "com.funshion.video.mobile",
+	"name": "风行视频",
 	"target": "com.viki.android",
+	"targetName": "Viki－精彩影视剧和新闻",
 	"note": "Viki，不是 Wiki，在线视频网站，韩剧为主",
 	"rank": 116
 }, {
 	"packageName": "qsbk.app",
+	"name": "糗事百科",
 	"target": "com.ninegag.android.app",
+	"targetName": "9GAG",
 	"note": "",
 	"rank": 117
 }, {
 	"packageName": "com.youba.flashlight",
+	"name": "终极手电筒",
 	"target": "com.intellectualflame.ledflashlight.washer",
+	"targetName": "手電筒",
 	"note": "",
 	"rank": 118
 }, {
 	"packageName": "cn.jingling.motu.photowonder",
+	"name": "百度魔图",
 	"target": "com.everimaging.photoeffectstudio",
+	"targetName": "Fotor",
 	"note": "",
 	"rank": 119
 }, {
 	"packageName": "com.chinamworld.main",
+	"name": "中国建设银行",
 	"target": "com.infonow.bofa",
+	"targetName": "Bank of America",
 	"note": "",
 	"rank": 120
 }, {
 	"packageName": "com.xiaomi.channel",
+	"name": "米聊",
 	"target": "org.telegram.messenger",
+	"targetName": "Telegram",
 	"note": "",
 	"rank": 121
 }, {
 	"packageName": "com.tadu.android",
+	"name": "塔读文学",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 122
 }, {
 	"packageName": "com.haodou.recipe",
+	"name": "好豆菜谱",
 	"target": "com.scripps.android.foodnetwork",
+	"targetName": "Food Network In the Kitchen",
 	"note": "",
 	"rank": 123
 }, {
 	"packageName": "com.douguo.recipe",
+	"name": "豆果美食",
 	"target": "com.yummly.android",
+	"targetName": "Yummly Recipes & Shopping List",
 	"note": "",
 	"rank": 124
 }, {
 	"packageName": "com.dewmobile.kuaiya",
+	"name": "快牙",
 	"target": "cn.xender",
+	"targetName": "Xender",
 	"note": "",
 	"rank": 125
 }, {
 	"packageName": "com.tencent.news",
+	"name": "腾讯新闻",
 	"target": "com.google.android.apps.genie.geniewidget",
+	"targetName": "Google新闻和天气",
 	"note": "总感觉 Google 新闻简直是 Google 系列产品中有点丢人的那个，腾讯新闻也有那么点感觉",
 	"rank": 126
 }, {
 	"packageName": "com.qihoo360.launcher",
+	"name": "360手机桌面",
 	"target": "com.cyou.cma.clauncher",
+	"targetName": "C Launcher",
 	"note": "桌面启动类应用以中国出口为主。C Launcher - Made in China",
 	"rank": 127
 }, {
 	"packageName": "com.lovebizhi.wallpaper",
+	"name": "爱壁纸HD",
 	"target": "com.ogqcorp.bgh",
+	"targetName": "Backgrounds HD",
 	"note": "",
 	"rank": 128
 }, {
 	"packageName": "com.baidu.netdisk",
+	"name": "百度云",
 	"target": "com.dropbox.android",
+	"targetName": "Dropbox",
 	"note": "",
 	"rank": 129
 }, {
 	"packageName": "com.ganji.android",
+	"name": "赶集生活",
 	"target": "com.ebay.kleinanzeigen",
+	"targetName": "eBay Kleinanzeigen",
 	"note": "",
 	"rank": 130
 }, {
 	"packageName": "com.mogujie",
+	"name": "蘑菇街",
 	"target": "de.zalando.mobile",
+	"targetName": "Zalando",
 	"note": "",
 	"rank": 131
 }, {
 	"packageName": "my.PCamera",
+	"name": "POCO相机",
 	"target": "com.vsco.cam",
+	"targetName": "VSCO",
 	"note": "",
 	"rank": 132
 }, {
 	"packageName": "com.oupeng.mini.android",
+	"name": "欧朋浏览器极速版",
 	"target": "com.opera.mini.native",
+	"targetName": "Opera Mini web 浏览器",
 	"note": "很多年前刚接触电脑时，我就敏锐的直觉到 Opera 和欧朋有关系，昨天终于通过百度百科得到了证实",
 	"rank": 133
 }, {
 	"packageName": "cn.ibuka.manga.ui",
+	"name": "布卡漫画",
 	"target": "com.naver.linewebtoon",
+	"targetName": "LINE Webtoon",
 	"note": "",
 	"rank": 134
 }, {
 	"packageName": "cn.com.tiros.android.navidog",
+	"name": "导航犬",
 	"target": "cz.aponia.bor3.offlinemaps",
+	"targetName": "Offline maps & Navigation",
 	"note": "",
 	"rank": 135
 }, {
 	"packageName": "com.tuan800.android",
+	"name": "团800",
 	"target": "com.livingsocial.www",
+	"targetName": "LivingSocial - Local Deals",
 	"note": "",
 	"rank": 136
 }, {
 	"packageName": "com.nuomi",
+	"name": "百度糯米",
 	"target": "thecouponsapp.coupon",
+	"targetName": "The Coupons App",
 	"note": "",
 	"rank": 137
 }, {
 	"packageName": "com.anzhuoshoudiantong",
+	"name": "安卓手电筒",
 	"target": "goldenshorestechnologies.brightestflashlight.free",
+	"targetName": "最亮的手電筒免費",
 	"note": "",
 	"rank": 138
 }, {
 	"packageName": "com.nd.android.pandahome2",
+	"name": "91桌面",
 	"target": "com.anddoes.launcher",
+	"targetName": "Apex Launcher",
 	"note": "桌面启动类应用以中国出口为主。Apex Launcher - Made in China",
 	"rank": 139
 }, {
 	"packageName": "com.tujia.hotel",
+	"name": "途家",
 	"target": "com.airbnb.android",
+	"targetName": "Airbnb",
 	"note": "",
 	"rank": 140
 }, {
 	"packageName": "fm.qingting.qtradio",
+	"name": "蜻蜓FM",
 	"target": "tunein.player",
+	"targetName": "TuneIn Radio",
 	"note": "",
 	"rank": 141
 }, {
 	"packageName": "com.xiaoenai.app",
+	"name": "小恩爱",
 	"target": "kr.co.vcnc.android.couple",
+	"targetName": "Between",
 	"note": "来自韩国的 Between 是情侣类应用中最火的一款了",
 	"rank": 142
 }, {
 	"packageName": "com.kingsoft",
+	"name": "金山词霸",
 	"target": "com.bravolol.bravolang.englishchinesecdictionary",
+	"targetName": "iTranslate	at.nk.tools.iTranslate	10.9w",
 	"note": "",
 	"rank": 143
 }, {
 	"packageName": "com.sankuai.movie",
+	"name": "猫眼电影",
 	"target": "com.bt.bms",
+	"targetName": "BookMyShow–Movie Tickets,Plays",
 	"note": "",
 	"rank": 144
 }, {
 	"packageName": "com.hunantv.imgo.activity",
+	"name": "芒果TV",
 	"target": "com.cw.fullepisodes.android",
+	"targetName": "The CW",
 	"note": "CW，美国五大电视网之一，网友称为「青春台」。什么？这个应用就叫芒果 TV 啊，还以为是湖南 TV 呢……",
 	"rank": 145
 }, {
 	"packageName": "com.danesh.system.app.remover",
+	"name": "系统程序卸载器",
 	"target": "com.rootuninstaller.free",
+	"targetName": "Root Uninstaller",
 	"note": "",
 	"rank": 146
 }, {
 	"packageName": "com.tencent.androidqqmail",
+	"name": "QQ邮箱",
 	"target": "com.google.android.gm",
+	"targetName": "Gmail",
 	"note": "",
 	"rank": 147
 }, {
 	"packageName": "com.icbc",
+	"name": "中国工商银行",
 	"target": "com.usbank.mobilebanking",
+	"targetName": "U.S. Bank",
 	"note": "",
 	"rank": 148
 }, {
 	"packageName": "com.hexin.plat.android",
+	"name": "同花顺",
 	"target": "com.fusionmedia.investing",
+	"targetName": "Investing.com 外汇股票资讯通",
 	"note": "",
 	"rank": 149
 }, {
 	"packageName": "com.xiachufang",
+	"name": "下厨房",
 	"target": "com.bigoven.android",
+	"targetName": "BigOven",
 	"note": "",
 	"rank": 150
 }, {
 	"packageName": "com.baidu.easyroot",
+	"name": "百度一键root",
 	"target": "eu.chainfire.supersu",
+	"targetName": "SuperSU",
 	"note": "",
 	"rank": 151
 }, {
 	"packageName": "hugh.android.app.zidian",
+	"name": "新华字典",
 	"target": "com.merriamwebster",
+	"targetName": "Dictionary",
 	"note": "",
 	"rank": 152
 }, {
 	"packageName": "viva.reader",
+	"name": "畅读",
 	"target": "com.zinio.mobile.android.reader",
+	"targetName": "Zinio: 5000+ Digital Magazines",
 	"note": "使用畅读是因为它的杂志而不是新闻，相比而言国外的 Zinio 更专注于杂志",
 	"rank": 153
 }, {
 	"packageName": "com.meitu.meipaimv",
+	"name": "美拍",
 	"target": "co.vine.android",
+	"targetName": "Vine",
 	"note": "Vine，短视频的鼻祖，6秒钟的惊艳，开启了国内「美拍/秒拍/趣拍」等拍拍拍视频的时代",
 	"rank": 154
 }, {
 	"packageName": "com.myzaker.ZAKER_Phone",
+	"name": "ZAKER",
 	"target": "flipboard.app",
+	"targetName": "Flipboard",
 	"note": "Zaker，乍一看有点像 Flipboard，但用多了就能感受到中国特色了",
 	"rank": 155
 }, {
 	"packageName": "bdmobile.android.app",
+	"name": "掌上百度",
 	"target": "com.google.android.googlequicksearchbox",
+	"targetName": "google",
 	"note": "",
 	"rank": 156
 }, {
 	"packageName": "com.autonavi.xmgd.navigator",
+	"name": "高德导航",
 	"target": "com.waze",
+	"targetName": "Waze",
 	"note": "",
 	"rank": 157
 }, {
 	"packageName": "com.cubic.autohome",
+	"name": "汽车之家",
 	"target": "com.cars.android",
+	"targetName": "Cars.com",
 	"note": "",
 	"rank": 158
 }, {
 	"packageName": "com.jiasoft.swreader",
+	"name": "安卓读书",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 159
 }, {
 	"packageName": "com.muzhiwan.market",
+	"name": "拇指玩",
 	"target": "com.google.android.play.games",
+	"targetName": "Google Play游戏",
 	"note": "",
 	"rank": 160
 }, {
 	"packageName": "com.yixia.videoeditor",
+	"name": "秒拍",
 	"target": "com.keek",
+	"targetName": "Keek",
 	"note": "秒拍相比较美拍最大的优势就是明星！没错，Keek 对 Vine 也是这样的优势",
 	"rank": 161
 }, {
 	"packageName": "com.duowan.lolbox",
+	"name": "多玩饭盒",
 	"target": "com.CreativeDK.LeagueofLegendsChampions",
+	"targetName": "Champions of League of Legends",
 	"note": "",
 	"rank": 162
 }, {
 	"packageName": "com.mandi.lol",
+	"name": "英雄联盟控",
 	"target": "gg.op.lol.android",
+	"targetName": "LOL Stats + MMR",
 	"note": "",
 	"rank": 163
 }, {
 	"packageName": "com.anyview",
+	"name": "Anyview阅读",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 164
 }, {
 	"packageName": "com.ss.android.essay.joke",
+	"name": "内涵段子",
 	"target": "mobi.ifunny",
+	"targetName": "iFunny",
 	"note": "",
 	"rank": 165
 }, {
 	"packageName": "com.cootek.smartdialer",
+	"name": "触宝电话",
 	"target": "com.skype.raider",
+	"targetName": "Skype",
 	"note": "",
 	"rank": 166
 }, {
 	"packageName": "com.duokan.reader",
+	"name": "多看阅读",
 	"target": "com.kobobooks.android",
+	"targetName": "Kobo Books",
 	"note": "来自加拿大的 Kobo 在北美是 Kindle 最大的竞争对手",
 	"rank": 167
 }, {
 	"packageName": "com.lianlian",
+	"name": "联连免费WiFi",
 	"target": "com.osmino.wifil",
+	"targetName": "osmino WiFi: 免费的Wi-Fi",
 	"note": "别以为国外就没有蹭网需求，海外蹭网神器三",
 	"rank": 168
 }, {
 	"packageName": "com.kaixin001.activity",
+	"name": "开心网",
 	"target": "com.vkontakte.android",
+	"targetName": "VK",
 	"note": "",
 	"rank": 169
 }, {
 	"packageName": "com.knightli.jokebook",
+	"name": "笑话万篇",
 	"target": "com.sphinx.lolpics",
+	"targetName": "LOL Pics (Funny Pictures)",
 	"note": "",
 	"rank": 170
 }, {
 	"packageName": "com.tencent.android.qqdownloader",
+	"name": "应用宝",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 171
 }, {
 	"packageName": "cn.buding.coupon",
+	"name": "布丁优惠券",
 	"target": "com.coupons.ciapp",
+	"targetName": "Coupons, Codes, Deals & Saving",
 	"note": "",
 	"rank": 172
 }, {
 	"packageName": "com.baidu.browser.apps",
+	"name": "百度手机浏览器",
 	"target": "com.yandex.browser",
+	"targetName": "Yandex.Browser for Android",
 	"note": "Yandex 就是俄罗斯的百度，也是 Google 在全球统治力最差的两大地区",
 	"rank": 173
 }, {
 	"packageName": "com.mapbar.android.mapbarmap",
+	"name": " 图吧导航",
 	"target": "com.sygic.aura",
+	"targetName": "GPS Navigation & Maps Sygic",
 	"note": "",
 	"rank": 174
 }, {
 	"packageName": "com.tencent.qqlite",
+	"name": "QQ轻聊版",
 	"target": "com.facebook.lite",
+	"targetName": "Facebook Lite",
 	"note": "",
 	"rank": 175
 }, {
 	"packageName": "com.chaozh.iReaderFree15",
+	"name": "爱读掌阅",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 176
 }, {
 	"packageName": "com.gamestar.pianoperfect",
+	"name": "随身乐队",
 	"target": "com.rubycell.pianisthd",
+	"targetName": "Piano +",
 	"note": "",
 	"rank": 177
 }, {
 	"packageName": "com.wandoujia.roshan",
+	"name": "Snap 效率锁屏",
 	"target": "com.google.android.launcher",
+	"targetName": "Google 即时桌面",
 	"note": "",
 	"rank": 178
 }, {
 	"packageName": "com.jm.android.jumei",
+	"name": "聚美优品",
 	"target": "com.rarewire.forever21",
+	"targetName": "Forever 21",
 	"note": "",
 	"rank": 179
 }, {
 	"packageName": "obg1.PhotafPro",
+	"name": " Photaf全景临",
 	"target": "com.vtcreator.android360",
+	"targetName": "Panorama 360",
 	"note": "",
 	"rank": 180
 }, {
 	"packageName": "com.manboker.headportrait",
+	"name": "魔漫相机",
 	"target": "com.fingersoft.cartooncamera",
+	"targetName": "卡通相机",
 	"note": "",
 	"rank": 181
 }, {
 	"packageName": "com.greenpoint.android.mc10086.activity",
+	"name": "中国移动手机营业厅",
 	"target": "com.att.myWireless",
+	"targetName": "myAT&T",
 	"note": "中美运营商翻译：中国移动 vs AT&T",
 	"rank": 182
 }, {
 	"packageName": "com.lanteanstudio.compass",
+	"name": "超级指南针",
 	"target": "com.codesector.maverick.lite",
+	"targetName": "Maverick: GPS Navigation",
 	"note": "",
 	"rank": 183
 }, {
 	"packageName": "tv.danmaku.bili",
+	"name": "哔哩哔哩动画",
 	"target": "jp.nicovideo.android",
+	"targetName": "niconico",
 	"note": "",
 	"rank": 184
 }, {
 	"packageName": "com.douban.radio",
+	"name": "豆瓣FM",
 	"target": "com.pandora.android",
+	"targetName": "Pandora® Radio",
 	"note": "豆瓣 FM 的海外同类非 Pandora® Radio 莫属",
 	"rank": 185
 }, {
 	"packageName": "com.sinovatech.unicom.ui",
+	"name": "中国联通手机营业厅（官方版）",
 	"target": "nl.oberon.tmobile.my",
+	"targetName": "My T-Mobile",
 	"note": "中美运营商翻译：中国联通 vs T Mobile",
 	"rank": 186
 }, {
 	"packageName": "com.ximalaya.ting.android",
+	"name": "喜马拉雅FM",
 	"target": "com.bambuna.podcastaddict",
+	"targetName": "Podcast Addict",
 	"note": "",
 	"rank": 187
 }, {
 	"packageName": "com.codingcaveman.Solo",
+	"name": "吉他独奏",
 	"target": "com.ultimateguitar.tabs",
+	"targetName": "Ultimate Guitar Tabs & Chords",
 	"note": "",
 	"rank": 188
 }, {
 	"packageName": "com.zhihu.android",
+	"name": "知乎",
 	"target": "com.quora.android",
+	"targetName": "quora",
 	"note": "www.zhihu.com/question/33472145：从知乎转战到 Quora 是一种怎样的体验",
 	"rank": 189
 }, {
 	"packageName": "com.yx",
+	"name": "有信电话",
 	"target": "com.viber.voip",
+	"targetName": "Viber",
 	"note": "",
 	"rank": 190
 }, {
 	"packageName": "com.tuan800.tao800",
+	"name": "折800",
 	"target": "com.whaleshark.retailmenot",
+	"targetName": "RetailMeNot Coupons, Discounts",
 	"note": "",
 	"rank": 191
 }, {
 	"packageName": "com.jiongji.andriod.card",
+	"name": "百词斩",
 	"target": "com.funeasylearn.english",
+	"targetName": "学习英语 6000 单词",
 	"note": "",
 	"rank": 192
 }, {
 	"packageName": "my.beautyCamera",
+	"name": "美人相机",
 	"target": "jp.naver.linecamera.android",
+	"targetName": "aillis相机",
 	"note": "",
 	"rank": 193
 }, {
 	"packageName": "com.app.hero.ui",
+	"name": "K歌达人",
 	"target": "com.smule.singandroid",
+	"targetName": "Sing! 卡拉OK by Smule",
 	"note": "",
 	"rank": 194
 }, {
 	"packageName": "com.thestore.main",
+	"name": "1号店",
 	"target": "com.walmart.android",
+	"targetName": "Walmart",
 	"note": "",
 	"rank": 195
 }, {
 	"packageName": "com.ifeng.news2",
+	"name": "凤凰新闻",
 	"target": "bbc.mobile.news.ww",
+	"targetName": "BBC News",
 	"note": "提起凤凰，我能想到铿锵三人行；提起BBC，我能想到纪录片。提起其他媒体，我一下子真想不出什么节目来",
 	"rank": 196
 }, {
 	"packageName": "im.yixin",
+	"name": "易信",
 	"target": "com.kakao.talk",
+	"targetName": "KakaoTalk",
 	"note": "",
 	"rank": 197
 }, {
 	"packageName": "com.ophone.reader.ui",
+	"name": "咪咕阅读",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 198
 }, {
 	"packageName": "com.lltskb.lltskb",
+	"name": "路路通",
 	"target": "com.tomtom.gplay.navapp",
+	"targetName": "TomTom GPS Navigation Traffic",
 	"note": "",
 	"rank": 199
 }, {
 	"packageName": "com.meilishuo",
+	"name": "美丽说",
 	"target": "com.urbanoutfitters.android",
+	"targetName": "Urban Outfitters",
 	"note": "",
 	"rank": 200
 }, {
 	"packageName": "com.zhiqupk.root",
+	"name": "一键root大师",
 	"target": "com.noshufou.android.su",
+	"targetName": "Superuser",
 	"note": "",
 	"rank": 201
 }, {
 	"packageName": "com.gau.go.launcherex.gowidget.weatherwidget",
+	"name": "GO天气EX",
 	"target": "com.yahoo.mobile.client.android.weather",
+	"targetName": "Yahoo Weather",
 	"note": "Yahoo Weather 和 GO 天气真的长的一模一样",
 	"rank": 202
 }, {
 	"packageName": "wenhr.Mcdonalds",
+	"name": "麦当劳优惠券完美版",
 	"target": "com.mcdonalds.app",
+	"targetName": "McDonald's",
 	"note": "",
 	"rank": 203
 }, {
 	"packageName": "com.yinyuetai.ui",
+	"name": "音悦台",
 	"target": "com.vevo",
+	"targetName": "vevo",
 	"note": "Vevo 是海外最大的 MV 在线网站，Vevo 频道是 Youtube 上访问量最大的频道",
 	"rank": 204
 }, {
 	"packageName": "com.suning.mobile.ebuy",
+	"name": "苏宁易购",
 	"target": "com.bestbuy.android",
+	"targetName": "bestbuy",
 	"note": "",
 	"rank": 205
 }, {
 	"packageName": "uk.co.nickfines.RealCalc",
+	"name": "科学计算器​​​​​",
 	"target": "us.mathlab.android",
+	"targetName": "科学图形计算器 Mathlab",
 	"note": "",
 	"rank": 206
 }, {
 	"packageName": "com.herman.ringtone",
+	"name": "铃声剪辑",
 	"target": "com.ringdroid",
+	"targetName": "Ringdroid",
 	"note": "",
 	"rank": 207
 }, {
 	"packageName": "one.hh.oneclient",
+	"name": "一个",
 	"target": "co.touchlab.android.onesecondeveryday",
+	"targetName": "1 Second Everyday",
 	"note": "尽管没有找到完全像 One 一样的应用，但 One is all 的理念却总是被发现。例如只有 IOS 版本的 Nextday，例如 Android 的这款应用：1 Second Everyday",
 	"rank": 208
 }, {
 	"packageName": "com.cootek.smartinputv5",
+	"name": "触宝输入法",
 	"target": "com.gingersoftware.android.keyboard",
+	"targetName": "Ginger键盘",
 	"note": "Google Play 输入法排行榜第五名",
 	"rank": 209
 }, {
 	"packageName": "com.zzenglish.client",
+	"name": "掌中英语",
 	"target": "com.duolingo",
+	"targetName": "多邻国｜免费学英语",
 	"note": "",
 	"rank": 210
 }, {
 	"packageName": "com.wacai365",
+	"name": "挖财记账理财",
 	"target": "com.thirdframestudios.android.expensoor",
+	"targetName": "Toshl",
 	"note": "",
 	"rank": 211
 }, {
 	"packageName": "com.dp.android.elong",
+	"name": "艺龙旅行",
 	"target": "com.makemytrip",
+	"targetName": "MakeMyTrip-Flights Hotel IRCTC",
 	"note": "",
 	"rank": 212
 }, {
 	"packageName": "com.mybook66",
+	"name": "读书巴士",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 213
 }, {
 	"packageName": "com.lashou.groupurchasing",
+	"name": "拉手团购",
 	"target": "com.aircrunch.shopalerts",
+	"targetName": "Coupons & Weekly Ads Shopular",
 	"note": "",
 	"rank": 214
 }, {
 	"packageName": "com.anjuke.android.app",
+	"name": "安居客",
 	"target": "com.zillow.android.zillowmap",
+	"targetName": "Zillow Real Estate & Rentals",
 	"note": "",
 	"rank": 215
 }, {
 	"packageName": "com.autonavi.cmccmap",
+	"name": "和地图",
 	"target": "com.magnetic.openmaps",
+	"targetName": "地图和导航",
 	"note": "",
 	"rank": 216
 }, {
 	"packageName": "com.hy.minifetion",
+	"name": "迷你飞信",
 	"target": "com.google.android.talk",
+	"targetName": "Hangout",
 	"note": "",
 	"rank": 217
 }, {
 	"packageName": "com.tencent.ttpic",
+	"name": "天天P图",
 	"target": "com.roidapp.photogrid",
+	"targetName": "Photo Grid",
 	"note": "",
 	"rank": 218
 }, {
 	"packageName": "com.uu.uunavi",
+	"name": "悠悠",
 	"target": "com.mapquest.android.ace",
+	"targetName": "MapQuest GPS Navigation & Maps",
 	"note": "",
 	"rank": 219
 }, {
 	"packageName": "com.kingroot.kinguser",
+	"name": "授权管理",
 	"target": "com.kingouser.com",
+	"targetName": "Kingo SuperUser",
 	"note": "",
 	"rank": 220
 }, {
 	"packageName": "com.android.bankabc",
+	"name": "农行掌上银行",
 	"target": "com.sbi.SBIFreedomPlus",
+	"targetName": "State Bank Anywhere",
 	"note": "",
 	"rank": 221
 }, {
 	"packageName": "com.liulishuo.engzo",
+	"name": "英语流利说",
 	"target": "vn.scdgroup.bbclearningenglish",
+	"targetName": "学习英语交谈",
 	"note": "",
 	"rank": 222
 }, {
 	"packageName": "com.iooly.android.lockscreen",
+	"name": "纹字锁屏",
 	"target": "com.celltick.lockscreen",
+	"targetName": "Start",
 	"note": "",
 	"rank": 223
 }, {
 	"packageName": "com.android.dazhihui",
+	"name": "大智慧",
 	"target": "com.yahoo.mobile.client.android.finance",
+	"targetName": "Yahoo 財經-股票滙率即時報價",
 	"note": "",
 	"rank": 224
 }, {
 	"packageName": "cmb.pb",
+	"name": "招商银行",
 	"target": "com.snapwork.hdfc",
+	"targetName": "HDFC Bank MobileBanking",
 	"note": "",
 	"rank": 225
 }, {
 	"packageName": "com.mtime",
+	"name": "时光网",
 	"target": "com.imdb.mobile",
+	"targetName": "IMDB電影及電視",
 	"note": "",
 	"rank": 226
 }, {
 	"packageName": "com.ijinshan.duba",
+	"name": "金山手机毒霸",
 	"target": "com.kms.free",
+	"targetName": "Kaspersky Internet Security",
 	"note": "卡巴斯基&金山毒霸，联系在一起就是上一个时代",
 	"rank": 227
 }, {
 	"packageName": "com.miui.home",
+	"name": "小米百变锁屏",
 	"target": "com.henry.app.optimizer.os8.lockscreen",
+	"targetName": "OS8 Lock Screen",
 	"note": "",
 	"rank": 228
 }, {
 	"packageName": "com.alibaba.android.babylon",
+	"name": "点点虫",
 	"target": "com.snapchat.android",
+	"targetName": "Snapchat",
 	"note": "",
 	"rank": 229
 }, {
 	"packageName": "com.Moco",
+	"name": "真心话大冒险",
 	"target": "com.soreal.truthordare",
+	"targetName": "Truth or Dare",
 	"note": "",
 	"rank": 230
 }, {
 	"packageName": "cn.com.opda.android.clearmaster",
+	"name": "一键清理大师",
 	"target": "com.liquidum.thecleaner",
+	"targetName": "The Cleaner",
 	"note": "只专注于清理",
 	"rank": 231
 }, {
 	"packageName": "com.qidian.QDReader",
+	"name": "起点读书",
 	"target": "wp.wattpad",
+	"targetName": "Wattpad",
 	"note": "Wattpad 是国外的作家社区",
 	"rank": 232
 }, {
 	"packageName": "com.qihoo.browser",
+	"name": "360浏览器",
 	"target": "com.apusapps.browser",
+	"targetName": "APUS Browser",
 	"note": "本是同根生，把 360 翻译成 APUS 再合适不过了",
 	"rank": 233
 }, {
 	"packageName": "com.tiqiaa.icontrol",
+	"name": "遥控精灵",
 	"target": "com.freeiruniversalremote",
+	"targetName": "IR Universal Remote",
 	"note": "",
 	"rank": 234
 }, {
 	"packageName": "cn.cntv",
+	"name": "央视影音",
 	"target": "com.cnn.mobile.android.phone",
+	"targetName": "CNN Breaking US & World News",
 	"note": "要说海外能和央视地位相当的媒体还真是不多，CNN 算是最接近的一个",
 	"rank": 235
 }, {
 	"packageName": "com.qigame.lock",
+	"name": "锁屏精灵",
 	"target": "com.microsoft.next",
+	"targetName": "Next Lock Screen",
 	"note": "",
 	"rank": 236
 }, {
 	"packageName": "com.xinmei365.wallpaper",
+	"name": "奇思壁纸",
 	"target": "com.campmobile.android.linedeco",
+	"targetName": "line deco",
 	"note": "",
 	"rank": 237
 }, {
 	"packageName": "com.gift.android",
+	"name": "驴妈妈旅游",
 	"target": "com.yatra.base",
+	"targetName": "Yatra-Book Travel-Flight Hotel",
 	"note": "",
 	"rank": 238
 }, {
 	"packageName": "org.fungo.fungolive",
+	"name": "云图TV电视直播",
 	"target": "com.spb.tv.am",
+	"targetName": "SPB TV",
 	"note": "国外用的最多的手机电视直播了，SPB TV",
 	"rank": 239
 }, {
 	"packageName": "com.diguayouxi",
+	"name": "当乐",
 	"target": "com.mobile.ign",
+	"targetName": "IGN Entertainment",
 	"note": "",
 	"rank": 240
 }, {
 	"packageName": "com.douban.movie",
+	"name": "豆瓣电影",
 	"target": "net.flixster.android",
+	"targetName": "Movies by Flixster",
 	"note": "",
 	"rank": 241
 }, {
 	"packageName": "com.calendar.UI",
+	"name": "91黄历天气",
 	"target": "com.droid27.transparentclockweather",
+	"targetName": "透明时钟和天气",
 	"note": "呃，这个真的翻译不出来了，国外不过黄历，不过可以试试月相",
 	"rank": 242
 }, {
 	"packageName": "com.sg.sledog",
+	"name": "搜狗号码通",
 	"target": "com.tranzmate",
+	"targetName": "Whoscall",
 	"note": "",
 	"rank": 243
 }, {
 	"packageName": "com.qihoo.video",
+	"name": "360影视大全",
 	"target": "com.xfinity.playnow",
+	"targetName": "XFINITY TV Go",
 	"note": "",
 	"rank": 244
 }, {
 	"packageName": "com.mymoney.sms",
+	"name": "卡牛信用卡管家",
 	"target": "com.creditkarma.mobile",
+	"targetName": "Credit Karma",
 	"note": "",
 	"rank": 245
 }, {
 	"packageName": "com.netease.cloudmusic",
+	"name": "网易云音乐",
 	"target": "deezer.android.app",
+	"targetName": "Deezer Music",
 	"note": "Deezer 和网易云音乐一样，尽管没有最多的用户，但有着最好的口碑",
 	"rank": 246
 }, {
 	"packageName": "net.iaround",
+	"name": "遇见",
 	"target": "com.skout.android",
+	"targetName": "SKOUT",
 	"note": "Skout 和 Badoo 在海外旗鼓相当，可惜国内目前还是陌陌一家独大",
 	"rank": 247
 }, {
 	"packageName": "com.xiudang.jiukuaiyou.ui",
+	"name": "卷皮",
 	"target": "com.ebay.redlaser",
+	"targetName": "RedLaser Barcode & QR Scanner",
 	"note": "",
 	"rank": 248
 }, {
 	"packageName": "com.tencent.map",
+	"name": "腾讯地图",
 	"target": "com.google.android.street",
+	"targetName": "Google 街景",
 	"note": "",
 	"rank": 249
 }, {
 	"packageName": "com.flightmanager.view",
+	"name": "航班管家",
 	"target": "com.flightradar24pro",
+	"targetName": "Flightradar24 - Flight Tracker",
 	"note": "",
 	"rank": 250
 }, {
 	"packageName": "com.tencent.qt.qtl",
+	"name": "掌上英雄联盟",
 	"target": "com.lolsummoners",
+	"targetName": "LOLSummoners for LoL",
 	"note": "",
 	"rank": 251
 }, {
 	"packageName": "org.dayup.gnotes",
+	"name": "随笔记 - GNotes",
 	"target": "com.google.android.keep",
+	"targetName": "google keep",
 	"note": "",
 	"rank": 252
 }, {
 	"packageName": "fm.xiami.main",
+	"name": "虾米音乐",
 	"target": "com.soundcloud.android",
+	"targetName": "SoundCloud",
 	"note": "相比较 Spotify，Soundcloud 有更多的独立音乐人进驻。在国内虾米的音乐人算是最多的了",
 	"rank": 253
 }, {
 	"packageName": "com.manle.phone.android.yaodian",
+	"name": "掌上药店",
 	"target": "com.goodrx",
+	"targetName": "GoodRx Drug Prices and Coupons",
 	"note": "",
 	"rank": 254
 }, {
 	"packageName": "com.ifeng.newvideo",
+	"name": "凤凰视频",
 	"target": "tv.ustream.ustream",
+	"targetName": "Ustream",
 	"note": "Ustream 是什么？据说在2008年美国大选时，所有候选人都会用 Ustream 回答问题。假说我是说假如中国有大选的话，我更看好凤凰视频",
 	"rank": 255
 }, {
 	"packageName": "com.sogou.map.android.maps",
+	"name": "搜狗地图",
 	"target": "com.here.app.maps",
+	"targetName": "Here",
 	"note": "",
 	"rank": 256
 }, {
 	"packageName": "me.ele",
+	"name": "饿了么",
 	"target": "com.grubhub.android",
+	"targetName": "GrubHub Food Delivery/Takeout",
 	"note": "",
 	"rank": 257
 }, {
 	"packageName": "com.mt.mttt",
+	"name": "美图贴贴",
 	"target": "com.niksoftware.snapseed",
+	"targetName": "Snapseed",
 	"note": "",
 	"rank": 258
 }, {
 	"packageName": "com.mt.mtgif",
+	"name": "美图GIF",
 	"target": "com.riffsy.FBMGIFApp",
+	"targetName": "GIF Keyboard",
 	"note": "",
 	"rank": 259
 }, {
 	"packageName": "com.budejie.www",
+	"name": "百思不得姐",
 	"target": "com.rantaz.sgfunnyquotes",
+	"targetName": "Funny Quotes Free",
 	"note": "",
 	"rank": 260
 }, {
 	"packageName": "com.sankuai.meituan.takeoutnew",
+	"name": "美团外卖",
 	"target": "com.seamlessweb.android.view",
+	"targetName": "Seamless Food Delivery/Takeout",
 	"note": "",
 	"rank": 261
 }, {
 	"packageName": "com.jiuyan.infashion",
+	"name": "in",
 	"target": "com.tumblr",
+	"targetName": "Tumblr",
 	"note": "",
 	"rank": 262
 }, {
 	"packageName": "cn.chono.yopper",
+	"name": "约碰交友",
 	"target": "com.myyearbook.m",
+	"targetName": "MeetMe",
 	"note": "名字很像的两款陌生人社交应用",
 	"rank": 263
 }, {
 	"packageName": "com.mx.browser",
+	"name": "傲游云浏览器",
 	"target": "mobi.mgeek.TunnyBrowser",
+	"targetName": "海豚浏览器",
 	"note": "海豚浏览器是又一款在海外使用者超多的国外应用",
 	"rank": 264
 }, {
 	"packageName": "cn.lieche.main",
+	"name": "8684火车",
 	"target": "com.thetrainline",
+	"targetName": "Trainline – times & tickets",
 	"note": "",
 	"rank": 265
 }, {
 	"packageName": "com.bankcomm",
+	"name": "交通银行",
 	"target": "com.chase.sig.android",
+	"targetName": "Chase Mobile",
 	"note": "",
 	"rank": 266
 }, {
 	"packageName": "com.soft.blued",
+	"name": "Blued",
 	"target": "com.grindrapp.android",
+	"targetName": "Grindr",
 	"note": "同性交友，圈的人都懂的",
 	"rank": 267
 }, {
 	"packageName": "com.aspire.g3wlan.client",
+	"name": "移动WiFi通",
 	"target": "com.att.android.ufi",
+	"targetName": "U-Fi",
 	"note": "中美运营商翻译：中国移动 vs AT&T",
 	"rank": 268
 }, {
 	"packageName": "com.when.coco",
+	"name": "365日历",
 	"target": "jp.co.johospace.jorte",
+	"targetName": "Jorte 行事历＆记事簿",
 	"note": "",
 	"rank": 269
 }, {
 	"packageName": "com.baozoumanhua.android",
+	"name": "暴走漫画",
 	"target": "com.imgur.mobile",
+	"targetName": "Imgur",
 	"note": "",
 	"rank": 270
 }, {
 	"packageName": "com.ludashi.benchmark",
+	"name": "鲁大师",
 	"target": "com.finalwire.aida64",
+	"targetName": "AIDA64",
 	"note": "",
 	"rank": 271
 }, {
 	"packageName": "com.kapp.ifont",
+	"name": "爱字体",
 	"target": "com.monotype.android.font.simprosys.stylishfonts",
+	"targetName": "Stylish Fonts",
 	"note": "",
 	"rank": 272
 }, {
 	"packageName": "com.jxedt",
+	"name": "驾校一点通",
 	"target": "com.yjklkj.dl.ca",
+	"targetName": "Driver License Test CA",
 	"note": "",
 	"rank": 273
 }, {
 	"packageName": "air.fyzb3",
+	"name": "风云直播",
 	"target": "air.WatchESPN",
+	"targetName": "WatchESPN",
 	"note": "",
 	"rank": 274
 }, {
 	"packageName": "com.estrongs.android.taskmanager",
+	"name": "ES任务管理器",
 	"target": "com.lookout.zapper",
+	"targetName": "Zapper 程序殺手",
 	"note": "",
 	"rank": 275
 }, {
 	"packageName": "me.chunyu.ChunyuDoctor",
+	"name": "春雨医生",
 	"target": "com.healthtap.userhtexpress",
+	"targetName": "HealthTap",
 	"note": "",
 	"rank": 276
 }, {
 	"packageName": "com.ucamera.ucam",
+	"name": "全能相机",
 	"target": "com.venticake.retrica",
+	"targetName": "Retrica",
 	"note": "",
 	"rank": 277
 }, {
 	"packageName": "com.zhihu.daily.android",
+	"name": "知乎日报",
 	"target": "com.yahoo.mobile.client.android.atom",
+	"targetName": "Yahoo News Digest",
 	"note": "我就是特别想推荐 Yahoo New Digest 这款应用，和想推荐知乎日报一种心情",
 	"rank": 278
 }, {
 	"packageName": "me.abitno.vplayer.t",
+	"name": "VPlayer",
 	"target": "com.kmplayer",
+	"targetName": "KMPlayer (Play, HD, Video)",
 	"note": "KMPlayer，韩国制造的简单好用的播放器",
 	"rank": 279
 }, {
 	"packageName": "fm.jihua.kecheng",
+	"name": "课程格子",
 	"target": "com.virblue.mystudylife",
+	"targetName": "My Study Life",
 	"note": "",
 	"rank": 280
 }, {
 	"packageName": "go.launcher.theme.KissMe",
+	"name": "动态主题桌面",
 	"target": "com.cm.launcher",
+	"targetName": "Cheetah Launcher",
 	"note": "桌面启动类应用以中国出口为主。Cheetah Launcher - Made in HK, China",
 	"rank": 281
 }, {
 	"packageName": "com.tencent.karaoke",
+	"name": "全民K歌",
 	"target": "com.softbolt.redkaraoke",
+	"targetName": "Red Karaoke 星和记录",
 	"note": "",
 	"rank": 282
 }, {
 	"packageName": "com.bilin.huijiao.activity",
+	"name": "比邻",
 	"target": "com.ftw_and_co.happn",
+	"targetName": "happn",
 	"note": "陌生人社交有着各种各样的场景，比邻创造了一种场景，Happn 则是另一种更有趣的场景",
 	"rank": 283
 }, {
 	"packageName": "com.lingan.seeyou",
+	"name": "美柚",
 	"target": "com.period.tracker.lite",
+	"targetName": "经期跟踪器",
 	"note": "",
 	"rank": 284
 }, {
 	"packageName": "com.douban.book.reader",
+	"name": "豆瓣阅读",
 	"target": "bn.ereader",
+	"targetName": "NOOK: Read eBooks & Magazines",
 	"note": "Barnes & Noble 一度是美国最大的零售连锁书店，Nook 是其像电子书行业进军的第一步",
 	"rank": 285
 }, {
 	"packageName": "com.youdao.note",
+	"name": "有道云笔记",
 	"target": "com.evernote",
+	"targetName": "Evernote",
 	"note": "",
 	"rank": 286
 }, {
 	"packageName": "com.mfw.roadbook",
+	"name": "蚂蜂窝自由行",
 	"target": "com.tripadvisor.tripadvisor",
+	"targetName": "TripAdvisor",
 	"note": "",
 	"rank": 287
 }, {
 	"packageName": "com.tenpay.android",
+	"name": "财付通",
 	"target": "com.google.android.apps.gmoney",
+	"targetName": "Google Wallet",
 	"note": "新的 Android Pay 大有取代 Google Wallet 的趋势，正如财付通被微信支付取代一样",
 	"rank": 288
 }, {
 	"packageName": "com.antutu.tester",
+	"name": "安兔兔硬件检测",
 	"target": "com.cpuid.hwmonitorpro",
+	"targetName": "HWMonitor PRO",
 	"note": "",
 	"rank": 289
 }, {
 	"packageName": "com.lgl.calendar",
+	"name": "佐佐日历",
 	"target": "org.withouthat.acalendar",
+	"targetName": "aCalendar",
 	"note": "",
 	"rank": 290
 }, {
 	"packageName": "com.snda.tt",
+	"name": "通通免费电话",
 	"target": "com.imo.android.imoim",
+	"targetName": "imo 免费视频通话和聊天",
 	"note": "",
 	"rank": 291
 }, {
 	"packageName": "me.papa",
+	"name": "啪啪音乐圈",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 292
 }, {
 	"packageName": "com.sina.news",
+	"name": "新浪新闻",
 	"target": "com.aol.mobile.aolapp",
+	"targetName": "AOL: Mail, News & Video",
 	"note": "中美三大门户网站的新闻客户端之 AOL 对应新浪",
 	"rank": 293
 }, {
 	"packageName": "com.chinamworld.bocmbci",
+	"name": "中国银行手机银行",
 	"target": "com.citi.citimobile",
+	"targetName": "Citi Mobile",
 	"note": "",
 	"rank": 294
 }, {
 	"packageName": "com.lenovo.anyshare",
+	"name": "茄子快传",
 	"target": "com.sand.airdroid",
+	"targetName": "AirDroid",
 	"note": "",
 	"rank": 295
 }, {
 	"packageName": "cmccwm.mobilemusic",
+	"name": "咪咕音乐",
 	"target": "com.rhapsody",
+	"targetName": "Rhapsody Music Player",
 	"note": "虽然没有 Spotify，GAA 那么多的用户，但 Rhapsody 在海外仍然有不少用户",
 	"rank": 296
 }, {
 	"packageName": "com.welove520.welove",
+	"name": "微爱",
 	"target": "com.tenthbit.juliet",
+	"targetName": "Couple",
 	"note": "Couple 是海外最早的情侣类应用之一",
 	"rank": 297
 }, {
 	"packageName": "cn.emoney.level2",
+	"name": "益盟操盘手经典版",
 	"target": "org.yccheok.jstock.gui",
+	"targetName": "JStock Android - Stock Market",
 	"note": "",
 	"rank": 298
 }, {
 	"packageName": "com.oupeng.browser",
+	"name": "欧朋浏览器",
 	"target": "com.opera.browser",
+	"targetName": "Opera 浏览器",
 	"note": "很多年前刚接触电脑时，我就敏锐的直觉到 Opera 和欧朋有关系，昨天终于通过百度百科得到了证实",
 	"rank": 299
 }, {
 	"packageName": "protect.eye",
+	"name": "护眼宝",
 	"target": "jp.ne.hardyinfinity.bluelightfilter.free",
+	"targetName": "蓝色光波过滤器 - 保护视力 缓解疲劳 眼部健康 眼部护理",
 	"note": "",
 	"rank": 300
 }, {
 	"packageName": "predictor.ui",
+	"name": "灵占天下",
 	"target": "fr.telemaque.horoscope",
+	"targetName": "星座星运",
 	"note": "",
 	"rank": 301
 }, {
 	"packageName": "com.jiayuan",
+	"name": "世纪佳缘",
 	"target": "com.pof.android",
+	"targetName": "多多的魚",
 	"note": "交友和婚恋的区别在于注册的时候需要1秒钟还是1分钟",
 	"rank": 302
 }, {
 	"packageName": "cn.dxy.medicinehelper",
+	"name": "用药助手",
 	"target": "com.atomic.apps.medical.drug.dictionary",
+	"targetName": "Drugs Dictionary Offline: FREE",
 	"note": "",
 	"rank": 303
 }, {
 	"packageName": "com.androidesk.livewallpaper",
+	"name": "安卓动态壁纸锁屏",
 	"target": "com.catple.wallpapers",
+	"targetName": "Best Wallpapers QHD",
 	"note": "",
 	"rank": 304
 }, {
 	"packageName": "com.netease.vopen",
+	"name": "网易公开课",
 	"target": "com.ted.android",
+	"targetName": "TED",
 	"note": "",
 	"rank": 305
 }, {
 	"packageName": "com.macropinch.hydra.android",
+	"name": " 心电图 - Cardiograph",
 	"target": "com.healthagen.iTriage",
+	"targetName": "iTriage-Health,Symptom,Doctor",
 	"note": "",
 	"rank": 306
 }, {
 	"packageName": "com.breadtrip",
+	"name": "面包旅行",
 	"target": "com.cleartrip.android",
+	"targetName": "Cleartrip-Hotels IRCTC Flights",
 	"note": "",
 	"rank": 307
 }, {
 	"packageName": "com.baidu.iknow",
+	"name": "百度知道",
 	"target": "com.askfm",
+	"targetName": "Ask.fm - Social Q&A Network",
 	"note": "",
 	"rank": 308
 }, {
 	"packageName": "com.wantu.activity",
+	"name": "玩图",
 	"target": "com.pixlr.express",
+	"targetName": "Autodesk Pixlr",
 	"note": "",
 	"rank": 309
 }, {
 	"packageName": "com.iflytek.ringdiyclient",
+	"name": "酷音铃声",
 	"target": "net.audiko2",
+	"targetName": "Audiko",
 	"note": "",
 	"rank": 310
 }, {
 	"packageName": "com.soufun.app",
+	"name": "搜房网",
 	"target": "com.move.realtor",
+	"targetName": "Realtor.com Real Estate, Homes",
 	"note": "",
 	"rank": 311
 }, {
 	"packageName": "com.tds.ArtSignature",
+	"name": "艺术签名",
 	"target": "jp.naver.linebrush.android",
+	"targetName": "LINE Brush",
 	"note": "",
 	"rank": 312
 }, {
 	"packageName": "com.sogou.activity.src",
+	"name": "搜狗搜索",
 	"target": "com.yahoo.mobile.client.android.search",
+	"targetName": "Yahoo搜尋",
 	"note": "",
 	"rank": 313
 }, {
 	"packageName": "com.aibang.abbus.bus",
+	"name": "爱帮公交",
 	"target": "com.thetransitapp.droid",
+	"targetName": "Transit App: Real Time Tracker",
 	"note": "",
 	"rank": 314
 }, {
 	"packageName": "tiger.unfamous",
+	"name": "善听听书",
 	"target": "biz.bookdesign.librivox",
+	"targetName": "LibriVox Audio Books Free",
 	"note": "",
 	"rank": 315
 }, {
 	"packageName": "cn.relian99",
+	"name": "热恋约会",
 	"target": "net.lovoo.android",
+	"targetName": "LOVOO",
 	"note": "据说 LOVOO 在西班牙语世界中更加流行",
 	"rank": 316
 }, {
 	"packageName": "vz.com",
+	"name": "飞常准",
 	"target": "com.flightaware.android.liveFlightTracker",
+	"targetName": "FlightAware 航班跟蹤",
 	"note": "",
 	"rank": 317
 }, {
 	"packageName": "com.youloft.calendar",
+	"name": "万年历",
 	"target": "am.sunrise.android.calendar",
+	"targetName": "Sunrise 日历",
 	"note": "",
 	"rank": 318
 }, {
 	"packageName": "com.openet.hotel.view",
+	"name": "鹰漠旅行",
 	"target": "com.priceline.android.negotiator",
+	"targetName": "Priceline Hotels, Flight & Car",
 	"note": "",
 	"rank": 319
 }, {
 	"packageName": "com.ct.client",
+	"name": "电信营业厅",
 	"target": "com.verizon.oxygen",
+	"targetName": "Verizon My FiOS",
 	"note": "中美运营商翻译：中国电信 vs Verizon",
 	"rank": 320
 }, {
 	"packageName": "com.baidu.appsearch",
+	"name": "百度手机助手",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 321
 }, {
 	"packageName": "InternetRadio.all",
+	"name": "优听Radio",
 	"target": "com.itunestoppodcastplayer.app",
+	"targetName": "Podcast Republic",
 	"note": "",
 	"rank": 322
 }, {
 	"packageName": "com.funcity.taxi.driver",
+	"name": " 快的打车司机版",
 	"target": "br.com.easytaxista",
+	"targetName": "Easy Taxi- 司機專用版",
 	"note": "",
 	"rank": 323
 }, {
 	"packageName": "com.huizheng.lasq",
+	"name": "恋爱神器",
 	"target": "com.okcupid.okcupid",
+	"targetName": "OkCupid Dating",
 	"note": "海外恋爱神器——OkCupid Dating ",
 	"rank": 324
 }, {
 	"packageName": "com.duotin.fm",
+	"name": "多听FM",
 	"target": "fm.player",
+	"targetName": "Player FM: Podcast offline!",
 	"note": "",
 	"rank": 325
 }, {
 	"packageName": "com.ijinshan.browser_fast",
+	"name": "猎豹浏览器",
 	"target": "com.ksmobile.cb",
+	"targetName": "CM Browser",
 	"note": "猎豹浏览器的海外版",
 	"rank": 326
 }, {
 	"packageName": "cn.banshenggua.aichang",
+	"name": "爱唱",
 	"target": "com.starmakerinteractive.thevoice",
+	"targetName": "The Voice: On Stage",
 	"note": "",
 	"rank": 327
 }, {
 	"packageName": "com.qo.android.moto",
+	"name": "Quickoffice(移动办公)",
 	"target": "com.infraware.office.link",
+	"targetName": "Polaris Office",
 	"note": "",
 	"rank": 328
 }, {
 	"packageName": "com.metek.zqWeather",
+	"name": "知趣天气",
 	"target": "com.tanmay.simpleweather",
+	"targetName": "Simple Weather",
 	"note": "无论是从 Icon 还是页面感觉，都是天气类应用里最有爱的那一类",
 	"rank": 329
 }, {
 	"packageName": "com.androidwasabi.livewallpaper.dandelion",
+	"name": "Galaxy S3 蒲公英动态桌布",
 	"target": "com.maxelus.shadowgalaxylivewallpaper",
+	"targetName": "Shadow Galaxy",
 	"note": "",
 	"rank": 330
 }, {
 	"packageName": "com.hjwordgames",
+	"name": "沪江开心词场",
 	"target": "talkenglish.com.standard",
+	"targetName": "学习说英语",
 	"note": "",
 	"rank": 331
 }, {
 	"packageName": "com.qq.ac.android",
+	"name": "腾讯动漫",
 	"target": "tw.comico",
+	"targetName": "comico",
 	"note": "",
 	"rank": 332
 }, {
 	"packageName": "cn.tianya.android",
+	"name": "天涯日报",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 333
 }, {
 	"packageName": "com.tsf.shell",
+	"name": "TSF Launcher",
 	"target": "com.campmobile.launcher",
+	"targetName": "LINE Launcher",
 	"note": "LINE Launcher - Made in Korea",
 	"rank": 334
 }, {
 	"packageName": "com.ailiaoicall",
+	"name": "爱聊",
 	"target": "kik.android",
+	"targetName": "Kik",
 	"note": "",
 	"rank": 335
 }, {
 	"packageName": "com.tencent.powermanager",
+	"name": "腾讯电池管家",
 	"target": "com.avira.optimizer",
+	"targetName": "Avira Android Optimizer",
 	"note": "Avira 对应的电池管理应用",
 	"rank": 336
 }, {
 	"packageName": "com.kugou.android.ringtone",
+	"name": "酷狗手机铃声",
 	"target": "net.audiko2",
+	"targetName": "Audiko 铃声",
 	"note": "",
 	"rank": 337
 }, {
 	"packageName": "com.to8to.housekeeper",
+	"name": "土巴兔装修",
 	"target": "droids1.prasad.des.bedroom",
+	"targetName": "Bedroom Decoration Designs",
 	"note": "",
 	"rank": 338
 }, {
 	"packageName": "kr.aboy.tools",
+	"name": "Smart Tools - 工具箱",
 	"target": "jp.naver.linetools",
+	"targetName": "LINE Tools",
 	"note": "",
 	"rank": 339
 }, {
 	"packageName": "org.adwfreak.launcher",
+	"name": "ADW启动器增强版​​​​​",
 	"target": "com.buzzpia.aqua.launcher",
+	"targetName": "Buzz Launcher",
 	"note": "Buzz Launcher - Made in Korea",
 	"rank": 340
 }, {
 	"packageName": "com.xtuone.android.syllabus",
+	"name": "超级课程表",
 	"target": "com.myhomeowork",
+	"targetName": "myHomework Student Planner",
 	"note": "",
 	"rank": 341
 }, {
 	"packageName": "com.yiche.price",
+	"name": "汽车报价大全",
 	"target": "com.girnarsoft.cardekho",
+	"targetName": "CarDekho",
 	"note": "",
 	"rank": 342
 }, {
 	"packageName": "com.lx.launcher",
+	"name": "WP桌面",
 	"target": "com.teslacoilsw.launcher",
+	"targetName": "Nova Launcher",
 	"note": "Nova  Launcher 是为数不多的纯正的海外桌面类应用之一",
 	"rank": 343
 }, {
 	"packageName": "com.suryani.jiagallery",
+	"name": "最美装修",
 	"target": "com.planner5d.planner5d",
+	"targetName": "Planner 5D - 家居设计",
 	"note": "",
 	"rank": 344
 }, {
 	"packageName": "com.ltz.dict.charactersdict",
+	"name": "新华字典专业版",
 	"target": "com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish",
+	"targetName": "Oxford Dictionary of English",
 	"note": "",
 	"rank": 345
 }, {
 	"packageName": "com.taobao.qianniu",
+	"name": "千牛",
 	"target": "com.amazon.sellermobile.android",
+	"targetName": "Amazon Seller",
 	"note": "",
 	"rank": 346
 }, {
 	"packageName": "com.gtp.nextlauncher",
+	"name": "Next桌面",
 	"target": "ginlemon.flowerfree",
+	"targetName": "Smart Launcher 3",
 	"note": "Smart Launcher 是为数不多的纯正的海外桌面类应用之一",
 	"rank": 347
 }, {
 	"packageName": "cn.coupon.kfc",
+	"name": "肯德基优惠券",
 	"target": "de.burgerking.kingfinder",
+	"targetName": "BURGER KING®",
 	"note": "",
 	"rank": 348
 }, {
 	"packageName": "com.nice.main",
+	"name": "nice好赞",
 	"target": "com.yahoo.mobile.client.android.flickr",
+	"targetName": "Flickr",
 	"note": "",
 	"rank": 349
 }, {
 	"packageName": "air.tv.douyu.android",
+	"name": "斗鱼TV",
 	"target": "tv.twitch.android.app",
+	"targetName": "twitch",
 	"note": "斗鱼虎牙战旗龙珠熊猫，国内游戏直播多家争霸，国外 Twitch 一家独大",
 	"rank": 350
 }, {
 	"packageName": "com.instamag.activity",
+	"name": "拼立得",
 	"target": "com.instagram.layout",
+	"targetName": "Layout",
 	"note": "",
 	"rank": 351
 }, {
 	"packageName": "com.hupu.games",
+	"name": "虎扑体育",
 	"target": "com.espn.score_center",
+	"targetName": "ESPN",
 	"note": "",
 	"rank": 352
 }, {
 	"packageName": "com.dft.hb.app",
+	"name": "掌上宝电话",
 	"target": "com.sgiggle.production",
+	"targetName": "Tango",
 	"note": "",
 	"rank": 353
 }, {
 	"packageName": "com.MusclesExercises.kevin",
+	"name": "健身宝典",
 	"target": "com.caynax.a6w",
+	"targetName": "每日腹部锻炼",
 	"note": "",
 	"rank": 354
 }, {
 	"packageName": "com.ylmf.androidclient",
+	"name": "115",
 	"target": "com.genie9.gcloudbackup",
+	"targetName": "G Cloud Backup",
 	"note": "",
 	"rank": 355
 }, {
 	"packageName": "com.ts.zys",
+	"name": "快速问医生",
 	"target": "com.hcmagic.askadoctor",
+	"targetName": "Ask a Doctor",
 	"note": "",
 	"rank": 356
 }, {
 	"packageName": "com.edog",
+	"name": "考拉电子狗",
 	"target": "com.sygic.speedcamapp",
+	"targetName": "Speed Cameras & Traffic Sygic",
 	"note": "",
 	"rank": 357
 }, {
 	"packageName": "com.baidu.homework",
+	"name": "作业帮",
 	"target": "com.eight25media.tutorsynchomework",
+	"targetName": "Homework Helper",
 	"note": "",
 	"rank": 358
 }, {
 	"packageName": "com.jb.gokeyboard",
+	"name": "GO输入法",
 	"target": "com.nuance.swype.dtc",
+	"targetName": "Swype Keyboard",
 	"note": "Google Play 输入法排行榜第六名",
 	"rank": 359
 }, {
 	"packageName": "com.oasisfeng.greenify",
+	"name": "绿色守护 (Greenify)",
 	"target": "net.dinglisch.android.taskerm",
+	"targetName": "Tasker",
 	"note": "如果你认可绿色守护要要要领先于其他省电类 App，Tasker 应该也是如此",
 	"rank": 360
 }, {
 	"packageName": "com.qq.qcloud",
+	"name": "腾讯微云",
 	"target": "com.microsoft.skydrive",
+	"targetName": "OneDrive",
 	"note": "",
 	"rank": 361
 }, {
 	"packageName": "com.miui.camera",
+	"name": "MIUI相机",
 	"target": "com.google.android.GoogleCamera",
+	"targetName": "Google Camera",
 	"note": "",
 	"rank": 362
 }, {
 	"packageName": "com.tencent.zebra",
+	"name": "水印相机",
 	"target": "com.rcplatform.fontphoto",
+	"targetName": "美图文字—给图片添加文字",
 	"note": "",
 	"rank": 363
 }, {
 	"packageName": "cn.mama.activity",
+	"name": "妈妈圈",
 	"target": "com.wte.view",
+	"targetName": "Pregnancy Tracker",
 	"note": "",
 	"rank": 364
 }, {
 	"packageName": "com.netease.mail",
+	"name": "网易邮箱大师",
 	"target": "com.yahoo.mobile.client.android.mail",
+	"targetName": "Yahoo Mail",
 	"note": "",
 	"rank": 365
 }, {
 	"packageName": "com.ywqc.show",
+	"name": "微信表情大全",
 	"target": "com.linecorp.lineselfie.android",
+	"targetName": "ycon",
 	"note": "",
 	"rank": 366
 }, {
 	"packageName": "com.husor.mizhe",
+	"name": "米折",
 	"target": "com.inditex.zara",
+	"targetName": "Zara",
 	"note": "",
 	"rank": 367
 }, {
 	"packageName": "com.douban.group",
+	"name": "小组(by豆瓣)",
 	"target": "com.meetup",
+	"targetName": "Meetup - 建立真实的本地社区",
 	"note": "",
 	"rank": 368
 }, {
 	"packageName": "com.qijia.o2o",
+	"name": "齐家",
 	"target": "com.houzz.app",
+	"targetName": "Houzz Interior Design Ideas",
 	"note": "",
 	"rank": 369
 }, {
 	"packageName": "com.wenba.bangbang",
+	"name": "学霸君",
 	"target": "com.HwkHlp.HwkHlp",
+	"targetName": "Homework Help For Students",
 	"note": "",
 	"rank": 370
 }, {
 	"packageName": "longbin.helloworld",
+	"name": "计算管家",
 	"target": "com.digitalchemy.calculator.freedecimal",
+	"targetName": "加强型计算器免费版",
 	"note": "",
 	"rank": 371
 }, {
 	"packageName": "com.brixd.wallpager",
+	"name": "最美壁纸",
 	"target": "com.sharpregion.tapet",
+	"targetName": "Tapet - HD材质壁纸",
 	"note": "",
 	"rank": 372
 }, {
 	"packageName": "com.zdworks.android.zdcalendar",
+	"name": "正点日历",
 	"target": "com.digibites.calendar",
+	"targetName": "DigiCal 日历",
 	"note": "",
 	"rank": 373
 }, {
 	"packageName": "me.topit.TopAndroid2",
+	"name": "优美图",
 	"target": "com.apperto.piclabapp",
+	"targetName": "PicLab - Photo Editor",
 	"note": "",
 	"rank": 374
 }, {
 	"packageName": "com.vlife",
+	"name": "微乐动态壁纸锁屏",
 	"target": "com.hanna.beautiful",
+	"targetName": "漂亮的壁纸",
 	"note": "",
 	"rank": 375
 }, {
 	"packageName": "com.gome.eshopnew",
+	"name": "国美在线",
 	"target": "com.target.ui",
+	"targetName": "Target",
 	"note": "",
 	"rank": 376
 }, {
 	"packageName": "com.taobao.fleamarket",
+	"name": "闲鱼",
 	"target": "com.wallapop",
+	"targetName": "Wallapop - Buy & sell nearby",
 	"note": "",
 	"rank": 377
 }, {
 	"packageName": "cn.mama.pregnant",
+	"name": "孕育管家",
 	"target": "com.babycenter.pregnancytracker",
+	"targetName": "My Pregnancy Today",
 	"note": "",
 	"rank": 378
 }, {
 	"packageName": "ru.zdevs.zarchiver",
+	"name": "ZArchiver解压工具",
 	"target": "",
+	"targetName": "N/A",
 	"note": "",
 	"rank": 379
 }, {
 	"packageName": "com.codoon.gps",
+	"name": "咕咚",
 	"target": "com.nike.plusgps",
+	"targetName": "Nike+ Running",
 	"note": "",
 	"rank": 380
 }, {
 	"packageName": "com.haobao.wardrobe",
+	"name": "明星衣橱",
 	"target": "com.myntra.android",
+	"targetName": "Myntra",
 	"note": "",
 	"rank": 381
 }, {
 	"packageName": "com.sogou.wallpaper",
+	"name": "搜狗壁纸",
 	"target": "com.roommate.app.activity",
+	"targetName": "Wallpaper HD Plus",
 	"note": "",
 	"rank": 382
 }, {
 	"packageName": "com.omesoft.firstaid",
+	"name": "现场急救指南",
 	"target": "com.cube.arc.fa",
+	"targetName": "First Aid - American Red Cross",
 	"note": "",
 	"rank": 383
 }, {
 	"packageName": "com.iflytek.cmcc",
+	"name": "灵犀语音助手",
 	"target": "com.speaktoit.assistant",
+	"targetName": "com.iflytek.cmcc",
 	"note": "",
 	"rank": 384
 }, {
 	"packageName": "com.jiepang.android",
+	"name": "街旁",
 	"target": "com.joelapenna.foursquared",
+	"targetName": "foursquare",
 	"note": "",
 	"rank": 385
 }, {
 	"packageName": "com.duowan.kiwi",
+	"name": "虎牙直播",
 	"target": "tv.twitch.android.app",
+	"targetName": "twitch",
 	"note": "斗鱼虎牙战旗龙珠熊猫，国内游戏直播多家争霸，国外 Twitch 一家独大",
 	"rank": 386
 }, {
 	"packageName": "com.yourdream.app.android",
+	"name": "穿衣助手",
 	"target": "com.hm",
+	"targetName": "H&M",
 	"note": "",
 	"rank": 387
 }, {
 	"packageName": "com.dadmin.flashlight",
+	"name": "粉嘟嘟手电筒",
 	"target": "ch.smalltech.ledflashlight.free",
+	"targetName": "Flashlight",
 	"note": "",
 	"rank": 388
 }, {
 	"packageName": "com.netease.mobimail",
+	"name": "网易邮箱",
 	"target": "com.yahoo.mobile.client.android.mail",
+	"targetName": "Yahoo Mail",
 	"note": "",
 	"rank": 389
 }, {
 	"packageName": "com.listencp.client",
+	"name": "咪咕听书",
 	"target": "ak.alizandro.smartaudiobookplayer",
+	"targetName": "Smart AudioBook Player",
 	"note": "",
 	"rank": 390
 }, {
 	"packageName": "com.kunpeng.babyting",
+	"name": "宝贝听听",
 	"target": "org.msq.babysongs",
+	"targetName": "Baby Songs",
 	"note": "",
 	"rank": 391
 }, {
 	"packageName": "com.babytree.apps.pregnancy",
+	"name": "宝宝树孕育",
 	"target": "com.alt12.babybump",
+	"targetName": "BabyBump Pregnancy Pro",
 	"note": "",
 	"rank": 392
 }, {
 	"packageName": "com.frego.flashlight",
+	"name": "精品手电筒",
 	"target": "com.ihandysoft.ledflashlight.mini",
+	"targetName": "手電筒",
 	"note": "",
 	"rank": 393
 }, {
 	"packageName": "cn.eclicks.drivingtest",
+	"name": "车轮考驾照",
 	"target": "com.northpole.world.drivingtest.california.free",
+	"targetName": "California DMV Test 2015 Free!",
 	"note": "",
 	"rank": 394
 }, {
 	"packageName": "com.hsj.ccae37",
+	"name": "汽车品牌世界",
 	"target": "com.kbb.mobile",
+	"targetName": "Car Buying",
 	"note": "",
 	"rank": 395
 }, {
 	"packageName": "cc.fotoplace.app",
+	"name": "足记",
 	"target": "com.linecorp.b612.android",
+	"targetName": "B612 - Selfie from the heart",
 	"note": "",
 	"rank": 396
 }, {
 	"packageName": "com.qianniuxing.stock",
+	"name": "千牛股",
 	"target": "com.investorvista.stockspyod",
+	"targetName": "Stocks: Realtime Quotes Charts",
 	"note": "",
 	"rank": 397
 }, {
 	"packageName": "com.baidu.baiducamera",
+	"name": "百度魔拍",
 	"target": "com.rcplatform.selfiecamera",
+	"targetName": "BestMe",
 	"note": "",
 	"rank": 398
 }, {
 	"packageName": "com.jesson.meishi",
+	"name": "美食杰",
 	"target": "com.mufumbo.android.recipe.search",
+	"targetName": "Allthecooks Recipes",
 	"note": "",
 	"rank": 399
 }, {
 	"packageName": "air.mobi.xy3d.comics",
+	"name": "捏捏",
 	"target": "hu.tonuzaba.android",
+	"targetName": "Photo Warp",
 	"note": "",
 	"rank": 400
 }, {
 	"packageName": "com.icoolme.android.weather",
+	"name": "最美天气",
 	"target": "com.macropinch.swan",
+	"targetName": "Weather",
 	"note": "海外天气 APP 中界面设计的最美的那一个",
 	"rank": 401
 }, {
 	"packageName": "com.akazam.android.wlandialer",
+	"name": "天翼WiFi",
 	"target": "com.verizon.wi_fi",
+	"targetName": "Verizon Wi-Fi Connect",
 	"note": "中美运营商翻译：中国电信 vs Verizon",
 	"rank": 402
 }, {
 	"packageName": "com.tinypiece.android.PSFotolr",
+	"name": "Fotolr照片工坊",
 	"target": "vsin.t16_funny_photo",
+	"targetName": "Photo Lab",
 	"note": "",
 	"rank": 403
 }, {
 	"packageName": "com.fenbi.android.solar",
+	"name": "小猿搜题",
 	"target": "com.homeworkhelper",
+	"targetName": "Homework Helper",
 	"note": "",
 	"rank": 404
 }, {
 	"packageName": "com.xiaomi.shop",
+	"name": "小米商城(官方版)",
 	"target": "com.contextlogic.geek",
+	"targetName": "Geek - Smarter Shopping",
 	"note": "",
 	"rank": 405
 }, {
 	"packageName": "cn.ikamobile.trainfinder",
+	"name": "火车票达人",
 	"target": "com.thetrainline",
+	"targetName": "Trainline – times & tickets",
 	"note": "",
 	"rank": 406
 }, {
 	"packageName": "com.boohee.one",
+	"name": "薄荷",
 	"target": "com.myfitnesspal.android",
+	"targetName": "MyFitnessPal减肥宝",
 	"note": "",
 	"rank": 407
 }, {
 	"packageName": "cn.ninegame.gamemanager",
+	"name": "九游游戏中心",
 	"target": "com.friedcookie.gameo",
+	"targetName": "GAMEO - Play the best games",
 	"note": "",
 	"rank": 408
 }, {
 	"packageName": "com.gtgj.view",
+	"name": "高铁管家",
 	"target": "com.thetrainline",
+	"targetName": "Trainline – times & tickets",
 	"note": "",
 	"rank": 409
 }, {
 	"packageName": "com.android.comicsisland.activity",
+	"name": "漫画岛",
 	"target": "com.dena.mj",
+	"targetName": "漫畫王-日本無料正版漫畫-",
 	"note": "",
 	"rank": 410
 }, {
 	"packageName": "com.zhiqupk.ziti",
+	"name": "字体大师",
 	"target": "com.jrummy.font.installer",
+	"targetName": "Font Installer ★ Root ",
 	"note": "",
 	"rank": 411
 }, {
 	"packageName": "com.quanleimu.activity",
+	"name": "百姓网",
 	"target": "com.gumtree.android",
+	"targetName": "Gumtree",
 	"note": "",
 	"rank": 412
 }, {
 	"packageName": "com.elong.hotel.ui",
+	"name": "艺龙酒店",
 	"target": "com.booking",
+	"targetName": "Booking",
 	"note": "",
 	"rank": 413
 }, {
 	"packageName": "com.unison.miguring",
+	"name": "咪咕铃声",
 	"target": "com.FunForMobile.main",
+	"targetName": "FunForMobile Ringtones & Chat",
 	"note": "",
 	"rank": 414
 }, {
 	"packageName": "com.feizan.android.snowball",
+	"name": "ZANK",
 	"target": "com.hornet.android",
+	"targetName": "Hornet",
 	"note": "同性交友，圈的人都懂的",
 	"rank": 415
 }, {
 	"packageName": "sogou.mobile.explorer",
+	"name": "搜狗浏览器",
 	"target": "com.cloudmosa.puffinFree",
+	"targetName": "Puffin Web Browser",
 	"note": "Puffin 浏览器特点一：支持 Flash；特点二：自带梯子",
 	"rank": 416
 }, {
 	"packageName": "com.shanbay.words",
+	"name": "扇贝单词",
 	"target": "com.magoosh.gre.quiz.vocabulary",
+	"targetName": "Vocabulary Builder",
 	"note": "",
 	"rank": 417
 }, {
 	"packageName": "com.taobao.trip",
+	"name": "阿里旅行",
 	"target": "com.goibibo",
+	"targetName": "Goibibo: Book Hotel Flight Bus",
 	"note": "",
 	"rank": 418
 }, {
 	"packageName": "com.netease.railwayticket",
+	"name": "网易火车票",
 	"target": "com.thetrainline",
+	"targetName": "Trainline – times & tickets",
 	"note": "",
 	"rank": 419
 }, {
 	"packageName": "in.huohua.Yuki",
+	"name": "布丁动画",
 	"target": "jp.pxv.android",
+	"targetName": "pixiv",
 	"note": "",
 	"rank": 420
 }, {
 	"packageName": "com.yixia.xiaokaxiu",
+	"name": "小咖秀",
 	"target": "com.mobilemotion.dubsmash",
+	"targetName": "Dubsmash",
 	"note": "你以为一夜爆火的小咖秀是原创的？试试 Dubsmash 就知道了",
 	"rank": 421
 }, {
 	"packageName": "android.zhibo8",
+	"name": "直播吧",
 	"target": "com.livescore",
+	"targetName": "LiveScore",
 	"note": "",
 	"rank": 422
 }, {
 	"packageName": "com.smzdm.client.android",
+	"name": "什么值得买",
 	"target": "zcom.dylvian.mango.activities",
+	"targetName": "MANGO",
 	"note": "",
 	"rank": 423
 }, {
 	"packageName": "cn.ledongli.ldl",
+	"name": "乐动力",
 	"target": "com.endomondo.android",
+	"targetName": "Endomondo - 跑步、骑自行车、散步",
 	"note": "",
 	"rank": 424
 }, {
 	"packageName": "com.duoduo.child.story",
+	"name": "儿歌多多",
 	"target": "kr.co.smartstudy.bodlebookiapfree_us_android_googlemarket",
+	"targetName": "Best Kids Songs: Dinosaur+more",
 	"note": "",
 	"rank": 425
 }, {
 	"packageName": "com.ted.android",
+	"name": "TED演讲",
 	"target": "com.google.android.apps.classroom",
+	"targetName": "Google Classroom",
 	"note": "",
 	"rank": 426
 }, {
 	"packageName": "com.fenbi.android.gaozhong",
+	"name": "猿题库",
 	"target": "com.ws1",
+	"targetName": "Homework Help for Students",
 	"note": "",
 	"rank": 427
 }, {
 	"packageName": "cn.com.sina.sports",
+	"name": "新浪体育",
 	"target": "com.handmark.sportcaster",
+	"targetName": "CBS Sports",
 	"note": "",
 	"rank": 428
 }, {
 	"packageName": "com.devuni.flashlight",
+	"name": "手电筒",
 	"target": "com.zeroneapps.flashlight",
+	"targetName": "手电筒",
 	"note": "",
 	"rank": 429
 }, {
 	"packageName": "com.douban.frodo",
+	"name": "豆瓣",
 	"target": "com.google.android.apps.plus",
+	"targetName": "google+",
 	"note": "",
 	"rank": 430
 }, {
 	"packageName": "com.zuimeia.suite.lockscreen",
+	"name": "最美锁屏",
 	"target": "com.fotoable.locker",
+	"targetName": "PIP锁屏",
 	"note": "",
 	"rank": 431
 }, {
 	"packageName": "com.baihe",
+	"name": "百合网婚恋",
 	"target": "com.match.android.matchmobile",
+	"targetName": "Match",
 	"note": "不以结婚为目的的交友都是耍流氓，所以现在都流行实名制",
 	"rank": 432
 }, {
 	"packageName": "cn.tianya.light",
+	"name": "天涯社区",
 	"target": "com.stumbleupon.android.app",
+	"targetName": "StumbleUpon",
 	"note": "",
 	"rank": 433
 }, {
 	"packageName": "com.taobao.mobile.dipei",
+	"name": "口碑外卖",
 	"target": "com.beyondmenu",
+	"targetName": "BeyondMenu Food Delivery",
 	"note": "",
 	"rank": 434
 }, {
 	"packageName": "com.tieyou.train.ark",
+	"name": "铁友火车票",
 	"target": "com.thetrainline",
+	"targetName": "Trainline – times & tickets",
 	"note": "",
 	"rank": 435
 }, {
 	"packageName": "com.youdao.translator",
+	"name": "有道翻译官",
 	"target": "com.google.android.apps.translate",
+	"targetName": "Google 翻译",
 	"note": "",
 	"rank": 436
 }, {
 	"packageName": "com.gewara",
+	"name": "格瓦拉电影",
 	"target": "com.fandango",
+	"targetName": "Fandango Movies",
 	"note": "",
 	"rank": 437
 }, {
 	"packageName": "com.duitang.main",
+	"name": "堆糖",
 	"target": "com.pinterest",
+	"targetName": "Pinterest",
 	"note": "",
 	"rank": 438
 }, {
 	"packageName": "com.mandian.android.dongdong",
+	"name": "动动",
 	"target": "com.fitnesskeeper.runkeeper.pro",
+	"targetName": "RunKeeper - GPS 追踪跑步走路 跑步",
 	"note": "",
 	"rank": 439
 }, {
 	"packageName": "cn.andouya",
+	"name": "闪传",
 	"target": "com.majedev.superbeam",
+	"targetName": "SuperBeam | WiFi Direct Share",
 	"note": "",
 	"rank": 440
 }, {
 	"packageName": "com.eusoft.ting.en",
+	"name": "每日英语听力",
 	"target": "com.funbox.englishlisteningpractice",
+	"targetName": "English Listening and Speaking",
 	"note": "",
 	"rank": 441
 }, {
 	"packageName": "com.wandoujia",
+	"name": "豌豆荚一览",
 	"target": "com.diggreader",
+	"targetName": "Digg",
 	"note": "",
 	"rank": 442
 }, {
 	"packageName": "cn.com.open.mooc",
+	"name": "慕课网",
 	"target": "com.udacity.android",
+	"targetName": "Udacity - Learn Programming",
 	"note": "",
 	"rank": 443
 }, {
 	"packageName": "com.pipcamera.activity",
+	"name": "画中画相机",
 	"target": "com.photoeditorapps.pipphotocamera",
+	"targetName": "PIP Camera",
 	"note": "",
 	"rank": 444
 }, {
 	"packageName": "com.culiukeji.huanletao",
+	"name": "楚楚街",
 	"target": "com.shopbop.shopbop",
+	"targetName": "SHOPBOP",
 	"note": "",
 	"rank": 445
 }, {
 	"packageName": "com.sina.VDisk",
+	"name": "微盘",
 	"target": "com.google.android.apps.docs",
+	"targetName": "Google云端硬盘",
 	"note": "",
 	"rank": 446
 }, {
 	"packageName": "cn.com.langeasy.LangEasyLexis",
+	"name": "不背单词",
 	"target": "tflat.co.hoctienganh",
+	"targetName": "学习英语TFLAT",
 	"note": "",
 	"rank": 447
 }, {
 	"packageName": "com.xiaobanlong.main",
+	"name": "小伴龙",
 	"target": "org.pbskids.video",
+	"targetName": "PBS KIDS Video",
 	"note": "",
 	"rank": 448
 }, {
 	"packageName": "com.lofter.android",
+	"name": "LOFTER",
 	"target": "com.instagram.android",
+	"targetName": "Instagram",
 	"note": "",
 	"rank": 449
 }, {
 	"packageName": "all.parttimeguidesystem",
+	"name": "兼职猫",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 450
 }, {
 	"packageName": "cn.damai",
+	"name": "大麦",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 451
 }, {
 	"packageName": "com.slanissue.apps.mobile.erge",
+	"name": "贝瓦儿歌",
 	"target": "com.internetdesignzone.nurseryrhymes",
+	"targetName": "Nursery Rhymes For Kids",
 	"note": "",
 	"rank": 452
 }, {
 	"packageName": "com.liwushuo.gifttalk",
+	"name": "礼物说",
 	"target": "com.inditex.pullandbear",
+	"targetName": "PULL&BEAR",
 	"note": "",
 	"rank": 453
 }, {
 	"packageName": "com.kibey.echo",
+	"name": "echo回声",
 	"target": "my.googlemusic.play",
+	"targetName": "My Mixtapez Music & Mixtapes",
 	"note": "",
 	"rank": 454
 }, {
 	"packageName": "com.pp.assistant",
+	"name": "PP助手",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 455
 }, {
 	"packageName": "com.xiaomi.hm.health",
+	"name": "小米运动",
 	"target": "com.google.android.apps.fitness",
+	"targetName": "Google健身",
 	"note": "",
 	"rank": 456
 }, {
 	"packageName": "com.p1.mobile.putong",
+	"name": "探探",
 	"target": "com.tinder",
+	"targetName": "Tinder",
 	"note": "探探是国内模仿 Tinder 的产品中的佼佼者，无论是左滑喜欢还是右滑不喜欢，打开应用都是看脸的世界。",
 	"rank": 457
 }, {
 	"packageName": "com.autohome.usedcar",
+	"name": "二手车",
 	"target": "com.autotrader.android",
+	"targetName": "Autotrader - Cars For Sale",
 	"note": "",
 	"rank": 458
 }, {
 	"packageName": "com.hipu.yidian",
+	"name": "一点资讯",
 	"target": "com.mobilesrepublic.appy",
+	"targetName": "News Republic",
 	"note": "News Republic 是 HTC 的官方合作新闻资讯应用",
 	"rank": 459
 }, {
 	"packageName": "com.txbnx.torrentsearcher",
+	"name": "BT种子搜索",
 	"target": "com.bittorrent.client",
+	"targetName": "BitTorrent",
 	"note": "",
 	"rank": 460
 }, {
 	"packageName": "com.brixd.niceapp",
+	"name": "最美应用",
 	"target": "com.drippler.android.updates",
+	"targetName": "Drippler",
 	"note": "",
 	"rank": 461
 }, {
 	"packageName": "tv.acfundanmaku.video",
+	"name": "AcFun",
 	"target": "jp.nicovideo.nicobox",
+	"targetName": "NicoBox",
 	"note": "",
 	"rank": 462
 }, {
 	"packageName": "com.tencent.reading",
+	"name": "天天快报",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 463
 }, {
 	"packageName": "com.sdu.didi.gui",
+	"name": "滴滴打车司机端",
 	"target": "com.ubercab.driver",
+	"targetName": "UberPartner",
 	"note": "",
 	"rank": 464
 }, {
 	"packageName": "cn.edaijia.android.client",
+	"name": "e代驾",
 	"target": "com.mydriver.customer",
+	"targetName": "myDriver Chauffeur Service",
 	"note": "",
 	"rank": 465
 }, {
 	"packageName": "com.wandoujia.eyepetizer",
+	"name": "开眼视频",
 	"target": "com.vimeo.android.videoapp",
+	"targetName": "Vimeo",
 	"note": "高清、震撼、新奇、优质，在国内用开眼，在海外上 Vimeo",
 	"rank": 466
 }, {
 	"packageName": "com.xingjiabi.shengsheng",
+	"name": "他趣",
 	"target": "com.pureromance.mpc",
+	"targetName": "My Pure Romance Consultant",
 	"note": "",
 	"rank": 467
 }, {
 	"packageName": "com.mmmono.mono",
+	"name": "MONO",
 	"target": "com.issuu.android.app",
+	"targetName": "Issuu: A world of magazines",
 	"note": "",
 	"rank": 468
 }, {
 	"packageName": "com.sinyee.babybus.kindergarten",
+	"name": "宝宝幼儿园",
 	"target": "air.cz.cfc.androidgp.AbbyBasicSkillsLite",
+	"targetName": "Preschool Learning Games Kids",
 	"note": "",
 	"rank": 469
 }, {
 	"packageName": "cn.ticktick.task",
+	"name": "滴答清单(TickTick)",
 	"target": "com.anydo",
+	"targetName": "Any.DO",
 	"note": "",
 	"rank": 470
 }, {
 	"packageName": "co.runner.app",
+	"name": "悦跑圈",
 	"target": "com.runtastic.android",
+	"targetName": "Runtastic Running & Fitness软件",
 	"note": "",
 	"rank": 471
 }, {
 	"packageName": "com.pinguo.edit.sdk",
+	"name": "MIX滤镜大师",
 	"target": "com.baseapp.eyeem",
+	"targetName": "EyeEm",
 	"note": "",
 	"rank": 472
 }, {
 	"packageName": "me.airtake",
+	"name": "爱相机",
 	"target": "com.magix.camera_mx",
+	"targetName": "Camera MX",
 	"note": "",
 	"rank": 473
 }, {
 	"packageName": "com.taobao.movie.android",
+	"name": "淘宝电影",
 	"target": "com.movietickets.MovieTickets",
+	"targetName": "MovieTickets.com",
 	"note": "",
 	"rank": 474
 }, {
 	"packageName": "com.wondertek.paper",
+	"name": "澎湃新闻",
 	"target": "com.cnn.mobile.android.phone",
+	"targetName": "CNN Breaking US & World News",
 	"note": "FOX vs CNN；环球时报 vs 澎湃新闻",
 	"rank": 475
 }, {
 	"packageName": "com.rrh.jdb",
+	"name": "借贷宝",
 	"target": "com.progressLabs.lendingclub_reader_free",
+	"targetName": "LendingClub Reader Free",
 	"note": "",
 	"rank": 476
 }, {
 	"packageName": "com.smartisan.notes",
+	"name": "锤子便签",
 	"target": "com.socialnmobile.dictapps.notepad.color.note",
+	"targetName": "ColorNote",
 	"note": "",
 	"rank": 477
 }, {
 	"packageName": "com.by.butter.camera",
+	"name": "黄油相机",
 	"target": "com.weheartit",
+	"targetName": "We Heart It",
 	"note": "",
 	"rank": 478
 }, {
 	"packageName": "com.gameabc.zhanqiAndroid",
+	"name": "战旗TV",
 	"target": "tv.twitch.android.app",
+	"targetName": "twitch",
 	"note": "斗鱼虎牙战旗龙珠熊猫，国内游戏直播多家争霸，国外 Twitch 一家独大",
 	"rank": 479
 }, {
 	"packageName": "com.youba.WeatherForecast",
+	"name": "天气预报",
 	"target": "com.handmark.expressweather",
+	"targetName": "1Weather",
 	"note": "同样简单的天气类 App",
 	"rank": 480
 }, {
 	"packageName": "com.uxin.usedcar",
+	"name": "优信二手车",
 	"target": "com.carmax.carmax",
+	"targetName": "CarMax",
 	"note": "",
 	"rank": 481
 }, {
 	"packageName": "com.xiaomi.market",
+	"name": "小米应用商店",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 482
 }, {
 	"packageName": "me.chunyu.Pedometer",
+	"name": "春雨计步器",
 	"target": "com.tayu.tau.pedometer",
+	"targetName": "计步器",
 	"note": "",
 	"rank": 483
 }, {
 	"packageName": "com.jd.jrapp",
+	"name": "京东金融",
 	"target": "com.progressLabs.P2P_Reader",
+	"targetName": "Prosper P2P Reader",
 	"note": "",
 	"rank": 484
 }, {
 	"packageName": "com.gotokeep.keep",
+	"name": "Keep",
 	"target": "com.nike.ntc",
+	"targetName": "NIKE+ TRAINING CLUB",
 	"note": "",
 	"rank": 485
 }, {
 	"packageName": "com.genshuixue.student",
+	"name": "跟谁学",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 486
 }, {
 	"packageName": "com.ios.minicalc",
+	"name": "计算器",
 	"target": "com.candl.athena",
+	"targetName": "CALCU™时尚计算器",
 	"note": "",
 	"rank": 487
 }, {
 	"packageName": "com.homelink.android",
+	"name": "掌上链家",
 	"target": "com.trulia.android",
+	"targetName": "Trulia Real Estate & Rentals",
 	"note": "",
 	"rank": 488
 }, {
 	"packageName": "com.shanbay.listen",
+	"name": "扇贝听力",
 	"target": "com.speechtech.app.listening",
+	"targetName": "英语听力",
 	"note": "",
 	"rank": 489
 }, {
 	"packageName": "com.lanrenzhoumo.weekend",
+	"name": "懒人周末",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 490
 }, {
 	"packageName": "com.xiuman.xingduoduo",
+	"name": "泡泡",
 	"target": "com.pureromance.coo",
+	"targetName": "Consulant Online Office",
 	"note": "",
 	"rank": 491
 }, {
 	"packageName": "com.szzc.ucar.pilot",
+	"name": "神州专车",
 	"target": "me.lyft.android",
+	"targetName": "Lyft ",
 	"note": "",
 	"rank": 492
 }, {
 	"packageName": "com.jianshu.haruki",
+	"name": "简书",
 	"target": "com.medium.reader",
+	"targetName": "Medium",
 	"note": "在习惯了 140 个字微博的时代，还有些人希望能够找到静下来写作并分享的平台。重要的是无论在简书还是 Medium，每个「作家」都是平等的。",
 	"rank": 493
 }, {
 	"packageName": "com.meitu.makeup",
+	"name": "美妆相机",
 	"target": "com.cyberlink.youperfect",
+	"targetName": "玩美相机",
 	"note": "",
 	"rank": 494
 }, {
 	"packageName": "com.hupu.joggers",
+	"name": "虎扑跑步",
 	"target": "com.noom.walk",
+	"targetName": "Noom Walk 计步器",
 	"note": "",
 	"rank": 495
 }, {
 	"packageName": "com.meitu.wheecam",
+	"name": "潮自拍",
 	"target": "com.cfinc.decopic",
+	"targetName": "照片大头贴DECOPIC",
 	"note": "",
 	"rank": 496
 }, {
 	"packageName": "com.coolapk.market",
+	"name": "酷市场:CoolMarket",
 	"target": "com.amazon.venezia",
+	"targetName": "亚马逊应用商店",
 	"note": "",
 	"rank": 497
 }, {
 	"packageName": "com.sdu.didi.gsui",
+	"name": "滴滴专车司机端",
 	"target": "com.ubercab.driver",
+	"targetName": "UberPartner",
 	"note": "",
 	"rank": 498
 }, {
 	"packageName": "cn.com.modernmedia.ideat",
+	"name": "IDEAT理想家",
 	"target": "com.nuzzel.android",
+	"targetName": "Nuzzel News",
 	"note": "",
 	"rank": 499
 }, {
 	"packageName": "com.longzhu.tga",
+	"name": "龙珠直播",
 	"target": "tv.twitch.android.app",
+	"targetName": "twitch",
 	"note": "斗鱼虎牙战旗龙珠熊猫，国内游戏直播多家争霸，国外 Twitch 一家独大",
 	"rank": 500
 }, {
 	"packageName": "com.gli.cn.me",
+	"name": "ME",
 	"target": "com.cheerfulinc.flipagram",
+	"targetName": "Flipagram",
 	"note": "",
 	"rank": 501
 }, {
 	"packageName": "com.dasheng.talk",
+	"name": "多说英语",
 	"target": "com.CultureAlley.japanese.english",
+	"targetName": "Hello English: Learn English",
 	"note": "",
 	"rank": 502
 }, {
 	"packageName": "com.machipopo.story17",
+	"name": "17",
 	"target": "co.getair.meerkat",
+	"targetName": "Meerkat",
 	"note": "Meerkat 是另一款海外热门直播网站，和 Periscope 最大的不同在于阅后即焚",
 	"rank": 503
 }, {
 	"packageName": "com.panda.videoliveplatform",
+	"name": "熊猫TV",
 	"target": "tv.twitch.android.app",
+	"targetName": "twitch",
 	"note": "斗鱼虎牙战旗龙珠熊猫，国内游戏直播多家争霸，国外 Twitch 一家独大",
 	"rank": 504
 }, {
 	"packageName": "com.bdatu.geography",
+	"name": "国家地理",
 	"target": "com.discovery.news",
+	"targetName": "Discovery News",
 	"note": "",
 	"rank": 505
 }, {
 	"packageName": "com.pingan.papd",
+	"name": "平安好医生",
 	"target": "com.waki.doktergratis",
+	"targetName": "Free Doctor, Doctor Gratis",
 	"note": "",
 	"rank": 506
 }, {
 	"packageName": "com.yhouse.code",
+	"name": "YHOUSE",
 	"target": "com.application.zomato",
+	"targetName": "Zomato - Restaurant Finder",
 	"note": "",
 	"rank": 507
 }, {
 	"packageName": "com.ricebook.highgarden",
+	"name": "ENJOY",
 	"target": "com.akasoft.topplaces",
+	"targetName": "餐厅取景器",
 	"note": "",
 	"rank": 508
 }, {
 	"packageName": "com.tencent.radio",
+	"name": "企鹅FM",
 	"target": "au.com.shiftyjelly.pocketcasts",
+	"targetName": "Pocket Casts",
 	"note": "",
 	"rank": 509
 }, {
 	"packageName": "com.ganji.android.haoche_c",
+	"name": "瓜子二手车直卖网",
 	"target": "com.autolist.autolist",
+	"targetName": "Used Cars and Trucks for Sale",
 	"note": "",
 	"rank": 510
 }, {
 	"packageName": "cc.hitour.travel",
+	"name": "玩途自由行",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 511
 }, {
 	"packageName": "com.ruguoapp.jike",
+	"name": "即刻",
 	"target": "",
+	"targetName": "Ping",
 	"note": "",
 	"rank": 512
 }, {
 	"packageName": "com.lkgood.thepalacemuseumdaily",
+	"name": "每日故宫",
 	"target": "com.macsoftex.amazongallery.louvrehd",
+	"targetName": "Louvre HD",
 	"note": "",
 	"rank": 513
 }, {
 	"packageName": "com.blueorbit.Muzzik",
+	"name": "muzzik",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 514
 }, {
 	"packageName": "net.havchr.mr2",
+	"name": "起床助手",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 515
 }, {
 	"packageName": "com.yy.pomodoro",
+	"name": "专心",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 516
 }, {
 	"packageName": "com.pianke.client",
+	"name": "片刻",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 517
 }, {
 	"packageName": "cn.raventech.musicflow",
+	"name": "乐流",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 518
 }, {
 	"packageName": "com.zuimeia.suite.nicecountdown",
+	"name": "最美时光",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 519
 }, {
 	"packageName": "com.ayibang.ayb",
+	"name": "阿姨帮",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 520
 }, {
 	"packageName": "com.netease.mkey",
+	"name": "网易将军令",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 521
 }, {
 	"packageName": "catchla.chat",
+	"name": "秒视",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 522
 }, {
 	"packageName": "com.guoku",
+	"name": "果库",
 	"target": "com.contextlogic.home",
+	"targetName": "Home - Design & Decor Shopping",
 	"note": "",
 	"rank": 523
 }, {
 	"packageName": "com.ikea.catalogue.android",
+	"name": "宜家家居指南",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 524
 }, {
 	"packageName": "com.ricebook.activity",
+	"name": "饭本",
 	"target": "com.urbanspoon",
+	"targetName": "Urbanspoon Restaurant Reviews",
 	"note": "",
 	"rank": 525
 }, {
 	"packageName": "com.blizzard.bma",
+	"name": "战网手机令牌",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 526
 }, {
 	"packageName": "com.freshideas.airindex",
+	"name": "全国空气质量指数",
 	"target": "com.insdio.aqicn.airwidget.China",
+	"targetName": "全国空气质量",
 	"note": "AQICN 出品的官方 API，也许界面并不好看，但重要的是在空气质量标准上与国际接轨。良心推荐！",
 	"rank": 527
 }, {
 	"packageName": "com.ohsame.android",
+	"name": "same",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 528
 }, {
 	"packageName": "com.ub.main",
+	"name": "友宝在线",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 529
 }, {
 	"packageName": "com.palmtrends.ecykr",
+	"name": "二次元狂热",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 530
 }, {
 	"packageName": "com.banciyuan.bcywebview",
+	"name": "半次元",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 531
 }, {
 	"packageName": "com.umetrip.android.msky.app",
+	"name": "航旅纵横",
 	"target": "smartmobilesoftware.flightstatus2trial",
+	"targetName": "Flight Tracker",
 	"note": "",
 	"rank": 532
 }, {
 	"packageName": "com.duoduo.passenger",
+	"name": "一号专车",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 533
 }, {
 	"packageName": "com.baidu.baike",
+	"name": "百度百科",
 	"target": "维基百科 Wikipedia",
+	"targetName": "org.wikipedia",
 	"note": "",
 	"rank": 534
 }, {
 	"packageName": "com.xuetangx.mobile",
+	"name": "学堂在线",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 535
 }, {
 	"packageName": "com.jianut.bedworm",
+	"name": "被窝声次元",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 536
 }, {
 	"packageName": "com.mzread.mzbook",
+	"name": "拇指阅读",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 537
 }, {
 	"packageName": "tc.tangcha.book",
+	"name": "字节社",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 538
 }, {
 	"packageName": "com.qyer.android.jinnang",
+	"name": "穷游",
 	"target": "com.triposo.droidguide.world",
+	"targetName": "World Travel Guide by Triposo",
 	"note": "",
 	"rank": 539
 }, {
 	"packageName": "com.hf",
+	"name": "中国天气通",
 	"target": "com.weather.Weather",
+	"targetName": "The Weather Channel",
 	"note": "官方出品，Weather Channel 是美国专业的气象频道旗下的天气 App",
 	"rank": 540
 }, {
 	"packageName": "com.yongtai.o2bra",
+	"name": "氧气",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 541
 }, {
 	"packageName": "com.yongche.android",
+	"name": "易到用车",
 	"target": "com.taxis99",
+	"targetName": "99Taxis",
 	"note": "",
 	"rank": 542
 }, {
 	"packageName": "com.baidu.notes",
+	"name": "涂书笔记",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 543
 }, {
 	"packageName": "com.guokr.android",
+	"name": "果壳精选",
 	"target": "com.innologica.inoreader",
+	"targetName": "Inoreader",
 	"note": "NYTimes – Latest News",
 	"rank": 544
 }, {
 	"packageName": "com.xdf.recite",
+	"name": "乐词",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 545
 }, {
 	"packageName": "tw.com.gamer.android.activecenter",
+	"name": "巴哈姆特",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 546
 }, {
 	"packageName": "com.gozap.chouti",
+	"name": "抽屉新热榜",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 547
 }, {
 	"packageName": "",
+	"name": "秘密",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 548
 }, {
 	"packageName": "cn.futu.trader",
+	"name": "富途牛牛",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 549
 }, {
 	"packageName": "net.luoo.LuooFM",
+	"name": "落网",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 550
 }, {
 	"packageName": "com.baidu.lbs.waimai",
+	"name": "百度外卖",
 	"target": "com.eat24.app",
+	"targetName": "Eat24 Food Delivery & Takeout",
 	"note": "",
 	"rank": 551
 }, {
 	"packageName": "com.huaban.android",
+	"name": "花瓣",
 	"target": "",
+	"targetName": "Pinterest",
 	"note": "",
 	"rank": 552
 }, {
 	"packageName": "com.daxiangce123",
+	"name": "大象册",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 553
 }, {
 	"packageName": "com.tongbu.tui",
+	"name": "同步推",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 554
 }, {
 	"packageName": "com.huxiu",
+	"name": "虎嗅",
 	"target": "wsj.reader_sp",
+	"targetName": "The Wall Street Journal",
 	"note": "",
 	"rank": 555
 }, {
 	"packageName": "com.android36kr.app",
+	"name": "36kr",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 556
 }, {
 	"packageName": "com.wumii.android.mimi",
+	"name": "无秘",
 	"target": "uk.co.ifsoft.secret",
+	"targetName": "secret",
 	"note": "",
 	"rank": 557
 }, {
 	"packageName": "com.eico.weico",
+	"name": "Weico",
 	"target": "com.handmark.tweetcaster",
+	"targetName": "TweetCaster的Twitter",
 	"note": "",
 	"rank": 558
 }, {
 	"packageName": "me.imid.fuubo",
+	"name": "Fuubo微博客户端",
 	"target": "it.mvilla.android.fenix",
+	"targetName": "Fenix for Twitter",
 	"note": "",
 	"rank": 559
 }, {
 	"packageName": "org.qii.weicoiphone",
+	"name": "四次元(weico.iPhone)",
 	"target": "org.mariotaku.twidere",
+	"targetName": "Twidere for Twitter",
 	"note": "",
 	"rank": 560
 }, {
 	"packageName": "com.weekr.me",
+	"name": "Weekr新浪微博客户端",
 	"target": "it.mvilla.android.fenix",
+	"targetName": "Fenix for Twitter",
 	"note": "",
 	"rank": 561
 }, {
 	"packageName": "cn.cj.pe",
+	"name": "139邮箱",
 	"target": "com.yahoo.mobile.client.android.mail.att",
+	"targetName": "AT&T Mail",
 	"note": "",
 	"rank": 562
 }, {
 	"packageName": "com.itings.myradio",
+	"name": "考拉FM电台",
 	"target": "mobi.beyondpod",
+	"targetName": "BeyondPod Podcast Manager",
 	"note": "",
 	"rank": 563
 }, {
 	"packageName": "com.huanqiu.news",
+	"name": "环球时报",
 	"target": "com.foxnews.android",
+	"targetName": "Fox News",
 	"note": "FOX vs CNN；环球时报 vs 澎湃新闻",
 	"rank": 564
 }, {
 	"packageName": "net.coollet.infzmreader",
+	"name": "南方周末",
 	"target": "com.zumobi.msnbc",
+	"targetName": "NBC News",
 	"note": "NBC & CNN；南方周末 & 澎湃新闻",
 	"rank": 565
 }, {
 	"packageName": "com.peopledailychina.activity",
+	"name": "人民日报",
 	"target": "com.washingtonpost.android",
+	"targetName": "The Washington Post Classic",
 	"note": "",
 	"rank": 566
 }, {
 	"packageName": "com.xianguo.pad",
+	"name": "鲜果",
 	"target": "com.devhd.feedly",
+	"targetName": "feedly: your work newsfeed",
 	"note": "Feedly 是海外的，个人觉得页面比鲜果好看很多的，当然也只有海外内容的，RSS 应用",
 	"rank": 567
 }, {
 	"packageName": "com.wandoujia.phoenix2",
+	"name": "豌豆荚",
 	"target": "com.android.vending",
+	"targetName": "Google Play",
 	"note": "",
 	"rank": 568
 }, {
 	"packageName": "com.baiwang.PhotoFeeling",
+	"name": "Lidow",
 	"target": "com.lyrebirdstudio.instasquare",
+	"targetName": "Insta Square Size - No Crop",
 	"note": "",
 	"rank": 569
 }, {
 	"packageName": "com.rcplatform.nocrop",
+	"name": "No Crop",
 	"target": "com.studio8apps.instasizenocrop",
+	"targetName": "Square InstaPic No Crop Photo",
 	"note": "",
 	"rank": 570
 }, {
 	"packageName": "com.szzc",
+	"name": "神州租车",
 	"target": "com.ehi.enterprise.android",
+	"targetName": "Enterprise Rent-A-Car",
 	"note": "",
 	"rank": 571
 }, {
 	"packageName": "com.ehai",
+	"name": "一嗨租车",
 	"target": "com.hertz",
+	"targetName": "Hertz RentACar",
 	"note": "",
 	"rank": 572
 }, {
 	"packageName": "com.baojia",
+	"name": "宝驾租车",
 	"target": "com.zc.android",
+	"targetName": "Zipcar",
 	"note": "",
 	"rank": 573
 }, {
 	"packageName": "com.chanyouji.android",
+	"name": "蝉游记",
 	"target": "com.pixelcrater.Diaro",
+	"targetName": "Diaro - diary, journal, notes",
 	"note": "",
 	"rank": 574
 }, {
 	"packageName": "com.kuxun.scliang.plane",
+	"name": "酷讯机票",
 	"target": "net.skyscanner.android.main",
+	"targetName": "Skyscanner",
 	"note": "",
 	"rank": 575
 }, {
 	"packageName": "net.icycloud.fdtodolist",
+	"name": "高效Todo",
 	"target": "com.todoist",
+	"targetName": "Todoist",
 	"note": "",
 	"rank": 576
 }, {
 	"packageName": "com.taou.maimai",
+	"name": "脉脉",
 	"target": "com.linkedin.android",
+	"targetName": "Linkedin",
 	"note": "",
 	"rank": 577
 }, {
 	"packageName": "com.dangdang.buy2",
+	"name": "当当",
 	"target": "com.flipkart.android",
+	"targetName": "Flipkart",
 	"note": "",
 	"rank": 578
 }, {
 	"packageName": "com.dangdang.reader",
+	"name": "当当读书",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 579
 }, {
 	"packageName": "com.tencent.qqsports",
+	"name": "腾讯体育",
 	"target": "com.protrade.sportacular",
+	"targetName": "Yahoo Sports",
 	"note": "",
 	"rank": 580
 }, {
 	"packageName": "com.ds.sm",
+	"name": "爱活力健身",
 	"target": "je.fit",
+	"targetName": "JEFIT-捷易健身: 健身教练, 锻炼记录, 最火健身社区",
 	"note": "",
 	"rank": 581
 }, {
 	"packageName": "com.hotbody.fitzero",
+	"name": "火辣健身",
 	"target": "com.popularapp.sevenmins",
+	"targetName": "7 分钟锻炼",
 	"note": "",
 	"rank": 582
 }, {
 	"packageName": "com.idothing.zz",
+	"name": "种子习惯",
 	"target": "co.thefabulous.app",
+	"targetName": "Fabulous: Motivate Me!",
 	"note": "",
 	"rank": 583
 }, {
 	"packageName": "cn.dxy.idxyer",
+	"name": "丁香园",
 	"target": "com.medscape.android",
+	"targetName": "Medscape",
 	"note": "",
 	"rank": 584
 }, {
 	"packageName": "com.Kingdee.Express",
+	"name": "快递100",
 	"target": "de.orrs.deliveries",
+	"targetName": "Deliveries Package Tracker",
 	"note": "",
 	"rank": 585
 }, {
 	"packageName": "com.android.benlailife.activity",
+	"name": "本来生活",
 	"target": "com.happyfresh.android",
+	"targetName": "HappyFresh",
 	"note": "",
 	"rank": 586
 }, {
 	"packageName": "cn.ecook",
+	"name": "网上厨房",
 	"target": "com.allrecipes.spinner.free",
+	"targetName": "Allrecipes Dinner Spinner",
 	"note": "",
 	"rank": 587
 }, {
 	"packageName": "com.kingnez.umasou.app",
+	"name": "食色",
 	"target": "com.opentable",
+	"targetName": "OpenTable: Restaurants Near Me",
 	"note": "",
 	"rank": 588
 }, {
 	"packageName": "com.weibo.freshcity",
+	"name": "鲜城",
 	"target": "com.localeats.mobile.localeats",
+	"targetName": "LocalEats",
 	"note": "",
 	"rank": 589
 }, {
 	"packageName": "com.feibo.yizhong",
+	"name": "一种",
 	"target": "com.google.zagat",
+	"targetName": "zagat",
 	"note": "",
 	"rank": 590
 }, {
 	"packageName": "com.haodf.android",
+	"name": "好大夫在线",
 	"target": "com.mobincube.android.sc_4HT1A",
+	"targetName": "Online Doctor",
 	"note": "",
 	"rank": 591
 }, {
 	"packageName": "com.netease.edu.study",
+	"name": "网易云课堂",
 	"target": "org.coursera.android",
+	"targetName": "Coursera",
 	"note": "",
 	"rank": 592
 }, {
 	"packageName": "com.netease.edu.ucmooc",
+	"name": "中国大学 mooc",
 	"target": "org.edx.mobile",
+	"targetName": "EdX - Online Courses",
 	"note": "",
 	"rank": 593
 }, {
 	"packageName": "com.guokr.mentor",
+	"name": "在行",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 594
 }, {
 	"packageName": "com.lingduo.acorn",
+	"name": "窝牛装修",
 	"target": "com.autodesk.homestyler",
+	"targetName": "Homestyler Interior Design",
 	"note": "",
 	"rank": 595
 }, {
 	"packageName": "com.cleanmaster.security_cn",
+	"name": "猎豹安全大师",
 	"target": "com.cleanmaster.security",
+	"targetName": "猎豹安全大师国际版",
 	"note": "特别的把猎豹安全大师翻译成其国际版，不得不佩服其的海外推广能力，其在 Google Play 的下载量堪比 Facebook。",
 	"rank": 596
 }, {
 	"packageName": "mobi.infolife.ezweather",
+	"name": "琥珀天气",
 	"target": "au.com.weatherzone.android.weatherzonefreeapp",
+	"targetName": "Weatherzone",
 	"note": "澳大利亚人用的最多的天气类 App",
 	"rank": 597
 }, {
 	"packageName": "soundhound&source=search",
+	"name": "soundhound",
 	"target": "com.sonyericsson.trackid",
+	"targetName": "TrackID",
 	"note": "Soundhound 本来就是海外的应用，只不过是猎曲奇兵这个中文译名太红了。相比而言，TrackID 在国内就没那么出名了",
 	"rank": 598
 }, {
 	"packageName": "com.voicedragon.musicclient",
+	"name": "音乐雷达",
 	"target": "com.shazam.android",
+	"targetName": "Shazam",
 	"note": "Shazam 的中文译名不就是音乐雷达么？没错，可他们其实是两个不同的应用",
 	"rank": 599
 }, {
 	"packageName": "duomi.app.activity",
+	"name": "Songtaste",
 	"target": "com.rdio.android.ui",
+	"targetName": "Rdio 音樂",
 	"note": "半年前国内的 Songtaste 已经成为回忆，就在半年后的前些天，国外的 Rdio 也成为了回忆",
 	"rank": 600
 }, {
 	"packageName": "com.douban.artist",
+	"name": "豆瓣音乐人",
 	"target": "com.aspiro.tidal",
+	"targetName": "TIDAL",
 	"note": "Tidal 是 Jay-z 创办的在线音乐产品，靠着 Jay-z 的品牌吸引了众多独立音乐人。从某种意义上，豆瓣在国内同样是种品牌",
 	"rank": 601
 }, {
 	"packageName": "com.lovinc.radio",
+	"name": "LavaRadio",
 	"target": "com.ad60.songza",
+	"targetName": "Songza",
 	"note": "试试国外的环境音乐 Songza 吧，音乐其实就是一种氛围和感觉",
 	"rank": 602
 }, {
 	"packageName": "fm.wawa.mg",
+	"name": "余音",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 603
 }, {
 	"packageName": "com.jzyd.BanTang",
+	"name": "半糖",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 604
 }, {
 	"packageName": "com.duitang.main",
+	"name": "堆糖",
 	"target": "",
+	"targetName": "",
 	"note": "",
 	"rank": 605
 }, {
 	"packageName": "com.owspace.wezeit",
+	"name": "微在趣闻社",
 	"target": "com.buzzfeed.android",
+	"targetName": "BuzzFeed",
 	"note": "维在创始人之一许知远是这么说的：我们要成为中国的 Buzzfeed，透着灵气的 Buzzfeed",
 	"rank": 606
 }, {
 	"packageName": "com.syezon.wifi",
+	"name": "WiFi信号增强器",
 	"target": "com.farproc.wifi.analyzer",
+	"targetName": "Wifi Analyzer",
 	"note": "不是每个 Wi-Fi 应用都是用来蹭网的，Wi-Fi Analyzer 更好的管理你的 Wi-Fi",
 	"rank": 607
 }, {
 	"packageName": "com.roamingsoft.manager",
+	"name": "WiFi连接管理器",
 	"target": "org.kman.WifiManager",
+	"targetName": "WiFi Manager",
 	"note": "不是每个 Wi-Fi 应用都是用来蹭网的，Wi-Fi Manager 更好的管理你的 Wi-Fi",
 	"rank": 608
 }, {
 	"packageName": "com.lianaibiji.dev",
+	"name": "恋爱记",
 	"target": "Avocado - 聊天应用情侣",
+	"targetName": "Avocado",
 	"note": "相比较其他情侣应用，恋爱记和 Avocado 对于一起生活而不是互动做的更多一些",
 	"rank": 609
 }, {
 	"packageName": "com.baidu.wenku",
+	"name": "百度文库",
 	"target": "com.scribd.app.reader0",
+	"targetName": "Scribd - A World of Books",
 	"note": "Scribd 就是海外的百度文库",
 	"rank": 610
 }, ]
