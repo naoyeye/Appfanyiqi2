@@ -190,7 +190,7 @@
 	}
 	$('.share .logo').click(function(){
 		window.location = 'http://wdj.im/td';
-	})
+	});
 
 	//翻译数据源
 	AV.initialize('VxUGnnLkan5rsrLKsBErzDrB', 'cVnPbqsLfeeMark0WVwkzf6G');
@@ -310,6 +310,10 @@
 							buildItem(theapp, findapp, $el, result.get('note'));
 							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 
+							if($items.hasClass('my')){
+								$items.removeClass('hide');
+							}
+
 						});
 					});
 				});
@@ -325,7 +329,7 @@
 	function load_my(){
 		if (campaignTools.UA.inWdj) {
 			var $my_items = $('.my.items');
-			$my_items.removeClass('hide');
+			//$my_items.removeClass('hide');
 			var apps = installedApps.map(function(app){
 				return {
 					title: app.title,
