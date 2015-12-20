@@ -174,7 +174,6 @@ $(document).ready(function(){
 		if(page == 'pass'){
 			setTimeout(function(){
 				var pass_timer = setInterval(function(){
-					console.log('first load app', first_load_app);
 					if(first_load_app){
 						go('list', true);
 						clearInterval(pass_timer);
