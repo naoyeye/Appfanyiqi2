@@ -344,6 +344,14 @@
 							}else{
 								first_load_app = true;
 							}
+
+							if($items.hasClass('all')){
+								if($items.find('.item:not(.hide)').length >= 300){
+									stop_load_all = true;
+									$('.detect').hide();
+									$('.card.section').show();
+								}
+							}
 						});
 					});
 				});
