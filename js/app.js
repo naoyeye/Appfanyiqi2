@@ -33,9 +33,9 @@
 	//横屏判断
 	window.addEventListener("orientationchange", function(){
 		if (window.orientation == 90 || window.orientation == -90) {
-			$('.heng').show();
+			$('.heng').removeClass('hide');
 		}else{
-			$('.heng').hide();
+			$('.heng').addClass('hide');
 		}
 	}, false);
 
