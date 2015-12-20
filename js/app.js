@@ -432,7 +432,9 @@
 				loading_all = false;
 			}, 1000);
 			page_idx = page_idx + 1;
-			//$('.detect').hide();
+			setTimeout(function(){
+				$('.detect').hide();
+			}, 10000);
 		});
 	}
 	initlist();
@@ -442,10 +444,14 @@
 		if(current_page == 'list'){
 			var st = $(window).scrollTop();
 			var gap = $('.list .content').height() - $(window).height();
-			if(gap - st < 30 && !stop_load_all){
-				$('.detect').show();
-				$(window).scrollTop($(window).scrollTop() + 40);
-				load_all(page_idx);
+			if(gap - st < 30){
+				if(!stop_load_all){
+					$('.detect').show();
+					$(window).scrollTop($(window).scrollTop() + 40);
+					load_all(page_idx);
+				}else{
+					$('.detect').hide();
+				}
 			}
 		}
 	});
