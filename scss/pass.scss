@@ -5,6 +5,9 @@
 		background-size: 100% auto;
 		text-align: center;
 		transform: translateZ(0);
+		top: 0;
+		left: 0;
+		width: 100%;
 		height: 300%;
 		animation-name: run;
 		animation-duration: 6s;
@@ -24,6 +27,22 @@
 		animation-duration: 1s;
 		animation-iteration-count: infinite;
 		animation-timing-function: linear;
+	}
+
+	.gray{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		background: rgba(0,0,0,0.5);
+		display: flex;
+		p{
+			color: #FFF;
+			margin: auto;
+			font-size: 1.7rem;
+		}
 	}
 }
 

@@ -128,7 +128,7 @@
 
 	//跳转逻辑
 	//测试专用：刷新
-	$('.logo').click(function(){
+	$('.home .logo').click(function(){
 		window.location.reload();
 	});
 
@@ -145,7 +145,7 @@
 		current_page = page;
 
 		if(page == 'pass'){
-			setTimeout(go.bind(this, 'list', true), 3000);
+			setTimeout(go.bind(this, 'list', true), 2300);
 		}
 		if(page == 'list'){
 			
@@ -161,7 +161,7 @@
 
 	//首页跳转
 	$('.home .button').click(function(){
-		go('pass');
+		go('pass', true);
 	});
 
 	//top跳转
@@ -188,6 +188,9 @@
 			}
 		});
 	}
+	$('.share .logo').click(function(){
+		window.location = 'http://wdj.im/td';
+	})
 
 	//翻译数据源
 	AV.initialize('VxUGnnLkan5rsrLKsBErzDrB', 'cVnPbqsLfeeMark0WVwkzf6G');
