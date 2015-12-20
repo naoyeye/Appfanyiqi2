@@ -353,10 +353,11 @@ $(document).ready(function(){
 							}
 
 							if($items.hasClass('all')){
-								if($items.find('.item:not(.hide)').length >= 300){
+								if($items.find('.item:not(.hide)').length >= 100){
 									stop_load_all = true;
 									$('.detect').hide();
 									$('.card.section').show();
+									$('.all .item:not(.hide)').filter(function(i, item){return i >= 100}).hide();
 								}
 							}
 						});
@@ -394,6 +395,7 @@ $(document).ready(function(){
 		});
 		var query = new AV.Query(Convert);
 		query.notContainedIn('packageName', packageNames);
+		query.notEqualTo('note', '');
 		query.ascending('rank');
 		query.skip(10 * (page - 1)).limit(10);
 		query.find({
