@@ -344,11 +344,6 @@
 							}else{
 								first_load_app = true;
 							}
-
-							if($items.hasClass('all')){
-								$('.detect').hide();
-							}
-							
 						});
 					});
 				});
@@ -412,6 +407,7 @@
 	function load_all(page){
 		if(stop_load_all) {
 			$('.detect').hide();
+			$('.card.section').show();
 			return;
 		}
 		if(loading_all) {
@@ -432,9 +428,6 @@
 				loading_all = false;
 			}, 1000);
 			page_idx = page_idx + 1;
-			setTimeout(function(){
-				$('.detect').hide();
-			}, 10000);
 		});
 	}
 	initlist();
@@ -446,11 +439,10 @@
 			var gap = $('.list .content').height() - $(window).height();
 			if(gap - st < 30){
 				if(!stop_load_all){
-					$('.detect').show();
-					$(window).scrollTop($(window).scrollTop() + 40);
 					load_all(page_idx);
 				}else{
 					$('.detect').hide();
+					$('.card.section').show();
 				}
 			}
 		}
