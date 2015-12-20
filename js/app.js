@@ -213,11 +213,6 @@ $(document).ready(function(){
 	if(campaignTools.UA.inIos){
 		$('.share .button').hide();
 	}else{
-		if(campaignTools.UA.inWdj){
-			$('.share .button').text('进入专区');
-		}else{
-			$('.share .button').text('安装豌豆荚');
-		}
 		$('.share .button').click(function(){
 			if(campaignTools.UA.inWdj){
 				window.location = 'http://www.wandoujia.com/';
