@@ -1,4 +1,4 @@
-;(function(){
+$(document).ready(function(){
 
 	//alert(navigator.userAgent)
 	var first_load_app = false;
@@ -47,6 +47,7 @@
 
 	//分享
 	$('.list .bottom .button').click(function(){
+		ga('send', 'event', 'translator', 'share', 'button');
 		if(campaignTools.UA.inWechat){
 			$('.inwx').removeClass('hide');
 		}else{
@@ -63,13 +64,21 @@
 	});
 
 	//微信分享
-	$('.inwx .share-ways-wx, .inwx .share-ways-wxtimeline').click(function(e){
+	$('.inwx .share-ways-wx').click(function(e){
 		e.preventDefault();
 		$('.inwx .reminder-layer').addClass('hide');
 		$('.guide').removeClass('hide');
+		ga('send', 'event', 'translator', 'share', 'wechat-friend');
+	});
+	$('.inwx .share-ways-wxtimeline').click(function(e){
+		e.preventDefault();
+		$('.inwx .reminder-layer').addClass('hide');
+		$('.guide').removeClass('hide');
+		ga('send', 'event', 'translator', 'share', 'wechat-timeline');
 	});
 	$('.inwx .share-ways-weibo').click(function(e){
 		e.preventDefault();
+		ga('send', 'event', 'translator', 'share', 'weibo');
 		var weibo = {
 			title: shareData.title,
 			desc: shareData.desc,
@@ -109,6 +118,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
+			ga('send', 'event', 'translator', 'share', 'weibo');
 			window.location = '#share';
 		}
 	};
@@ -119,6 +129,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
+			ga('send', 'event', 'translator', 'share', 'wechat-friend');
 			window.location = '#share';
 		},
 		qrcode: function(){
@@ -132,6 +143,7 @@
 		link: shareData.url,
 		imgUrl: shareData.img,
 		successCallback: function () {
+			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
 			window.location = '#share';
 		},
 		qrcode: function(){
@@ -478,12 +490,16 @@
 		if(campaignTools.UA.inWdj){
 			if(count >= 30){
 				src = '30more.jpg';
+				ga('send', 'event', 'translator', 'apps', '30more');
 			}else if(count >= 21 ){
 				src = '21to30.jpg';
+				ga('send', 'event', 'translator', 'apps', '21to30');
 			}else if(count >= 6){
 				src = '6to20.jpg';
+				ga('send', 'event', 'translator', 'apps', '6to20');
 			}else{
 				src = 'less5.jpg';
+				ga('send', 'event', 'translator', 'apps', 'less5');
 			}
 			$('.list .top.section .title').text('豌豆荚发现你安装了 '+ count +' 个海外应用');
 			$('.list .top.section').find('.button').hide();
@@ -496,4 +512,7 @@
 	//二维码生成
 	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
 	$('.qrcodepop .qrcode').attr('src' , qrcode);
-})();
+
+	//GA
+	ga('send', 'pageview');
+});
