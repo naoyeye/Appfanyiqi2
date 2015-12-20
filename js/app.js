@@ -10,6 +10,11 @@
 		img: window.location.href.replace(/#.*$/,'') + '/images/logo.png',
 	};
 
+	//点击事件
+	$(function() {
+		FastClick.attach(document.body);
+	});
+
 	//识别X5内核
 	var isx5 = false;
 	if(navigator.userAgent.match(/MQQBrowser/)){
