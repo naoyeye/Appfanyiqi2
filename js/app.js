@@ -148,7 +148,7 @@
 			setTimeout(go.bind(this, 'list', true), 3000);
 		}
 		if(page == 'list'){
-			setTimeout(zoom, 100);
+			
 		}
 	};
 	var loadByHash = function(){
@@ -174,12 +174,20 @@
 		window.location = 'http://www.wandoujia.com/';
 	});
 
-	//列表动画
-	var zoom = function(){
-		$('.list .item').map(function(i, item){
-			return $(item).find('.icon2');
-		}).addClass('zoomed');
-	};
+	//第三页按钮
+	if(campaignTools.UA.inIos){
+		$('.share .button').hide();
+	}else{
+		$('.share .button').click(function(){
+			if(campaignTools.UA.inWdj){
+				$('.share .button').text('进入专区');
+				window.location = 'http://www.wandoujia.com/';
+			}else{
+				$('.share .button').text('安装豌豆荚');
+				window.location = 'http://www.wandoujia.com/';
+			}
+		});
+	}
 
 	//翻译数据源
 	AV.initialize('VxUGnnLkan5rsrLKsBErzDrB', 'cVnPbqsLfeeMark0WVwkzf6G');
@@ -229,10 +237,6 @@
 		html.find('.installs').html(findapp.installedCountStr + '人安装 ');
 		html.find('.size').html(findapp.apks[0].size);
 		if(note) html.find('.desc').html(note);
-
-		if(current_page == 'list'){
-			html.find('.icon2').addClass('zoomed');
-		}
 
 		//切换
 		var desc = html.find('.desc');
