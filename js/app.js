@@ -379,6 +379,7 @@
 		});
 		var query = new AV.Query(Convert);
 		query.notContainedIn('packageName', packageNames);
+		query.ascending('rank');
 		query.skip(10 * (page - 1)).limit(10);
 		query.find({
 			success: function(results) {
