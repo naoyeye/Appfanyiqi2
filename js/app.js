@@ -7,7 +7,7 @@ $(document).ready(function(){
 		title: "豌豆荚应用翻译器",
 		desc: "把手机里的国内应用翻成海外应用！",
 		url: window.location.href.replace(/#.*$/,''),
-		img: window.location.href.replace(/#.*$/,'') + '/images/logo.png',
+		img: (window.location.href.replace(/#.*$/,'') + '/images/logo.png').replace('//images','/images'),
 	};
 
 	//点击事件
@@ -165,6 +165,7 @@ $(document).ready(function(){
 		if(fade){
 			$('.page.'+current_page).fadeOut();
 			$('.page.'+page).fadeIn();
+			window.location = '#'+page;
 		}else{
 			$('.page.'+current_page).hide();
 			$('.page.'+page).show();
@@ -191,7 +192,7 @@ $(document).ready(function(){
 		go(hash);
 	};
 	$(document).ready(loadByHash);
-	window.onhashchange = loadByHash;
+	//window.onhashchange = loadByHash;
 
 	//首页跳转
 	$('.home .button').click(function(){
