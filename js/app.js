@@ -183,7 +183,7 @@ $(document).ready(function(){
 			}, 1200);
 		}
 		if(page == 'list'){
-			
+			$('.list.page').css('transform', '');
 		}
 	};
 	var loadByHash = function(){
@@ -201,7 +201,8 @@ $(document).ready(function(){
 
 	//top跳转
 	$('.list .top .button').click(function(){
-		window.location = 'http://www.wandoujia.com/';
+		ga('send', 'event', 'translator', 'install', 'wandoujia');
+		window.location = 'http://wdj.im/u3';
 	});
 
 	//第三页
@@ -247,8 +248,12 @@ $(document).ready(function(){
 
 	//应用模版
 	
-	var buildItem = function(theapp, findapp, $el, note, url){
+	var buildItem = function(theapp, findapp, $el, result){
+		var note = result.get('note');
+		var url = result.get('url');
+		var rank = result.get('rank');
 		var html = $el;
+		html.data('rank', rank);
 		html.find('.idx').html($el.index());
 		html.find('.orig').html(theapp.title);
 		html.find('.name').html(findapp.title);
@@ -310,35 +315,37 @@ $(document).ready(function(){
 		var template = $('#item-tpl').html();
 		translate(packageNames, function(results){
 			if(results){
-				results.forEach(function(result){
+				results.forEach(function(result, i){
 					var packageName = result.get('packageName');
 					var target = result.get('target');
-					getApp(packageName, function(theapp){
-						getApp(target, function(findapp){
-							var $el = $(template);
-							$items.append($el);
-							buildItem(theapp, findapp, $el, result.get('note'), result.get('url'));
-							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
+					setTimeout(function(){
+						getApp(packageName, function(theapp){
+							getApp(target, function(findapp){
+								var $el = $(template);
+								$items.append($el);
+								buildItem(theapp, findapp, $el, result);
+								$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 
-							if(campaignTools.UA.inWdj){
-								if($items.hasClass('my')){
-									$items.removeClass('hide');
+								if(campaignTools.UA.inWdj){
+									if($items.hasClass('my')){
+										$items.removeClass('hide');
+										first_load_app = true;
+									}
+								}else{
 									first_load_app = true;
 								}
-							}else{
-								first_load_app = true;
-							}
 
-							if($items.hasClass('all')){
-								if($items.find('.item:not(.hide)').length >= 100){
-									stop_load_all = true;
-									$('.detect').hide();
-									$('.card.section').show();
-									$('.all .item:not(.hide)').filter(function(i, item){return i >= 100}).hide();
+								if($items.hasClass('all')){
+									if($items.find('.item:not(.hide)').length >= 100){
+										stop_load_all = true;
+										$('.detect').hide();
+										$('.card.section').show();
+										$('.all .item:not(.hide)').filter(function(i, item){return i >= 100}).hide();
+									}
 								}
-							}
+							});
 						});
-					});
+					}, i*200);
 				});
 			}
 		});
