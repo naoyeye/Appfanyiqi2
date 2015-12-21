@@ -204,23 +204,7 @@ $(document).ready(function(){
 		window.location = 'http://www.wandoujia.com/';
 	});
 
-	//card跳转
-	$('.list .card .button').click(function(){
-		window.location = 'http://www.wandoujia.com/';
-	});
-
-	//第三页按钮
-	if(campaignTools.UA.inIos){
-		$('.share .button').hide();
-	}else{
-		$('.share .button').click(function(){
-			if(campaignTools.UA.inWdj){
-				window.location = 'http://www.wandoujia.com/';
-			}else{
-				window.location = 'http://www.wandoujia.com/';
-			}
-		});
-	}
+	//第三页
 	$('.share .logo').click(function(){
 		window.location = 'http://wdj.im/td';
 	});
