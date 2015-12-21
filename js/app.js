@@ -94,7 +94,7 @@ $(document).ready(function(){
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				window.location = '#share';
+				go('share');
 			}
 		};
 		var wxShareObj = {
@@ -103,7 +103,7 @@ $(document).ready(function(){
 			link: shareData.url,
 			imgUrl: shareData.img,
 			successCallback: function () {
-				window.location = '#share';
+				go('share');
 			}
 		};
 		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
@@ -119,7 +119,7 @@ $(document).ready(function(){
 		imgUrl: shareData.img,
 		successCallback: function () {
 			ga('send', 'event', 'translator', 'share', 'weibo');
-			window.location = '#share';
+			go('share');
 		}
 	};
 	var wxAppShareObj = {
@@ -130,7 +130,7 @@ $(document).ready(function(){
 		imgUrl: shareData.img,
 		successCallback: function () {
 			ga('send', 'event', 'translator', 'share', 'wechat-friend');
-			window.location = '#share';
+			go('share');
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
@@ -144,7 +144,7 @@ $(document).ready(function(){
 		imgUrl: shareData.img,
 		successCallback: function () {
 			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
-			window.location = '#share';
+			go('share');
 		},
 		qrcode: function(){
 			$('.layer-info').addClass('hide');
