@@ -262,7 +262,7 @@ $(document).ready(function(){
 
 	//应用模版
 	
-	var buildItem = function(theapp, findapp, $el, note){
+	var buildItem = function(theapp, findapp, $el, note, url){
 		var html = $el;
 		html.find('.idx').html($el.index());
 		html.find('.orig').html(theapp.title);
@@ -287,41 +287,34 @@ $(document).ready(function(){
 			}
 			status = !status;
 		});
-		if(true){
-			html.find('.action').removeClass('hide');
-			html.find('.action .button').click(function(ev){
-				ev.preventDefault();
-				var install = {
-					'packageName': findapp.packageName,
-					'downloadUrl': findapp.apks[0].downloadUrl.url,
-					'appName':findapp.title,
-					'iconUrl': findapp.icons.px100,
-					'size': ''
-				};
-				if (campaignTools.UA.inWdj) {
-					campaignTools.installApp(install, function (resp) {
-					if (resp) {
-						campaignTools.toast(resp.message);
-						}
-					});
-					return;
-				}
-				if(campaignTools.UA.inIos) {
-					var find = window.apps.filter(function(one){
-						return (one.target == findapp.packageName);
-					});
-					if(find){
-						if(campaignTools.UA.inWechat){
-							$('.inwxinstall').removeClass('hide');
-							return;
-						}else
-							window.location = find[0].url;
+		html.find('.action .button').click(function(ev){
+			ev.preventDefault();
+			var install = {
+				'packageName': findapp.packageName,
+				'downloadUrl': findapp.apks[0].downloadUrl.url,
+				'appName':findapp.title,
+				'iconUrl': findapp.icons.px100,
+				'size': ''
+			};
+			if (campaignTools.UA.inWdj) {
+				campaignTools.installApp(install, function (resp) {
+				if (resp) {
+					campaignTools.toast(resp.message);
 					}
+				});
+				return;
+			}
+			if(campaignTools.UA.inIos && url) {
+				if(campaignTools.UA.inWechat){
+					$('.inwxinstall').removeClass('hide');
 					return;
+				}else{
+					window.location = url;
 				}
-				window.location = 'http://www.wandoujia.com/apps/' + findapp.packageName;
-			});
-		}
+				return;
+			}
+			window.location = 'http://www.wandoujia.com/apps/' + findapp.packageName;
+		});
 	};
 
 	//转换
@@ -339,7 +332,7 @@ $(document).ready(function(){
 						getApp(target, function(findapp){
 							var $el = $(template);
 							$items.append($el);
-							buildItem(theapp, findapp, $el, result.get('note'));
+							buildItem(theapp, findapp, $el, result.get('note'), result.get('url'));
 							$items.find('.title span.cnt').text($items.find('.item:not(.hide)').length);
 
 							if(campaignTools.UA.inWdj){
@@ -396,6 +389,9 @@ $(document).ready(function(){
 		query.notContainedIn('packageName', packageNames);
 		query.notEqualTo('note', '');
 		query.ascending('rank');
+		if(campaignTools.UA.inIos){
+			query.notEqualTo('url', '');
+		}
 		query.skip(10 * (page - 1)).limit(10);
 		query.find({
 			success: function(results) {
