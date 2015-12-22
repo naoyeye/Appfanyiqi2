@@ -135,7 +135,7 @@ $(document).ready(function(){
 	}, false);
 
 	//分享
-	$('.list .bottom .button').click(function(){
+	$('.list .bottom').click(function(){
 		ga('send', 'event', 'translator', 'share', 'button');
 		if(campaignTools.UA.inWechat){
 			$('.inwx').removeClass('hide');
@@ -203,7 +203,11 @@ $(document).ready(function(){
 		$('.list .top .button').hide();
 	}
 	$('.list .top .button').click(function(){
-		if(campaignTools.inAndroid){
+		if(campaignTools.UA.inAndroid){
+			if(campaignTools.UA.inWechat){
+				$('.inwxinstall').removeClass('hide');
+				return;
+			}
 			if(!campaignTools.UA.inWdj){
 				ga('send', 'event', 'translator', 'install', 'wandoujia');
 				window.location = 'http://wdj.im/u4';
