@@ -1,14 +1,106 @@
+/*global $, express, data, needRedirect, apkUrl, require(), _, AV, FastClick, wx, campaignTools, campaignPlugin, performance, ga, moment */
+
 $(document).ready(function(){
 
-	//alert(navigator.userAgent)
 	var first_load_app = false;
 
-	var shareData = {
-		title: "豌豆荚应用翻译器",
-		desc: "把手机里的国内应用翻成海外应用！",
-		url: window.location.href.replace(/#.*$/,''),
-		img: (window.location.href.replace(/#.*$/,'') + '/images/logo.png').replace('//images','/images'),
-	};
+	$.get('http://www.wandoujia.com/needle/source/getJSON/739', function(result){
+		var shareData = result.share;
+		//微信分享
+		$('.inwx .share-ways-wx').click(function(e){
+			e.preventDefault();
+			$('.inwx .reminder-layer').addClass('hide');
+			$('.guide').removeClass('hide');
+			ga('send', 'event', 'translator', 'share', 'wechat-friend');
+		});
+		$('.inwx .share-ways-wxtimeline').click(function(e){
+			e.preventDefault();
+			$('.inwx .reminder-layer').addClass('hide');
+			$('.guide').removeClass('hide');
+			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
+		});
+		$('.inwx .share-ways-weibo').click(function(e){
+			e.preventDefault();
+			ga('send', 'event', 'translator', 'share', 'weibo');
+			var weibo = {
+				title: shareData.weibo.title,
+				desc: shareData.weibo.desc,
+				link: shareData.weibo.url,
+				imgUrl: shareData.weibo.img,
+			};
+			var weiboURL = 'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&url=' + encodeURIComponent(weibo.link) + '&title=' + encodeURIComponent(weibo.desc) + '&pic=' + weibo.imgUrl;
+			window.location = weiboURL;
+		});
+
+		if(campaignTools.UA.inWechat){
+			var wxTimelineShareObj = {
+				title: shareData.wechatTimeline.title,
+				link: shareData.wechatTimeline.url,
+				imgUrl: shareData.wechatTimeline.img,
+				successCallback: function () {
+					go('share');
+				}
+			};
+			var wxShareObj = {
+				title: shareData.wechatFriend.title,
+				desc: shareData.wechatFriend.desc,
+				link: shareData.wechatFriend.url,
+				imgUrl: shareData.wechatFriend.img,
+				successCallback: function () {
+					go('share');
+				}
+			};
+			campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
+		}
+
+		//分享(除微信以外)：
+		var weiboShareObj = {
+			element: '.inwdj .share-ways-weibo',
+			title: shareData.weibo.title,
+			desc: shareData.weibo.desc,
+			link: shareData.weibo.url,
+			imgUrl: shareData.weibo.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'weibo');
+				go('share');
+			}
+		};
+
+		var wxAppShareObj = {
+			element: '.inwdj .share-ways-wx',
+			title: shareData.wechatFriend.title,
+			desc: shareData.wechatFriend.desc,
+			link: shareData.wechatFriend.url,
+			imgUrl: shareData.wechatFriend.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'wechat-friend');
+				go('share');
+			},
+			qrcode: function(){
+				$('.layer-info').addClass('hide');
+				$('.qrcodepop').removeClass('hide');
+			}
+		};
+		var wxAppTimelineShareObj = {
+			element: '.inwdj .share-ways-wxtimeline',
+			title: shareData.wechatTimeline.title,
+			link: shareData.wechatTimeline.url,
+			imgUrl: shareData.wechatTimeline.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'wechat-timeline');
+				go('share');
+			},
+			qrcode: function(){
+				$('.layer-info').addClass('hide');
+				$('.qrcodepop').removeClass('hide');
+			}
+		};
+		campaignTools.shareButtonSetup(weiboShareObj, wxAppShareObj, wxAppTimelineShareObj);
+
+		//二维码生成
+		var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.qrcode.url);
+		$('.qrcodepop .qrcode').attr('src' , qrcode);
+	});
 
 	//点击事件
 	$(function() {
@@ -37,8 +129,8 @@ $(document).ready(function(){
 	});
 
 	//横屏判断
-	window.addEventListener("orientationchange", function(){
-		if (window.orientation == 90 || window.orientation == -90) {
+	window.addEventListener('orientationchange', function(){
+		if (window.orientation === 90 || window.orientation === -90) {
 			$('.heng').removeClass('hide');
 		}else{
 			$('.heng').addClass('hide');
@@ -46,7 +138,7 @@ $(document).ready(function(){
 	}, false);
 
 	//分享
-	$('.list .bottom .button').click(function(){
+	$('.list .bottom').click(function(){
 		ga('send', 'event', 'translator', 'share', 'button');
 		if(campaignTools.UA.inWechat){
 			$('.inwx').removeClass('hide');
@@ -54,6 +146,7 @@ $(document).ready(function(){
 			$('.inwdj').removeClass('hide');
 		}
 	});
+
 
 	//关闭浮层
 	$('.layer-info .mask-layer, .layer-info .know a').click(function(e){
@@ -63,95 +156,7 @@ $(document).ready(function(){
 		$('.guide').addClass('hide');
 	});
 
-	//微信分享
-	$('.inwx .share-ways-wx').click(function(e){
-		e.preventDefault();
-		$('.inwx .reminder-layer').addClass('hide');
-		$('.guide').removeClass('hide');
-		ga('send', 'event', 'translator', 'share', 'wechat-friend');
-	});
-	$('.inwx .share-ways-wxtimeline').click(function(e){
-		e.preventDefault();
-		$('.inwx .reminder-layer').addClass('hide');
-		$('.guide').removeClass('hide');
-		ga('send', 'event', 'translator', 'share', 'wechat-timeline');
-	});
-	$('.inwx .share-ways-weibo').click(function(e){
-		e.preventDefault();
-		ga('send', 'event', 'translator', 'share', 'weibo');
-		var weibo = {
-			title: shareData.title,
-			desc: shareData.desc,
-			link: shareData.url,
-			imgUrl: shareData.img,
-		};
-		var weiboURL = 'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&url=' + encodeURIComponent(weibo.shortLink || weibo.link) + '&title=' + encodeURIComponent(weibo.desc) + '&pic=' + weibo.imgUrl;
-		window.location = weiboURL;
-	});
-	if(campaignTools.UA.inWechat){
-		var wxTimelineShareObj = {
-			title: shareData.title,
-			link: shareData.url,
-			imgUrl: shareData.img,
-			successCallback: function () {
-				go('share');
-			}
-		};
-		var wxShareObj = {
-			title: shareData.title,
-			desc: shareData.desc,
-			link: shareData.url,
-			imgUrl: shareData.img,
-			successCallback: function () {
-				go('share');
-			}
-		};
-		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
 
-	}
-
-	//分享(除微信以外)：
-	var weiboShareObj = {
-		element: '.inwdj .share-ways-weibo',
-		title: shareData.title,
-		desc: shareData.desc,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'weibo');
-			go('share');
-		}
-	};
-	var wxAppShareObj = {
-		element: '.inwdj .share-ways-wx',
-		title: shareData.title,
-		desc: shareData.desc,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'wechat-friend');
-			go('share');
-		},
-		qrcode: function(){
-			$('.layer-info').addClass('hide');
-			$('.qrcodepop').removeClass('hide');
-		}
-	};
-	var wxAppTimelineShareObj = {
-		element: '.inwdj .share-ways-wxtimeline',
-		title: shareData.title,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
-			go('share');
-		},
-		qrcode: function(){
-			$('.layer-info').addClass('hide');
-			$('.qrcodepop').removeClass('hide');
-		}
-	};
-	campaignTools.shareButtonSetup(weiboShareObj, wxAppShareObj, wxAppTimelineShareObj);
 
 	//跳转逻辑
 	//测试专用：刷新
@@ -172,7 +177,7 @@ $(document).ready(function(){
 		}
 		current_page = page;
 
-		if(page == 'pass'){
+		if(page === 'pass'){
 			setTimeout(function(){
 				var pass_timer = setInterval(function(){
 					if(first_load_app){
@@ -182,30 +187,44 @@ $(document).ready(function(){
 				}, 1000);
 			}, 1200);
 		}
-		if(page == 'list'){
+		if(page === 'list'){
 			$('.list.page').css('transform', '');
 		}
 	};
 	var loadByHash = function(){
 		var hash = window.location.hash.replace('#','');
-		if(hash === '') hash = 'home';
+		if(hash === '') {
+			hash = 'home';
+		}
 		go(hash);
 	};
 	$(document).ready(loadByHash);
-	//window.onhashchange = loadByHash;
 
 	//首页跳转
 	$('.home .button').click(function(){
 		go('pass', true);
 	});
 
-	//top跳转
+	//top 
 	$('.list .top .button').click(function(){
 		ga('send', 'event', 'translator', 'install', 'wandoujia');
-		window.location = 'http://wdj.im/u4';
+
+		// 微信弹提示
+		if (campaignTools.UA.inWechat) {
+			$('.inwxinstall').removeClass('hide');
+			return;
+		} else {
+			// 跳转到一览
+			if (campaignTools.UA.inIos) {
+				window.location = 'http://wdj.im/u8';
+			// 下载豌豆荚apk
+			} else if (campaignTools.UA.inAndroid) {
+				window.location = 'http://wdj.im/u4';
+			}
+		}
 	});
 
-	//第三页
+	// 打开之前的字典活动页面
 	$('.share .logo').click(function(){
 		window.location = 'http://wdj.im/td';
 	});
@@ -216,7 +235,7 @@ $(document).ready(function(){
 
 	var translate = function(packageNames, cb){
 		var query = new AV.Query(Convert);
-		query.containedIn("packageName", packageNames);
+		query.containedIn('packageName', packageNames);
 		query.find({
 			success: function(results) {
 				if(results.length){
@@ -226,7 +245,7 @@ $(document).ready(function(){
 				}
 			},
 			error: function(error) {
-				console.log("Error: " + error.code + " " + error.message);
+				console.log('Error: ' + error.code + ' ' + error.message);
 			}
 		});
 	};
@@ -241,13 +260,14 @@ $(document).ready(function(){
 				cb(res);
 			},
 			error: function(){
-				if(ecb) ecb();
+				if(ecb) {
+					ecb();
+				}
 			}
 		});
 	};
 
 	//应用模版
-	
 	var buildItem = function(theapp, findapp, $el, result){
 		var note = result.get('note');
 		var url = result.get('url');
@@ -261,7 +281,9 @@ $(document).ready(function(){
 		html.find('.icon2').attr('src', findapp.icons.px100);
 		html.find('.installs').html(findapp.installedCountStr + '人安装 ');
 		html.find('.size').html(findapp.apks[0].size);
-		if(note) html.find('.desc').html(note);
+		if (note) {
+			html.find('.desc').html(note);
+		}
 
 		//切换
 		var desc = html.find('.desc');
@@ -277,25 +299,38 @@ $(document).ready(function(){
 			}
 			status = !status;
 		});
+
 		html.find('.action .button').click(function(ev){
 			ev.preventDefault();
+
+			ga('send', 'event', 'translator', 'installApp', findapp.packageName);
+
 			var install = {
 				'packageName': findapp.packageName,
 				'downloadUrl': findapp.apks[0].downloadUrl.url,
-				'appName':findapp.title,
+				'appName': findapp.title,
 				'iconUrl': findapp.icons.px100,
 				'size': ''
 			};
 			if (campaignTools.UA.inWdj) {
 				campaignTools.installApp(install, function (resp) {
-				if (resp) {
-					campaignTools.toast(resp.message);
+					if (resp) {
+						campaignTools.toast(resp.message);
 					}
 				});
 				return;
-			}
-			if(campaignTools.UA.inIos && url) {
+			} else if (campaignTools.UA.inAndroid) {
 				if(campaignTools.UA.inWechat){
+					window.location = 'http://www.wandoujia.com/apps/' + findapp.packageName;
+					return;
+				} else {
+					window.location = findapp.apks[0].downloadUrl.url;
+					return;
+				}
+			}
+
+			if(campaignTools.UA.inIos && url) {
+				if(campaignTools.UA.inWechat || !!(navigator.userAgent.toLowerCase()).match(/(weibo)/)){
 					$('.inwxinstall').removeClass('hide');
 					return;
 				}else{
@@ -340,7 +375,9 @@ $(document).ready(function(){
 										stop_load_all = true;
 										$('.detect').hide();
 										$('.card.section').show();
-										$('.all .item:not(.hide)').filter(function(i, item){return i >= 100}).hide();
+										$('.all .item:not(.hide)').filter(function(i, item){
+											return i >= 100;
+										}).hide();
 									}
 								}
 							});
@@ -359,14 +396,13 @@ $(document).ready(function(){
 	function load_my(){
 		if (campaignTools.UA.inWdj) {
 			var $my_items = $('.my.items');
-			//$my_items.removeClass('hide');
 			var apps = installedApps.map(function(app){
 				return {
 					title: app.title,
 					packageName: app.packageName,
 				};
 			});
-			
+
 			convert(apps, $my_items);
 			check(apps);
 		}
@@ -397,7 +433,7 @@ $(document).ready(function(){
 				}
 			},
 			error: function(error) {
-				console.log("Error: " + error.code + " " + error.message);
+				console.log('Error: ' + error.code + ' ' + error.message);
 			}
 		});
 	}
@@ -439,7 +475,7 @@ $(document).ready(function(){
 
 	//滚动加载更多
 	$(window).scroll(function() {
-		if(current_page == 'list'){
+		if(current_page === 'list'){
 			var st = $(window).scrollTop();
 			var gap = $('.list .content').height() - $(window).height();
 			if(gap - st < 30){
@@ -459,13 +495,13 @@ $(document).ready(function(){
 			return app.packageName;
 		});
 		var query = new AV.Query(Convert);
-		query.containedIn("target", packageNames);
+		query.containedIn('target', packageNames);
 		query.count({
 			success: function(count) {
 				show_image_for(count);
 			},
 			error: function(error) {
-				console.log("Error: " + error.code + " " + error.message);
+				console.log('Error: ' + error.code + ' ' + error.message);
 			}
 		});
 	}
@@ -492,10 +528,6 @@ $(document).ready(function(){
 		}
 		$('.list .top.section').find('img').attr('src', 'images/' + src);
 	}
-
-	//二维码生成
-	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
-	$('.qrcodepop .qrcode').attr('src' , qrcode);
 
 	//GA
 	ga('send', 'pageview');
