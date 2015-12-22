@@ -3,12 +3,101 @@ $(document).ready(function(){
 	//alert(navigator.userAgent)
 	var first_load_app = false;
 
-	var shareData = {
-		title: "豌豆荚应用翻译器",
-		desc: "把手机里的国内应用翻成海外应用！",
-		url: window.location.href.replace(/#.*$/,''),
-		img: (window.location.href.replace(/#.*$/,'') + '/images/logo.png').replace('//images','/images'),
-	};
+	$.get('share.json', function(result){
+		var shareData = result;
+		//微信分享
+		$('.inwx .share-ways-wx').click(function(e){
+			e.preventDefault();
+			$('.inwx .reminder-layer').addClass('hide');
+			$('.guide').removeClass('hide');
+			ga('send', 'event', 'translator', 'share', 'wechat-friend');
+		});
+		$('.inwx .share-ways-wxtimeline').click(function(e){
+			e.preventDefault();
+			$('.inwx .reminder-layer').addClass('hide');
+			$('.guide').removeClass('hide');
+			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
+		});
+		$('.inwx .share-ways-weibo').click(function(e){
+			e.preventDefault();
+			ga('send', 'event', 'translator', 'share', 'weibo');
+			var weibo = {
+				title: shareData.title,
+				desc: shareData.desc,
+				link: shareData.url,
+				imgUrl: shareData.img,
+			};
+			var weiboURL = 'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&url=' + encodeURIComponent(weibo.shortLink || weibo.link) + '&title=' + encodeURIComponent(weibo.desc) + '&pic=' + weibo.imgUrl;
+			window.location = weiboURL;
+		});
+		if(campaignTools.UA.inWechat){
+			var wxTimelineShareObj = {
+				title: shareData.title,
+				link: shareData.url,
+				imgUrl: shareData.img,
+				successCallback: function () {
+					go('share');
+				}
+			};
+			var wxShareObj = {
+				title: shareData.title,
+				desc: shareData.desc,
+				link: shareData.url,
+				imgUrl: shareData.img,
+				successCallback: function () {
+					go('share');
+				}
+			};
+			campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
+		}
+
+		//分享(除微信以外)：
+		var weiboShareObj = {
+			element: '.inwdj .share-ways-weibo',
+			title: shareData.title,
+			desc: shareData.desc,
+			link: shareData.url,
+			imgUrl: shareData.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'weibo');
+				go('share');
+			}
+		};
+		var wxAppShareObj = {
+			element: '.inwdj .share-ways-wx',
+			title: shareData.title,
+			desc: shareData.desc,
+			link: shareData.url,
+			imgUrl: shareData.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'wechat-friend');
+				go('share');
+			},
+			qrcode: function(){
+				$('.layer-info').addClass('hide');
+				$('.qrcodepop').removeClass('hide');
+			}
+		};
+		var wxAppTimelineShareObj = {
+			element: '.inwdj .share-ways-wxtimeline',
+			title: shareData.title,
+			link: shareData.url,
+			imgUrl: shareData.img,
+			successCallback: function () {
+				ga('send', 'event', 'translator', 'share', 'wechat-timeline');
+				go('share');
+			},
+			qrcode: function(){
+				$('.layer-info').addClass('hide');
+				$('.qrcodepop').removeClass('hide');
+			}
+		};
+		campaignTools.shareButtonSetup(weiboShareObj, wxAppShareObj, wxAppTimelineShareObj);
+
+		//二维码生成
+		var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
+		$('.qrcodepop .qrcode').attr('src' , qrcode);
+	});
 
 	//点击事件
 	$(function() {
@@ -62,96 +151,6 @@ $(document).ready(function(){
 		$('.inwx .reminder-layer').removeClass('hide');
 		$('.guide').addClass('hide');
 	});
-
-	//微信分享
-	$('.inwx .share-ways-wx').click(function(e){
-		e.preventDefault();
-		$('.inwx .reminder-layer').addClass('hide');
-		$('.guide').removeClass('hide');
-		ga('send', 'event', 'translator', 'share', 'wechat-friend');
-	});
-	$('.inwx .share-ways-wxtimeline').click(function(e){
-		e.preventDefault();
-		$('.inwx .reminder-layer').addClass('hide');
-		$('.guide').removeClass('hide');
-		ga('send', 'event', 'translator', 'share', 'wechat-timeline');
-	});
-	$('.inwx .share-ways-weibo').click(function(e){
-		e.preventDefault();
-		ga('send', 'event', 'translator', 'share', 'weibo');
-		var weibo = {
-			title: shareData.title,
-			desc: shareData.desc,
-			link: shareData.url,
-			imgUrl: shareData.img,
-		};
-		var weiboURL = 'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&url=' + encodeURIComponent(weibo.shortLink || weibo.link) + '&title=' + encodeURIComponent(weibo.desc) + '&pic=' + weibo.imgUrl;
-		window.location = weiboURL;
-	});
-	if(campaignTools.UA.inWechat){
-		var wxTimelineShareObj = {
-			title: shareData.title,
-			link: shareData.url,
-			imgUrl: shareData.img,
-			successCallback: function () {
-				go('share');
-			}
-		};
-		var wxShareObj = {
-			title: shareData.title,
-			desc: shareData.desc,
-			link: shareData.url,
-			imgUrl: shareData.img,
-			successCallback: function () {
-				go('share');
-			}
-		};
-		campaignTools.wechatWebviewShareSetup(wxTimelineShareObj, wxShareObj);
-
-	}
-
-	//分享(除微信以外)：
-	var weiboShareObj = {
-		element: '.inwdj .share-ways-weibo',
-		title: shareData.title,
-		desc: shareData.desc,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'weibo');
-			go('share');
-		}
-	};
-	var wxAppShareObj = {
-		element: '.inwdj .share-ways-wx',
-		title: shareData.title,
-		desc: shareData.desc,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'wechat-friend');
-			go('share');
-		},
-		qrcode: function(){
-			$('.layer-info').addClass('hide');
-			$('.qrcodepop').removeClass('hide');
-		}
-	};
-	var wxAppTimelineShareObj = {
-		element: '.inwdj .share-ways-wxtimeline',
-		title: shareData.title,
-		link: shareData.url,
-		imgUrl: shareData.img,
-		successCallback: function () {
-			ga('send', 'event', 'translator', 'share', 'wechat-timeline');
-			go('share');
-		},
-		qrcode: function(){
-			$('.layer-info').addClass('hide');
-			$('.qrcodepop').removeClass('hide');
-		}
-	};
-	campaignTools.shareButtonSetup(weiboShareObj, wxAppShareObj, wxAppTimelineShareObj);
 
 	//跳转逻辑
 	//测试专用：刷新
@@ -350,7 +349,7 @@ $(document).ready(function(){
 										stop_load_all = true;
 										$('.detect').hide();
 										$('.card.section').show();
-										$('.all .item:not(.hide)').filter(function(i, item){return i >= 100}).hide();
+										$('.all .item:not(.hide)').filter(function(i, item){return i >= 100;}).hide();
 									}
 								}
 							});
@@ -502,10 +501,6 @@ $(document).ready(function(){
 		}
 		$('.list .top.section').find('img').attr('src', 'images/' + src);
 	}
-
-	//二维码生成
-	var qrcode = 'http://www.wandoujia.com/qr?s=5&c=' + encodeURIComponent(shareData.url);
-	$('.qrcodepop .qrcode').attr('src' , qrcode);
 
 	//GA
 	ga('send', 'pageview');
