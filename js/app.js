@@ -202,7 +202,7 @@ $(document).ready(function(){
 	//top跳转
 	$('.list .top .button').click(function(){
 		ga('send', 'event', 'translator', 'install', 'wandoujia');
-		window.location = 'http://wdj.im/u3';
+		window.location = 'http://wdj.im/u4';
 	});
 
 	//第三页
