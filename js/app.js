@@ -200,9 +200,19 @@ $(document).ready(function(){
 	});
 
 	//top跳转
+	if(campaignTools.UA.inWdj){
+		$('.list .top .button').hide();
+	}
 	$('.list .top .button').click(function(){
-		ga('send', 'event', 'translator', 'install', 'wandoujia');
-		window.location = 'http://wdj.im/u4';
+		if(campaignTools.inAndroid){
+			if(!campaignTools.UA.inWdj){
+				ga('send', 'event', 'translator', 'install', 'wandoujia');
+				window.location = 'http://wdj.im/u4';
+			}
+		}else{
+			ga('send', 'event', 'translator', 'install', 'yilan');
+			window.location = 'http://wdj.im/u8';
+		}
 	});
 
 	//第三页
